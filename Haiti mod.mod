@@ -1,0 +1,6 @@
+name = "(ccHFM) Haiti Flavor mod"
+path = "mod/[ccHFM] Haiti Flavor mod"
+user_dir = "[ccHFM] Haiti Flavor mod"
+replace_path = "history/provinces"
+replace_path = "history/units"
+replace_path = "history/units/1861"
