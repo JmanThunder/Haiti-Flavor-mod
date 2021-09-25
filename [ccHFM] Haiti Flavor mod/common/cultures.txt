@@ -1,6 +1,28 @@
 # Do not change tags in here without changing every other reference to them.
 # If adding new groups or cultures, make sure they are unique.
 
+pan_european_group = {
+	leader = european
+	unit = EuropeanGC
+	pan_european = { 
+		color = { 60 0 130}
+		first_names = { Adelbert Adolf Albrecht Alexander Alfred August Bernhard Burkhard Dieter
+		Eduard Edwin Erwin Erich Ernst Florian Franz Friedrich Fritz Georg Günther
+		Gustav Hasso Heinrich Helmuth Hermann Hugo Joachim Johann Jürgen Karl
+		Konrad Leonhard Leopold Ludwig Lukas Manfred Maximilian Michael Nikolaus Otto
+		Pascal Paul Peter Reinhard Rudolf Ruprecht Stefan Theodor Wilhelm Wolfgang }
+		
+		last_names = { Behncke Brommy Cordemann Dreyer Droste Groener "Herwarth von Bittenfeld" Heppendorf Hoffmann Krohn Ludendorff Schree
+		"Vogel von Falkenstein" "von Alten" "von Anhalt" "von Arentschildt" "von Bismarck-Bohlen" "von Blumenthal" "von Blomberg" 		"von Boyen" "von Braunschweig" "von Bülow" "von dem Knesebeck" "von Gebser" "von Fritsch" "von Halkett" "von Hannover" 
+		"von Hessen-Darmstadt" "von Hessen-Kassel" "von Hindenburg" "von Hohenzollern" "von Holstein-Gottorp" "von Knorr" "von Kleefeld"
+		"von Manteuffel" "von Mecklenburg-Schwerin" "von Mecklenburg-Strelitz" "von Moltke" "von Oldenburg" "von Rauch" "von Ravensberg" 
+		"von Reuter" "von Richthofen" "von Sachsen-Altenburg" "von Sachsen-Coburg-Gotha" "von Sachsen-Meiningen" 
+		"von Sachsen-Weimar-Eisenach" "von Schlieffen" "von Schwarzburg" "von Spee" "von Tirpitz" "von Waldeck und Pyrmont" "von Wettin" 
+		"von Wrangel" "von Zieten" "zur Lippe" "von Roon" }
+	}
+	union = EUR
+}
+
 germanic = {
 	leader = european
 	unit = EuropeanGC
@@ -157,7 +179,7 @@ beneluxian = {
 	flemish = { 
 		color = { 250 180 80}
 		first_names = { Adolf Adolphe Alexander Alexandre Alfons Alphonse Adriaan Albert Andries Antoine Auguste Boudewijn Bonifaas 
-		Camille Charles Constant David Désiré Diederik Edmond Emmanuel Étienne Eugène Félix Filip Frans Ferdinand François Frederik 
+		Camille Charles Constant David Désiré Diederik Edmond Emmanuel Etienne Eugène Félix Filip Frans Ferdinand François Frederik 
 		Guillaume Gustave Hendrik Henri Herman Ignaas Ignace Jan Jean Jean-Baptiste Jean-François Jean-Louis Jean-Jacques 
 		Jochem Joseph Josse Jozef Jules Karel Laurens Léon Léonard Leopold Louis Lucien Manfred Mathias Nicolas Nikolaas Olivier
 		Paul Philippe Philippe-Joseph Pierre Pieter Robert Sylvain Theodoor Victor Vincent Werner Willem }
@@ -177,25 +199,6 @@ beneluxian = {
 		"van Havre" "van Hoobrouck" "van Innis" "van Meenen" "van Neste" "van Snick" "van Tongerloo" "van Volden de Lombeke" "van Zeeland" 
 		Vandive Verbeke Vercruysse Verduyn Vergauwen "Verseyden de Varick" Verwilghen "Vilain XIIII" Wallaert Wannaar Werbrouck Wyvekens }
 	}
-	wallonian = { 
-		color = { 190 90 20}
-		first_names = { Albert Alexandre Alexis Alphonse André Antoine Auguste Barthélémy Baudouin Blaise Camille Clément Charles Constant 
-		Damien David Désiré Didier Edmond Édouard Emmanuel Émile Étienne Eugène Félix Fernand Feullien Florent François Frédéric Georges 
-		Gérard Gilles Guillaume Gustave Henri Hercule Hubert Ignace Isidore Jacques Jean Jean-Baptiste Jean-François Jean-Louis 
-		Jean-Jacques Joseph Jules Lambert Laurent Léon Léonard Léopold Louis Lucien Mathieu Maxime Maximilien Nicolas Olivier 
-		Pascal Patrice Paul Philippe Philippe-Joseph Pierre Pierre-Guillaume Sébastien Sylvain Théophile Victor Vincent Werner }
-		
-		last_names = { Allard Barbanson Barthélémy Baugniet Beaucarne Berger Berthels Beyts Biver Blargnies Brialmont Bredart Cauvin Collet 
-		Cols Claus Clerix Coquilhat d'Arenberg d'Huart d'Omalius d'Oreye d'Oultremont David Davignon "de Baillet" "de Beaufort" 
-		"de Behr" "de Bocarmé" "de Bousies" "de Brouckère" "de Broqueville" "de Burlet" "de Celles" "de Chasteler" "de Coppin de Falaen"
-		"de Croÿ" "de Decker" "de Dixmude" "de Gerlache" "de Grez" "de Hemptinne" "de Labbeville" "de Lannoy" "de Ligne" "de Leuze" "de Melin" 
-		"de Mérode" "de Pelichy" "de Quarre" "de Riquet" "de Robaulx" "de Rouille" "de Sauvage" "de Sécus" "de Selys Longchamps" 
-		"de Stassart" "de Stockem" "de Theux de Meylandt" "de Trazegnies" "de Trooz" "de Viron" "de Waha" Defacqz Deguise Delacroix 
-		"Desmanet de Biesme" Destriveaux Dethier Devaux Deville Dewandre Dhanis Dreze "du Bois" "du Bus" "du Pont" "du Val de Beaulieu" Dumont
-		Fallon Fendius Figeys Fleury-Dubay Fleussu Forgeur Frison Fuchs Gendebien Goffint Henry "Huysman d'Annecroix" Jacques Joos Jottrand 
-		Lahure Lardinois "le Cocq" "le Hon" Lebeau Leclercq Lefebvre Leman Malou Marcq Marlet Masbourg Nagelmackers Nalinne Nothomb 
-		Orban Pétillon Picquet Pirmez Pirson Raikem Roeser Rogier Rouen Rouppe Seron Thonus Thorn "van Snick" Wahis Wangermée Wyvekens Zoude }
-	}
 }
 
 pan_swiss = {
@@ -204,16 +207,16 @@ pan_swiss = {
 	swiss_french = { 
 		color = { 159 143 234 }
 		first_names = { Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
-		Charles Daniel Denis Édouard Elie Étienne Eugène Félicien Félix Fernand
+		Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
 		François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
 		Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
 		Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas }
 		
 		last_names = { Anthoine "Baraguey d'Hilliers" Bazaine Billot Bonaparte Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
 		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" 
-		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orléans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
 		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
-		Jaurès Joffre Lebœuf Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
 	}	
 	swiss_german = {
 		color = { 130 100 80 }
@@ -270,7 +273,7 @@ scandinavian = {
 		Jakob Jesper Johan Julius Knut Lars Ludvig Magnus Michael Nikolaus
 		Nils Olof Oscar Per Rudolf Sten Theodor Verner Viktor Vilhelm }
 		
-		last_names = { Abelin Bernardotte Bildt Björnstjerna Brahe Brakenhielm Breitholtz Christerson Crusebjörn Dyrssen
+		last_names = { Abelin Bernardotte Bildt Björnstjerna Brahe Brakenhielm Breitholtz Chrsiterson Crusebjörn Dyrssen
 		Ehnemark Ehrenstam Gyllengranat Gyndestolpe Ingelman Leijonhufvud Lindman Mörner Nordenskiöld "Palanger af Vega"
 		Palmstierna Peyron Rappe Reuterskiöld Rosensvärd Ryding Sprengtportem Ström Taube Tawast
 		Thörnell Thulstrup Tingsten Ulner Virgin "von Essen" "von Hohenhausen" "von Otter" "von Platen" Weidenhielm }
@@ -346,7 +349,6 @@ british = {
 	}
 	irish = { 
 		color = { 35 140 50}
-		radicalism = 15
 		primary = IRE
 		first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond Éamon
 		Edward Ernes Fionán Frank George Harry Jack James John Joseph
@@ -358,7 +360,6 @@ british = {
 	}
 	scottish = { 
 		color = { 0 71 182 }
-		radicalism = 5
 		first_names = { Alan Alastair Alban Alpin Andrew Angus Aulay Blane Boyd Calum Clyde Coll Derek Donald Donnan Dougal Douglas Duff Duncan Ewan Farquar Fingal Finlay Gavin Gillian Gillis Gordon Greer Hamish Ian Ivar Kenneth Kentigern Kirk Kyle Lachlan Lorne Malcolm Mirren Mungo Neil Nevin Ranald Rory Ross Sholto Somerled Tavish Torquil Wallace}
 		
 		last_names = { Smith Brown Wilson Robertson Thomson Campbell Stewart Anderson Scott Murray MacDonald Reid Taylor Clark Ross Young Mitchell Watson Paterson Morrison Sanders	}
@@ -370,6 +371,8 @@ british = {
 		
 		last_names = { Ace Adams Anwyl Baugh Benbow Campbell Cadwalader Clocker Craddock Faithfull Foulkes Gethin Griffiths Gwyther Hathaway Heilyn Humphreys Ithell Llewelyn Llywarch Phillips Salusbury Smout Trewent Wigley Yorath }
 	}
+	
+	union = GBR
 }
 
 italian = {
@@ -505,16 +508,16 @@ french = {
 	french = { 
 		color = {20 20 100}
 		first_names = { Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
-		Charles Daniel Denis Édouard Elie Étienne Eugène Félicien Félix Fernand
+		Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
 		François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
 		Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
 		Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas }
 		
 		last_names = { Anthoine "Baraguey d'Hilliers" Bazaine Billot Bonaparte Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
 		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" 
-		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orléans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
 		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
-		Jaurès Joffre Lebœuf Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
 	}
 	breton = { 
 		color = {100 110 100}
@@ -531,16 +534,16 @@ french = {
 	picard = { 
 		color = {100 110 136}
 		first_names = { Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
-		Charles Daniel Denis Édouard Elie Étienne Eugène Félicien Félix Fernand
+		Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
 		François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
 		Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
 		Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas }
 		
 		last_names = { Anthoine "Baraguey d'Hilliers" Bazaine Billot Bonaparte Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
 		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" 
-		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orléans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
 		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
-		Jaurès Joffre Lebœuf Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
 	}
 	rhinelander = { 
 		color = { 225 200 255 }
@@ -549,7 +552,7 @@ french = {
 		Gustav Hasso Heinrich Helmuth Hermann Joachim Johann Jürgen Karl
 		Konrad Leonhard Leopold Ludwig Lukas Manfred Maximilian Michael Nikolaus Otto
 		Pascal Paul Peter Reinhard Rudolf Ruprecht Stefan Theodor Wilhelm Wolfgang Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand Augustin
-		Charles Daniel Denis Édouard Elie Étienne Eugène Félicien Félix Fernand
+		Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
 		François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
 		Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
 		Napoléon Nicolas Patrice Philippe Pierre Robert Thibaut Thierry Thomas}
@@ -562,24 +565,43 @@ french = {
 		"von Sachsen-Weimar-Eisenach" "von Schlieffen" "von Schwarzburg" "von Spee" "von Tirpitz" "von Waldeck und Pyrmont" "von Wettin" 
 		"von Wrangel" "von Zieten" "zur Lippe" "von Roon" Anthoine "Baraguey d'Hilliers" Bazaine Billot Bonaparte Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
 		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" 
-		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orléans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
 		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
-		Jaurès Joffre Lebœuf Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
 	}
 	arpitan = { 
 		color = { 159 143 234 }
 		first_names = { Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
-		Charles Daniel Denis Édouard Elie Étienne Eugène Félicien Félix Fernand
+		Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
 		François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
 		Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
 		Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas }
 		
 		last_names = { Anthoine "Baraguey d'Hilliers" Bazaine Billot Bonaparte Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
 		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" 
-		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orléans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
 		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
-		Jaurès Joffre Lebœuf Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
-	}		
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
+	}	
+	wallonian = { 
+		color = { 60 35 140 }
+		first_names = { Albert Alexandre Alexis Alphonse André Antoine Auguste Barthélémy Baudouin Blaise Camille Clément Charles Constant 
+		Damien David Désiré Didier Edmond Édouard Emmanuel Émile Etienne Eugène Félix Fernand Feullien Florent François Frédéric Georges 
+		Gérard Gilles Guillaume Gustave Henri Hercule Hubert Ignace Isidore Jacques Jean Jean-Baptiste Jean-François Jean-Louis 
+		Jean-Jacques Joseph Jules Lambert Laurent Léon Léonard Léopold Louis Lucien Mathieu Maxime Maximilien Nicolas Olivier 
+		Pascal Patrice Paul Philippe Philippe-Joseph Pierre Pierre-Guillaume Sébastien Sylvain Théophile Victor Vincent Werner }
+		
+		last_names = { Allard Barbanson Barthélémy Baugniet Beaucarne Berger Berthels Beyts Biver Blargnies Brialmont Bredart Cauvin Collet 
+		Cols Claus Clerix Coquilhat d'Arenberg d'Huart d'Omalius d'Oreye d'Oultremont David Davignon "de Baillet" "de Beaufort" 
+		"de Behr" "de Bocarmé" "de Bousies" "de Brouckère" "de Broqueville" "de Burlet" "de Celles" "de Chasteler" "de Coppin de Falaen"
+		"de Croÿ" "de Decker" "de Dixmude" "de Gerlache" "de Grez" "de Hemptinne" "de Labbeville" "de Lannoy" "de Ligne" "de Leuze" "de Melin" 
+		"de Mérode" "de Pelichy" "de Quarre" "de Riquet" "de Robaulx" "de Rouille" "de Sauvage" "de Sécus" "de Selys Longchamps" 
+		"de Stassart" "de Stockem" "de Theux de Meylandt" "de Trazegnies" "de Trooz" "de Viron" "de Waha" Defacqz Deguise Delacroix 
+		"Desmanet de Biesme" Destriveaux Dethier Devaux Deville Dewandre Dhanis Dreze "du Bois" "du Bus" "du Pont" "du Val de Beaulieu" Dumont
+		Fallon Fendius Figeys Fleury-Dubay Fleussu Forgeur Frison Fuchs Gendebien Goffint Henry "Huysman d'Annecroix" Jacques Joos Jottrand 
+		Lahure Lardinois "le Cocq" "le Hon" Lebeau Leclercq Lefebvre Leman Malou Marcq Marlet Masbourg Nagelmackers Nalinne Nothomb 
+		Orban Pétillon Picquet Pirmez Pirson Raikem Roeser Rogier Rouen Rouppe Seron Thonus Thorn "van Snick" Wahis Wangermée Wyvekens Zoude }
+	}	
 }
 
 south_slavic = {
@@ -983,6 +1005,33 @@ levantine = {
 		}
 		radicalism = 5
 	}
+	copt = {
+		color = { 198 111 46 }
+		first_names = { 
+			Apadir Apamun Apanub Amun Anub Paphnuti Patape Pamun Pennuti Panub Barsonuphios Psote Pshoy
+			Pnute Phnuti Menes Paphnoutios Pigol Ruweis Shenuti Sarjun Sidhom Usire
+			Martiros Karas
+			
+			Aaron Abderahman Abianos Abisalom Ablarion Abraam
+			Agathon Agathonikos Agathos Androus Anthinos
+			Arsenios Ashraf Athanasios Biktor Binyamin Bishoi
+			Poutros Danyal "Da'oud" Ezra "Gabri'el" Georgios Habil
+			Hanri Haroun Ilyas Jerjer Krystafer Lot Matta
+			Mikail Mikhael Milad Mina Musa Pamin Tadros Touma
+			Yared Youssef Zaia
+			}
+		
+		last_names = { 
+			an-Peiom an-Tamiati Turayk an-Rakote an-Fustatí an-Suan an-Siout Ghabras Sarofim Ghali Sawiris Girgis an-Nahisy
+			an-Timinhor an-Rashit Melej Paramoni an-Phelbs "sa Shenuti" "sa Biktor"
+		}
+		radicalism = 5
+	}
+	christian_arab = {
+		 color = { 255 20 147 }
+		 first_names = { "Ibn Muhammad" Abdullah "Abbas said" Ismail Mansur Rahman Abdallahi Hassan Malusi Tahir Wiraj Amsalu Nijam Bakri }
+		 last_names = { Ahmad Ali Zubayr Digna Azrak Hammuda al-Tasashi Nujumi }
+	}
 }
 
 turko_semitic = {
@@ -1039,18 +1088,6 @@ caucasian = {
 	leader = russian
 	is_overseas = no
 	unit = RussianGC
-		#north_caucasian = {
-		#color = {252 255 161}
-		#first_names = {
-		#	Aslan Hamza "Jamal al-Din" Mansur Mohammad Murad Shamil Abatiy Bate Belatse Blaneshu Dzeghaschte Discheshu Foqwe Ghwaze Hebale Hezeishe Hetezchiqwe #Jatawe Lawirsen Lhostenasch Mamish Nartschawe Nart Pschibiy Pagwe Psebide Qideghaze Qwbatiy Qwsh Zhanqeit Yapenes Wezrej Tsatsu Teimbolet 
-		#}
-		#
-		#last_names = { 
-		#	Mollah Bek Aghwrbiyç Alijiqwe Dzuneç Gushina Gushipsaç Dzadzooç Hatsiquaç Jirandiqua Mashiquaç Naly Nartby Shoomaquaç Tsikira Zhambora
-		#}
-		#radicalism = 10
-		#}
-		
 		dagestani = {
 		color = {134 100 49}
 		first_names = {
@@ -1186,7 +1223,7 @@ arab = {
 	}
 	sudanese = {
 		color = {241 241 78}
-		first_names = { "Ibn Muhammad" Abdullah "Abbas Said" Ismail Mansur Rahman Abdallahi Hassan Malusi Tahir Wiraj Amsalu Nijam Bakri
+		first_names = { "Ibn Muhammad" Abdullah "Abbas said" Ismail Mansur Rahman Abdallahi Hassan Malusi Tahir Wiraj Amsalu Nijam Bakri
 		}
 
 		last_names = { Ahmad Ali Zubayr Digna Azrak Hammuda al-Tasashi Nujumi
@@ -1200,7 +1237,7 @@ iranian_turanian = {
 	is_overseas = no
 	unit = MiddleEasternGC
 	persian = {
-		color = {144 88 81}
+		color = {0 100 165}
 		first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
 			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
@@ -1213,6 +1250,17 @@ iranian_turanian = {
 			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
 			Shirazi Tabrizi Tahmasebi Zahedi
 			}
+	}
+	north_caucasian = {
+		color = {80 80 41}
+		first_names = {
+			Aslan Hamza "Jamal al-Din" Mansur Mohammad Murad Shamil Abatiy Bate Belatse Blaneshu Dzeghaschte Discheshu Foqwe Ghwaze Hebale Hezeishe Hetezchiqwe #Jatawe Lawirsen Lhostenasch Mamish Nartschawe Nart Pschibiy Pagwe Psebide Qideghaze Qwbatiy Qwsh Zhanqeit Yapenes Wezrej Tsatsu Teimbolet 
+		}
+		
+		last_names = { 
+			Mollah Bek Aghwrbiyç Alijiqwe Dzuneç Gushina Gushipsaç Dzadzooç Hatsiquaç Jirandiqua Mashiquaç Naly Nartby Shoomaquaç Tsikira Zhambora
+		}
+		radicalism = 10
 	}
 	uzbek = {
 		color = {152 67 56}
@@ -1248,7 +1296,7 @@ iranian_turanian = {
 			}
 	}
 	tajik = {
-		color = {122 127 111}
+		color = {20 130 165}
 			first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
 			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
@@ -1270,7 +1318,7 @@ iranian_turanian = {
 			}
 	}
 	pashtun = {
-		color = {199 151 230}
+		color = {139 151 230}
 		
 		first_names = {
 			Abdallah "Abd al-Rahman" "Abd al-Quddus" Afzal Ahmad Akbar Akram Ayyub Fath "Firuz al-Din" "Habib Alllah" Haydar Humayun "Inayat Allah" Ishaq Jamal Kamran Kohandil Mahmud Mahsud Mihrdil Muhammad Murad Nadir "Nasr Allah" Omar Qaysar Shahpur "Sher Ali" Shuja Suleyman Timur Yaqub Zaman
@@ -1282,7 +1330,7 @@ iranian_turanian = {
 
 	}
 	baluchi = {
-		color = {132 70 171}
+		color = {102 70 171}
 		first_names = {
 			Abdullah Ahmad Azam Khudadad
 			Mehrab Mohammad Muhabbat 
@@ -1294,7 +1342,7 @@ iranian_turanian = {
 		}
 	}
 	hazara = {
-		color = {108 203 223}
+		color = {40 90 140}
 		first_names = {
 			Ali Azim Jafar Mohammad Riza
 		}
@@ -2135,7 +2183,7 @@ neo_european_cultures = {
 	alaskan = {
 		color = { 14 139 80 }
 			first_names = {Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
-			Joseph Charles Russell Aleksandr Alexei Andrei Anton Boris Dmitry Fyodor Gennady Giorgi Grigoriy Igor Ivan Kirill Konstantin Lavr Leonid Lev Maxim 
+			Joseph Charles Russell eksandr Alexei Andrei Anton Boris Dmitry Fyodor Gennady Giorgi Grigoriy Igor Ivan Kirill Konstantin Lavr Leonid Lev Maxim 
 			Mikhail Nikita Nikolai Oleg Pavel Pyotr Roman Semyon Sergei Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yuri
 			}
 		last_names = {Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames Anderson Barkhauer Andrews Appleton
@@ -2148,31 +2196,31 @@ neo_european_cultures = {
 	neo_zelandais = { 
 		color = {209 232 255}
 		first_names = { Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
-		Charles Daniel Denis Édouard Elie Étienne Eugène Félicien Félix Fernand
+		Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
 		François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
 		Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
 		Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas }
 		
 		last_names = { Anthoine "Baraguey d'Hilliers" Bazaine Billot Bonaparte Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
 		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" 
-		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orléans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
 		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
-		Jaurès Joffre Lebœuf Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
 	}
 	
 	louisianan = {
 		color = { 35  27  120 }
 		first_names = { Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
-		Charles Daniel Denis Édouard Elie Étienne Eugène Félicien Félix Fernand
+		Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
 		François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
 		Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
 		Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas }
 		
 		last_names = { Anthoine "Baraguey d'Hilliers" Bazaine Billot Bonaparte Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
 		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" 
-		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orléans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
 		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
-		Jaurès Joffre Lebœuf Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
 	}
 	cajun = { 
 		color = {3 128 184}
@@ -2185,16 +2233,16 @@ neo_european_cultures = {
 	french_australian = {
 		color = {94 177 229}
 		first_names = { Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
-		Charles Daniel Denis Édouard Elie Étienne Eugène Félicien Félix Fernand
+		Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
 		François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
 		Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
 		Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas }
 		
 		last_names = { Anthoine "Baraguey d'Hilliers" Bazaine Billot Bonaparte Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
 		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" 
-		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orléans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
 		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
-		Jaurès Joffre Lebœuf Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
 	}
 	
 }
@@ -2391,6 +2439,19 @@ african_diaspora_cultures = {
 			Madiou Péralte Pierrot Planchet Price Price-Mars Riché Rigaud Rivière-Hérard Roumain
 			Roy Saget Salnave Salomon Sam Simon Soulouque Théodore Vincent Zamor }
 	}
+	mulatto = {
+        color = { 30 30 80 }
+        first_names = { Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas Jobert Herbert Alexis André Anténor Antoine Augustin Balthazar Beaubrun Céligny Charlemagne Charles
+            Cincinnatus Dantès Demesvar Denys Emmanuel Eugène Fabre Faustin Florvil François
+            Guillaume Hannibal Henri Jacques Jean Jean-Baptiste Jean-Louis Jean-Pierre Jonathas Joseph
+            Léon Louis Louis-Eugène Louis-Joseph Lysius Michel Monpoint Nissage Nord Oreste
+            Philippe Pierre Simon Sténio Sylvain Tandredè Thomas Timoleón Tirésias Vilbrum }
+        last_names = { Anthoine "Baraguey d’Hilliers" Bazaine Billot Bonaparte Boucher Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki Bugeaud Boucher Caillard Canrobert Courbet Cousin-Mountauban Davout "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" "de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d’Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans Foch Forey "Franchet d’Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert Jaurès Joffre Lebouef Lyautey Murat "Ney d’Elchingen" Nivelle Péllissier Petain Vaillant Alexis Ardouin Auguste Bellegarde Boisrond-Canal Bonnet Borno Boyer Brutus Christophe
+            Conzé Dartiguenave Delorme Dessalines Domingue Firmin Geffrad Granville Guerrier Hyppolite
+            Iginac Janvier Jeune Lafontant Laleau Leconte Légitime Legouaze Léon Lhérisson
+            Madiou Péralte Pierrot Planchet Price Price-Mars Riché Rigaud Rivière-Hérard Roumain
+            Roy Saget Salnave Salomon Sam Simon Soulouque Théodore Vincent Zamor }
+    }
 	griqua = {
 		color = {165 105 0}
 		first_names = { Sarel Rudolf Andries Hendrik Piet Racheltjie Dirkie Siener Koos Danie Christiaan Louis Petrus Paul Eugene Joubert
@@ -2590,6 +2651,7 @@ west_african = {
 		last_names = { Oladigbolu Adeniran Agogoja Alowolodu Atobatele Zumaw Oyo Tofa Tonyon Bezon Hungbo Dudu
 		}
 	}
+	union = NGE
 }
 
 central_african = {
@@ -2728,14 +2790,14 @@ central_african = {
 		last_names = { Kasang Nambing Kalong Mukaz Ditend Yaava Namwan Naweej Kamong Isot Kat Muteba
 		}
 	}
-	#african_minor = {
-	#	color = { 63 32 10 }
-	#	first_names = { Andikan Amadi Aren Bahari Averey Bakari Bash Bayode Bitalo Chane Chata Dakarai Davu Dume Fabunni Gamba Genet Guban Hajari Haruni Ife #Ilo Issay Jabari Jabilo Jaguan Kabili Kamwimbile Kasim Kenyi Khairi Makalo Mansa Morathi Musawenkosi Raimi Razi Reth
-	#	}
-	#
-	#	last_names = { Mussa Mutato Bowelle Makeda Nzinga Sundiata 
-	#	}
-	#}
+	african_minor = {
+		color = { 63 32 10 }
+		first_names = { Andikan Amadi Aren Bahari Averey Bakari Bash Bayode Bitalo Chane Chata Dakarai Davu Dume Fabunni Gamba Genet Guban Hajari Haruni Ife #Ilo Issay Jabari Jabilo Jaguan Kabili Kamwimbile Kasim Kenyi Khairi Makalo Mansa Morathi Musawenkosi Raimi Razi Reth
+		}
+	
+		last_names = { Mussa Mutato Bowelle Makeda Nzinga Sundiata 
+		}
+	}
 }
 
 east_african = {
@@ -2932,7 +2994,7 @@ east_african = {
 	}
 	cushitic = {
 		color = {201 101 39}
-		first_names = { "Ibn Muhammad" Abdullah "Abbas Said" Ismail Mansur Rahman Abdallahi Hassan Malusi Tahir Wiraj Amsalu Nijam Bakri
+		first_names = { "Ibn Muhammad" Abdullah "Abbas said" Ismail Mansur Rahman Abdallahi Hassan Malusi Tahir Wiraj Amsalu Nijam Bakri
 		}
 
 		last_names = { Ahmad Ali Zubayr Digna Azrak Hammuda al-Tasashi Nujumi
@@ -2944,6 +3006,7 @@ east_african = {
 
 		last_names = { Kony Oculi Oneko p'Bitek Orombi Ramogi Luwum Obote Ocollo Tugo Tuga Tugi Ju Mono Ajalo Adugo Poolo Moolo }
 	}
+	union = EAF
 }
 
 southern_african = {

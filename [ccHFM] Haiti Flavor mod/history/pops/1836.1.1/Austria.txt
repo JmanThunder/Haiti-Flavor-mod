@@ -49,6 +49,7 @@
 		religion = catholic
 		size = 50325
 	}
+	
 }
 #Salzburg (136000/34000 POPS)
 613 = {
@@ -81,6 +82,7 @@
 		religion = catholic
 		size = 24975
 	}
+	
 }
 #Bregenz (132000/33000 POPS)
 614 = {
@@ -113,6 +115,7 @@
 		religion = catholic
 		size = 24700
 	}
+	
 }
 #Lienz (52000/13000 POPS)
 615 = {
@@ -145,6 +148,7 @@
 		religion = catholic
 		size = 11975
 	}
+	
 }
 #Carinthia-Styria Region (736000) #see Slovenia.txt for balance of Region
 #under the rule of Austria in 1836  
@@ -191,6 +195,7 @@
 		religion = catholic
 		size = 70675 
 	}
+	
 }
 #Judenburg (168000/42000 POPS)
 617 = {
@@ -229,6 +234,7 @@
 		religion = catholic
 		size = 35150
 	}
+	
 }
 #Klagenfurt (188000/47000 POPS)
 618 = {
@@ -284,6 +290,62 @@
 		culture = slovene
 		religion = catholic
 		size = 16675 
+	}
+	
+}
+3321 = {
+	aristocrats = {
+		culture = south_german
+		religion = catholic
+		size = 45
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 32
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 155
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 110
+	}
+
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 2567
+	}
+
+	clergymen = {
+		culture = slovene
+		religion = catholic
+		size = 17 
+	}
+
+	artisans = {
+		culture = slovene
+		religion = catholic
+		size = 95
+	}
+
+	soldiers = {
+		culture = slovene
+		religion = catholic
+		size = 120
+	}
+
+	farmers = {
+		culture = slovene
+		religion = catholic
+		size = 1667 
 	}
 }
 #Austria Region (2000000) 
@@ -415,6 +477,8 @@
 		religion = jewish
 		size = 2595
 	}
+	
+	
 }
 #Sankt Polten (88000/22000 POPS)
 620 = {
@@ -453,6 +517,7 @@
 		religion = catholic
 		size = 19925 
 	}
+	
 }
 #Krems (240000/60000 POPS)
 621 = {
@@ -485,6 +550,7 @@
 		religion = catholic
 		size = 50700
 	}
+	
 }
 #Linz (588000/147000 POPS)
 622 = {
@@ -535,6 +601,7 @@
 		religion = catholic
 		size = 115900
 	}
+	
 }
 #Odenburg Region (196000) #see Hungary.txt for balance of region
 #under the rule of Austria in 1836
@@ -641,4 +708,5 @@
 		religion = catholic
 		size = 5625
 	}
+	
 }

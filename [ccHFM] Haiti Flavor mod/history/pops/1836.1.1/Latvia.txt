@@ -127,6 +127,7 @@
 		religion = jewish
 		size = 800
 	}
+	
 }
 #Valmeira (516000/129000 POPS)  
 355 = {
@@ -261,6 +262,7 @@
 		religion = catholic
 		size = 200
 	}
+	
 
 }
 #Daugavpils (136000/34000 POPS)  
@@ -378,6 +380,7 @@
 		religion = catholic
 		size = 2025
 	}
+	
 }
 #Jelgava (128000/32000 POPS)  
 357 = {
@@ -458,6 +461,7 @@
 		religion = jewish
 		size = 750
 	}
+	
 }
 #Ventspils (140000/35000 POPS) #uralic = Livonian 
 358 = {
@@ -538,6 +542,7 @@
 		religion = jewish
 		size = 950
 	}
+	
 }
 #Liepaja (96000/24000 POPS)  
 359 = {
@@ -612,5 +617,6 @@
 		religion = jewish
 		size = 750
 	}
+	
 
 }

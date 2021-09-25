@@ -471,6 +471,7 @@
 		religion = orthodox
 		size = 13975
 	}
+	
 }
 #Galicia Region (2576000) #see Poland.txt for balance of region 
 #under the rule of Austria in 1836
@@ -595,6 +596,7 @@
 		religion = catholic
 		size = 1825
 	}
+	
 }
 #Stryi (404000/101000 POPS) #now part of Ukraine  
 951 = {
@@ -699,6 +701,7 @@
 		religion = catholic
 		size = 920
 	}
+	
 }
 #Ternopil (1136000/284000 POPS) #now part of Ukraine  
 952 = {
@@ -816,6 +819,7 @@
 		religion = catholic
 		size = 920
 	}
+	
 }
 #Stanislavov (376000/94000 POPS) #now part of Ukraine  
 953 = {
@@ -926,6 +930,7 @@
 		religion = catholic
 		size = 920
 	}
+	
 }
 #Volhynia-Podolia Region (1892000)
 #under the rule of Russia in 1836
@@ -1050,6 +1055,7 @@
 		religion = orthodox
 		size = 50
 	}
+	
 }
 #Proskorov (496000/124000 POPS)
 955 = {
@@ -1160,6 +1166,7 @@
 		religion = catholic
 		size = 4850
 	}
+	
 }
 #Rovne (460000/115000 POPS)
 956 = {
@@ -1281,7 +1288,8 @@
 		culture = volga_german
 		religion = catholic
 		size = 950
-	}	
+	}
+	
 }
 #Kovel (444000/111000 POPS)
 957 = {
@@ -1410,6 +1418,7 @@
 		religion = catholic
 		size = 1050
 	}	
+	
 }
 #Ukraine Region (4028000)
 #under the rule of Russia in 1836
@@ -1564,6 +1573,7 @@
 		religion = orthodox
 		size = 250
 	}
+	
 }
 #Korosten (448000/112000 POPS)
 959 = {
@@ -1656,6 +1666,7 @@
 		religion = jewish
 		size = 9975
 	}
+	
 }
 #Zhitomir (460000/115000 POPS)
 960 = {
@@ -1742,6 +1753,7 @@
 		religion = jewish
 		size = 10700
 	}
+	
 }
 #Cherkassy (460000/115000 POPS)
 961 = {
@@ -1944,6 +1956,7 @@
 		religion = orthodox
 		size = 1250
 	}
+	
 }
 #Poltava (1552000/388000 POPS)
 963 = {
@@ -2042,6 +2055,7 @@
 		religion = orthodox
 		size = 275
 	}
+	
 }
 #Taurida Region (360000)
 #under the rule of Russia in 1836
@@ -2517,7 +2531,7 @@
 967 = {
 	farmers = {
 		culture = armenian
-		religion = orthodox
+		religion = coptic
 		size = 900
 	}
 	
@@ -2866,6 +2880,7 @@
 		religion = catholic
 		size = 2175
 	}
+	
 }
 #Pervomaisk (496000/124000 POPS)
 969 = {
@@ -2976,6 +2991,7 @@
 		religion = orthodox
 		size = 4625
 	}
+	
 }
 #Nikolaev (248000/62000 POPS)
 970 = {
@@ -3140,6 +3156,7 @@
 		religion = orthodox
 		size = 14375
 	}
+	
 }
 #Krivoy Rog (244000/61000 POPS)
 971 = {
@@ -3226,6 +3243,7 @@
 		religion = jewish
 		size = 5375
 	}
+	
 }
 #Ekaterinoslav (252000/63000 POPS)
 972 = {
@@ -3383,6 +3401,7 @@
 		religion = jewish
 		size = 2150
 	}
+	
 }
 #Zaporozhia Region (648000)
 #under the rule of Russia in 1836
@@ -3519,6 +3538,7 @@
 		religion = catholic
 		size = 550
 	}	
+	
 }
 #Kramatorsk (240000/60000 POPS)
 974 = {
@@ -3581,6 +3601,7 @@
 		religion = jewish
 		size = 1675
 	}
+	
 }
 #Yuzovka (76000/19000 POPS)
 975 = {
@@ -3661,6 +3682,7 @@
 		religion = orthodox
 		size = 3750
 	}
+	
 }
 #Mariopol (248000/62000 POPS)
 976 = {
@@ -3771,6 +3793,7 @@
 		religion = catholic
 		size = 875
 	}
+	
 }
 #Kursk Region (596000) #see Russia.txt for balance of region
 #under the rule of Russia in 1836
@@ -3895,6 +3918,7 @@
 		religion = orthodox
 		size = 7075
 	}
+	
 }
 #Donbass Region (652000) #see Russia.txt for balance of region 
 #under the rule of Russia in 1836
@@ -3965,5 +3989,75 @@
 		religion = orthodox
 		size = 20000
 	}
+	
+
+}
+3308 = {
+	aristocrats = {
+		culture = ukrainian
+		religion = orthodox
+		size = 290
+	}
+
+	clergymen = {
+		culture = ukrainian
+		religion = orthodox
+		size = 132
+	}
+
+	artisans = {
+		culture = ukrainian
+		religion = orthodox
+		size = 700
+	}
+
+	soldiers = {
+		culture = ukrainian
+		religion = orthodox
+		size = 642
+	}
+
+	farmers = {
+		culture = ukrainian
+		religion = orthodox
+		size = 5335
+	}
+	
+	serfs = {
+		culture = ukrainian
+		religion = orthodox
+		size = 7000
+	}
+
+	aristocrats = {
+		culture = russian
+		religion = orthodox
+		size = 45
+	}
+
+	clergymen = {
+		culture = russian
+		religion = orthodox
+		size = 22
+	}
+
+	artisans = {
+		culture = russian
+		religion = orthodox
+		size = 110
+	}
+
+	soldiers = {
+		culture = russian
+		religion = orthodox
+		size = 22
+	}
+
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 2000
+	}
+	
 
 }

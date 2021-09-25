@@ -115,6 +115,7 @@
 		religion = jewish
 		size = 300
 	}
+	
 }
 #Monastir Region (268000) #see Greece.txt for balance of region 
 #under the rule of Ottoman Empire in 1836  
@@ -251,6 +252,7 @@
 		religion = jewish
 		size = 1000
 	}
+	
 
 }
 
@@ -303,6 +305,7 @@
 		religion = orthodox
 		size = 1100
 	}
+	
 
 }
 

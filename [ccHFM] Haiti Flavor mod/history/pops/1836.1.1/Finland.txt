@@ -37,6 +37,7 @@
 		religion = protestant
 		size = 14725
 	}
+	
 }
 #Kajaani (16000/4000 POPS)
 337 = {
@@ -63,6 +64,7 @@
 		religion = protestant
 		size = 3725
 	}
+	
 }
 #Tornio (40000/10000 POPS)
 338 = {
@@ -95,6 +97,7 @@
 		religion = protestant
 		size = 1075
 	}
+	
 }
 #Karelia Region (524000)
 #under the rule of Russia in 1836
@@ -195,6 +198,7 @@
 		religion = orthodox
 		size = 100
 	}
+	
 }
 #Kotka (64000/16000 POPS)
 340 = {
@@ -245,6 +249,7 @@
 		religion = protestant
 		size = 925
 	}
+	
 }
 #Mikkeli (116000/29000 POPS)
 341 = {
@@ -271,6 +276,7 @@
 		religion = protestant
 		size = 27025
 	}
+	
 }
 #Kuopio (152000/38000 POPS)
 342 = {
@@ -321,6 +327,7 @@
 		religion = orthodox
 		size = 925
 	}
+	
 }
 #Finland Region (812000)
 #under the rule of Russia in 1836
@@ -403,6 +410,7 @@
 		religion = protestant
 		size = 7325
 	}
+	
 }
 #Hameenlinna (44000/11000 POPS)
 344 = {
@@ -459,6 +467,7 @@
 		religion = protestant
 		size = 800
 	}
+	
 }
 #Turku (280000/70000 POPS)
 345 = {
@@ -515,6 +524,7 @@
 		religion = protestant
 		size = 10225
 	}
+	
 }
 #Vaasa (272000/68000 POPS)
 346 = {
@@ -571,6 +581,7 @@
 		religion = protestant
 		size = 13675
 	}
+	
 }
 #Tampere (84000/21000 POPS)
 347 = {
@@ -627,6 +638,7 @@
 		religion = protestant
 		size = 600
 	}
+	
 }
 #Svealand Region (11000)
 #under the rule of Russia in 1836
@@ -679,5 +691,5 @@
 		religion = protestant
 		size = 130
 	}
-
+	
 }

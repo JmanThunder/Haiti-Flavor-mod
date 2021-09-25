@@ -85,6 +85,7 @@
 		religion = catholic
 		size = 15250
 	}
+	
 }
 #Londonderry (524000/131000 POPS)
 255 = {
@@ -153,6 +154,7 @@
 		religion = protestant
 		size = 55000
 	}
+	
 }
 #Armagh (274000/68500 POPS)
 256 = {
@@ -215,6 +217,7 @@
 		religion = catholic
 		size = 20500
 	}
+	
 }
 #Donegal (508000/127000 POPS) 
 257 = {
@@ -284,6 +287,7 @@
 		religion = protestant
 		size = 16575
 	}
+	
 
 }
 #Connaught Region - 1316000
@@ -319,6 +323,7 @@
 		religion = catholic
 		size = 126750
 	}
+	
 }
 #Sligo (768000/192000 POPs)
 259 = {
@@ -363,6 +368,7 @@
 		religion = catholic
 		size = 176250
 	}
+	
 
 }
 #Munster Region - 2244000 
@@ -458,6 +464,7 @@
 		religion = protestant
 		size = 5250
 	}
+	
 }
 #Limerick (818000/204500 POPS)
 261 = {
@@ -496,6 +503,7 @@
 		religion = catholic
 		size = 186500
 	}
+	
 }
 #Waterford (536000/134000 POPs)
 262 = {
@@ -528,6 +536,7 @@
 		religion = catholic
 		size = 124750
 	}
+	
 
 }
 #Leinster Region - 1836000 
@@ -635,6 +644,7 @@
 		religion = catholic
 		size = 110375
 	}
+	
 }
 #Kildare (532000/133000 POPs)
 264 = {
@@ -685,6 +695,7 @@
 		religion = catholic
 		size = 104400
 	}
+	
 }
 #Wexford (444000/111000 POPS)
 265 = {
@@ -723,5 +734,6 @@
 		religion = catholic
 		size = 103000
 	}
+	
 
 }

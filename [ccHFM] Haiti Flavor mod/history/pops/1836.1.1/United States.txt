@@ -3532,7 +3532,7 @@
 	farmers = {
 		culture = cajun
 		religion = catholic
-		size = 8550
+		size = 85500
 	}
 
 	artisans = {
@@ -3556,7 +3556,7 @@
 	farmers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 1325
+		size = 13250
 	}
 
 	slaves = {
@@ -3747,6 +3747,86 @@
 		culture = afro_antillean
 		religion = catholic
 		size = 120
+	}
+
+	slaves = {
+		culture = afro_american
+		religion = protestant
+		size = 4900
+	}
+}
+
+3300 = {
+	aristocrats = {
+		culture = dixie
+		religion = protestant
+		size = 150
+	}
+
+	clergymen = {
+		culture = dixie
+		religion = protestant
+		size = 50
+	}
+
+	artisans = {
+		culture = dixie
+		religion = protestant
+		size = 175
+	}
+
+	soldiers = {
+		culture = dixie
+		religion = protestant
+		size = 100
+	}
+
+	farmers = {
+		culture = dixie
+		religion = protestant
+		size = 1025
+	}
+
+	clergymen = {
+		culture = cajun
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = cajun
+		religion = catholic
+		size = 55
+	}
+
+	soldiers = {
+		culture = cajun
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = cajun
+		religion = catholic
+		size = 35250
+	}
+	
+	clergymen = {
+		culture = afro_antillean
+		religion = catholic
+		size = 15
+	}
+
+	artisans = {
+		culture = afro_antillean
+		religion = catholic
+		size = 75
+	}
+
+	farmers = {
+		culture = afro_antillean
+		religion = catholic
+		size = 1200
 	}
 
 	slaves = {
@@ -7692,6 +7772,42 @@
 		culture = native_american_minor
 		religion = animist
 		size = 25
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 1800
+	}
+}
+3312 = {
+	aristocrats = {
+		culture = native_american_minor
+		religion = animist
+		size = 25
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 100
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 5000
+	}
+	soldiers = {
+		culture = afro_american
+		religion = animist
+		size = 5000
 	}
 
 	farmers = {

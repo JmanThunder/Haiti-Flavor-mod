@@ -2,6 +2,7 @@
 #Under rule of Holstein 1836
 #Kiel (256000/64000 POPS)
 369 = {
+	
 	aristocrats = {
 		culture = north_german
 		religion = protestant
@@ -109,6 +110,7 @@
 		religion = protestant
 		size = 4700 
 	}
+	
 }
 #Lauenburg (148000/37000 POPS)
 529 = {
@@ -141,6 +143,7 @@
 		religion = protestant
 		size = 33500
 	}
+	
 }
 #Lower Elbe Region (557600)
 #Under rule of Hamburg 1836
@@ -211,6 +214,7 @@
 		religion = jewish
 		size = 1775
 	}
+	
 }
 #Under rule of Hannover 1836 (396000)
 #Stade (216000/54000 POPS)
@@ -256,6 +260,7 @@
 		religion = protestant
 		size = 48050
 	}
+	
 }
 #Lunenburg (180000/45000 POPS)
 532 = {
@@ -288,6 +293,7 @@
 		religion = protestant
 		size = 45900
 	}
+	
 }
 #Under rule of Britain 1836
 #Heligoland (1600/400 POPS)
@@ -356,6 +362,7 @@
 		religion = catholic
 		size = 100 
 	}
+	
 }
 #under the Rule of Mecklenburg 1836 
 #Schwerin (484000/121000 POPS)
@@ -413,6 +420,7 @@
 		religion = jewish
 		size = 975
 	}
+	
 }
 #Neustrelitz (90000/22500 POPS)
 545 = {
@@ -445,6 +453,7 @@
 		religion = protestant
 		size = 19950
 	}
+	
 }
 #Hannover Region (1288000)
 #under the rule of Hannover 1836
@@ -527,6 +536,7 @@
 		religion = jewish
 		size = 975
 	}
+	
 }
 #Nienburg (276000/64000 POPS)
 535 = {
@@ -571,6 +581,7 @@
 		religion = jewish
 		size = 975
 	}
+	
 }
 #Gottingen (180000/45000 POPS)
 537 = {
@@ -603,6 +614,7 @@
 		religion = protestant
 		size = 40925		
 	}
+	
 
 }
 #Osnabruck (220000/55000 POPS)
@@ -666,6 +678,7 @@
 		religion = catholic
 		size = 22550 
 	}
+	
 
 }
 #under the rule of Brunswick 1836
@@ -730,6 +743,7 @@
 		religion = catholic
 		size = 960  
 	}
+	
 }
 #East Frisia Region (496000)
 #under the rule of Bremen 1836
@@ -782,6 +796,7 @@
 		religion = catholic
 		size = 375
 	}
+	
 }
 #under the rule of Oldenburg 1836 
 #Oldenburg (184000/46000 POPS)
@@ -845,6 +860,7 @@
 		religion = catholic
 		size = 1860
 	}
+	
 }
 #Cloppenburg (84000/21000 POPS)
 541 = {
@@ -901,6 +917,7 @@
 		religion = catholic
 		size = 7450
 	}
+	
 }
 #under the rule of Hannover 1836
 #Lingen (80000/20000 POPS)
@@ -970,6 +987,7 @@
 		religion = catholic
 		size = 2260
 	}
+	
 
 }
 #Emden (84000/21000 POPS)
@@ -1033,7 +1051,7 @@
 		religion = catholic
 		size = 14925 
 	}
-
+	
 }
 #Pomerania Region (289000) #see Poland.txt for balance of region
 #under the rule of Prussia 1836
@@ -1068,6 +1086,7 @@
 		religion = protestant
 		size = 29725
 	}
+	
 }
 #Stralsund (157000/39250 POPS)
 548 = {
@@ -1136,11 +1155,13 @@
 		religion = jewish
 		size = 245
 	}
+	
 }
 #Brandenburg Region (1628000) #see Poland.txt for balance of region
 #under the rule of Prussia 1836
 #Berlin (772000/193000 POPS)
 549 = {
+	
 	aristocrats = {
 		culture = north_german
 		religion = protestant
@@ -1290,6 +1311,168 @@
 		religion = catholic
 		size = 2900   
 	}
+	
+	
+}
+3314 = {
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 700 
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 675
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 3500
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 2400 
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 62500
+	}
+	
+}
+3315 = {
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 700 
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 675
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 3500
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 2400 
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 62500
+	}
+	
+}
+3316 = {
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 700 
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 675
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 3500
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 2400 
+	}
+
+	farmers = {
+		culture = western_slavic
+		religion = protestant
+		size = 62500
+	}
+	
+}
+3317 = {
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 700 
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 675
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 3500
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 2400 
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 62500
+	}
+	
+}
+3320 = {
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 700 
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 675
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 3500
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 2400 
+	}
+
+	farmers = {
+		culture = western_slavic
+		religion = protestant
+		size = 62500
+	}
+	
 }
 #Prenzlau (280000/70000 POPS)
 550 = {
@@ -1322,6 +1505,7 @@
 		religion = protestant
 		size = 62500
 	}
+	
 }
 #Pritzwalk (232000/58000 POPS)
 551 = {
@@ -1354,6 +1538,7 @@
 		religion = protestant
 		size = 51875
 	}
+	
 }
 #Cottbus (344000/86000 POPS)
 552 = {
@@ -1422,6 +1607,7 @@
 		religion = catholic
 		size = 13100     
 	}
+	
 }
 #Anhalt Region (1527000) 
 #under the rule of Prussia 1836  
@@ -1504,6 +1690,7 @@
 		religion = jewish
 		size = 295
 	}
+	
 }
 #Erfurt (220800/55200 POPS)
 554 = {
@@ -1572,6 +1759,7 @@
 		religion = jewish
 		size = 195    
 	}
+	
 }
 #Halle (445000/111250 POPS)
 556 = {
@@ -1640,6 +1828,7 @@
 		religion = jewish
 		size = 245    
 	}
+	
 }
 #Stendal (140000/35000 POPS)
 557 = {
@@ -1672,6 +1861,7 @@
 		religion = protestant
 		size = 31575
 	}
+	
 }
 #under the rule of Anhalt 1836
 #Dessau (144000/36000 POPS)
@@ -1741,6 +1931,7 @@
 		religion = catholic
 		size = 920       
 	}
+	
 }
 #Saxony Region (1379000) 
 #under the rule of Saxony 1836  
@@ -1871,6 +2062,7 @@
 		religion = catholic
 		size = 3900       
 	}
+	
 }
 #Leipzig (420000/105000 POPS)
 559 = {
@@ -1939,6 +2131,7 @@
 		religion = jewish
 		size = 900
 	}
+	
 }
 #Chemnitz (280000/70000 POPS)
 560 = {
@@ -1971,6 +2164,7 @@
 		religion = protestant
 		size = 62575
 	}
+	
 }
 #Thuringia Region (865000) 
 #under the rule of Saxe-Weimar 1836  
@@ -2029,6 +2223,7 @@
 		religion = jewish
 		size = 245
 	}
+	
 }
 #under the rule of Saxe-Coburg 1836  
 #Gotha (292000/73000 POPS)
@@ -2074,6 +2269,7 @@
 		religion = protestant
 		size = 66750
 	}
+	
 }
 #under the rule of Saxe-Meiningen 1836  
 #Meiningen (208000/52000 POPS)
@@ -2119,11 +2315,13 @@
 		religion = protestant
 		size = 47350 
 	}
+	
 }
 #Hesse Region (1719600) 
 #under the rule of Frankfurt 1836  
 #Frankfurt-am-Main (44000/16000 POPS)
 564 = {
+	
 	aristocrats = {
 		culture = north_german
 		religion = protestant
@@ -2195,6 +2393,8 @@
 		religion = jewish
 		size = 1200
 	}
+	
+	
 }
 #under the rule of Nassau 1836  
 #Wiesbaden (402400/100600 POPS)
@@ -2276,6 +2476,7 @@
 		religion = jewish
 		size = 1437
 	}
+	
 }
 #under the rule of Hesse-Kassel 1836  
 #Kassel (445200/111300 POPS)
@@ -2363,6 +2564,7 @@
 		religion = jewish
 		size = 295
 	}
+	
 }
 #Fulda (248000/62000 POPS)
 568 = {
@@ -2418,6 +2620,7 @@
 		religion = catholic
 		size = 10300       
 	}
+	
 }
 #under the rule of Hesse-Darmstadt 1836  
 #Giessen (200000/50000 POPS)
@@ -2464,6 +2667,7 @@
 		religion = protestant
 		size = 46000 
 	}
+	
 }
 #Darmstadt (360000/90000 POPS)
 2560 = {
@@ -2532,6 +2736,7 @@
 		religion = catholic
 		size = 33875          
 	}
+	
 }
 #Palatinate-Moselle Region (1815200) 
 #under the rule of Baden 1836  
@@ -2602,6 +2807,7 @@
 		religion = jewish
 		size = 245
 	}
+	
 }
 #under the rule of Hesse-Darmstadt 1836  
 #Mainz (242200/60550 POPS)
@@ -2671,6 +2877,7 @@
 		religion = jewish
 		size = 545
 	}
+	
 }
 #under the rule of Bavaria 1836  
 #Kaiserslautern (556000/139000 POPS)
@@ -2740,6 +2947,7 @@
 		religion = jewish
 		size = 495
 	}
+	
 }
 #under the rule of Prussia 1836  
 #Trier (220000/55000 POPS)
@@ -2815,6 +3023,7 @@
 		religion = catholic
 		size = 25800 
 	}
+	
 }
 #Saarbrucken (308000/77000 POPS)
 573 = {
@@ -2895,6 +3104,7 @@
 		religion = catholic
 		size = 1875 
 	}
+	
 }
 #Kreuznach (228000/57000 POPS)
 574 = {
@@ -2957,6 +3167,7 @@
 		religion = catholic
 		size = 24875
 	}
+	
 }
 #Rhineland Region (1908000) 
 #under the rule of Prussia in 1836  
@@ -3051,6 +3262,7 @@
 		religion = jewish
 		size = 565
 	}
+	
 }
 #Aachen (400000/100000 POPS)
 576 = {
@@ -3095,6 +3307,7 @@
 		religion = catholic
 		size = 990 
 	}
+	
 }
 #Kleves (356000/89000 POPS)
 577 = {
@@ -3157,6 +3370,7 @@
 		religion = protestant
 		size = 8275
 	}
+	
 
 }
 #Dusseldorf (364000/91000 POPS)
@@ -3220,6 +3434,7 @@
 		religion = protestant
 		size = 19500 
 	}
+	
 
 }
 #Essen (364000/91000 POPS)
@@ -3283,6 +3498,7 @@
 		religion = protestant
 		size = 200  
 	}
+	
 
 }
 #Koblenz (200000/50000 POPS)
@@ -3340,6 +3556,7 @@
 		religion = protestant
 		size = 42250
 	}
+	
 
 }
 #Siegburg (104000/26000 POPS)
@@ -3403,6 +3620,7 @@
 		religion = protestant
 		size = 5500 
 	}
+	
 }
 #Westphalia Region (1390000) 
 #under the rule of Prussia in 1836  
@@ -3497,6 +3715,7 @@
 		religion = jewish
 		size = 245
 	}
+	
 }
 #Munster (464000/116000 POPS)
 581 = {
@@ -3559,6 +3778,7 @@
 		religion = catholic
 		size = 77250   
 	}
+	
 }
 #Minden (216000/54000 POPS)
 582 = {
@@ -3621,6 +3841,7 @@
 		religion = catholic
 		size = 7600   
 	}
+	
 }
 #Siegen (104000/26000 POPS)
 583 = {
@@ -3683,6 +3904,7 @@
 		religion = catholic
 		size = 10775 
 	}
+	
 }
 #Korbach (128000/32000 POPS)
 584 = {
@@ -3745,6 +3967,7 @@
 		religion = catholic
 		size = 11125   
 	}
+	
 }
 #under the rule of Lippe in 1836  
 #Detmold (98000/24500 POPS)
@@ -3802,6 +4025,7 @@
 		religion = catholic
 		size = 980    
 	}
+	
 }
 #Baden Region (1040000) 
 #under the rule of Baden in 1836  
@@ -3884,6 +4108,7 @@
 		religion = protestant
 		size = 4400    
 	}
+	
 }
 #Freiburg (244000/61000 POPS)
 587 = {
@@ -3940,6 +4165,7 @@
 		religion = protestant
 		size = 3700    
 	}
+	
 }
 #Konstanz (164000/41000 POPS)
 588 = {
@@ -3996,6 +4222,7 @@
 		religion = protestant
 		size = 3700    
 	}
+	
 }
 #Wurttemburg Region (1308000) 
 #under the rule of Wurttemburg in 1836  
@@ -4078,6 +4305,7 @@
 		religion = catholic
 		size = 15175
 	}
+	
 }
 #Heilbronn (340000/85000 POPS)
 590 = {
@@ -4110,6 +4338,7 @@
 		religion = protestant
 		size = 79225
 	}
+	
 }
 
 #Tubingen (292000/73000 POPS)
@@ -4166,6 +4395,7 @@
 		religion = catholic
 		size = 30625 
 	}
+	
 }
 #Swabia Region (833000) 
 #under the rule of Bavaria in 1836  
@@ -4200,6 +4430,7 @@
 		religion = catholic
 		size = 77950 
 	}
+	
 }
 #under the rule of Wurttemburg in 1836  
 #Ulm (408000/102000 POPS)
@@ -4263,6 +4494,7 @@
 		religion = catholic
 		size = 83750
 	}
+	
 }
 #under the rule of Prussia in 1836  
 #Sigmaringen (61000/15250 POPS)
@@ -4308,6 +4540,7 @@
 		religion = catholic
 		size = 13140
 	}
+	
 }
 #Franconia Region (1876000) 
 #under the rule of Bavaria in 1836  
@@ -4396,6 +4629,7 @@
 		religion = jewish
 		size = 980
 	}
+	
 }
 #Aschaffenburg (136000/34000 POPS)
 596 = {
@@ -4428,6 +4662,7 @@
 		religion = catholic
 		size = 31200
 	}
+	
 }
 #Wurzburg (300000/75000 POPS)
 597 = {
@@ -4460,6 +4695,7 @@
 		religion = catholic
 		size = 65500
 	}
+	
 }
 #Bayreuth (536000/134000 POPS)
 598 = {
@@ -4516,6 +4752,7 @@
 		religion = protestant
 		size = 77300  
 	}
+	
 }
 #Bavaria Region (1536000) 
 #under the rule of Bavaria in 1836  
@@ -4610,6 +4847,7 @@
 		religion = jewish
 		size = 1225
 	}
+	
 }
 #Landshut (164000/41000 POPS)
 600 = {
@@ -4642,6 +4880,7 @@
 		religion = catholic
 		size = 37725
 	}
+	
 }
 #Ingolstadt (164000/41000 POPS)
 601 = {
@@ -4674,6 +4913,7 @@
 		religion = catholic
 		size = 37175
 	}
+	
 }
 #Regensburg (248000/62000 POPS)
 602 = {
@@ -4706,6 +4946,7 @@
 		religion = catholic
 		size = 54725
 	}
+	
 }
 #Silesia Region (200000) #see Czechia.txt and Poland.txt for balance of region
 #under the rule of Prussia in 1836  
@@ -4770,7 +5011,7 @@
 		religion = protestant
 		size = 5000
 	}
-
+	
 }
 
 #East Prussia Region (712000) #see Poland.txt and Lithuania.txt for balance of region
@@ -4908,6 +5149,7 @@
 		religion = protestant
 		size = 5650
 	}
+	
 }
 #Gumbinnen (228000/57000 POPS) #now part of Russia 
 697 = {
@@ -4988,6 +5230,7 @@
 		religion = protestant
 		size = 3800 
 	}
+	
 }
 
 #Former Ghat - Now Nordhorn(16000/4000 POPS)
@@ -5039,7 +5282,7 @@
 		religion = protestant
 		size = 985 
 	}
-
+	
 }
 
 #under the rule of Schaumburg-Lippe 1836
@@ -5086,6 +5329,7 @@
 		religion = protestant
 		size = 5810
 	}
+	
 }
 
 #under the rule of Reuss 1836  
@@ -5133,6 +5377,7 @@
 		religion = protestant
 		size = 23350 
 	}
+	
 }
 
 #under the rule of Schwarzburg 1836  
@@ -5180,6 +5425,7 @@
 		religion = protestant
 		size = 15350 
 	}
+	
 }
 
 #under the rule of Waldeck 1836  
@@ -5227,6 +5473,7 @@
 		religion = protestant
 		size = 6350 
 	}
+	
 }
 
 #Altona (50000/12500 POPS)
@@ -5284,6 +5531,7 @@
 		religion = jewish
 		size = 650
 	}
+	
 }
 #Wilhelmshaven (34000/8500 POPS)
 3259 = {
@@ -5409,6 +5657,7 @@
 		religion = catholic
 		size = 17600   
 	}
+	
 }
 
 #Wetzlar 

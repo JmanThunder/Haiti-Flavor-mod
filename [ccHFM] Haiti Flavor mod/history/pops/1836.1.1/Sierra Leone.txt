@@ -36,7 +36,7 @@
 	farmers = {
 		culture = afro_caribbean
 		religion = protestant
-		size = 4700
+		size = 47000
 	}
 
 	aristocrats = {

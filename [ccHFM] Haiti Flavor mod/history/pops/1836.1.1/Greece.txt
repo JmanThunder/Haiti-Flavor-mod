@@ -145,6 +145,8 @@
 		religion = jewish
 		size = 3850
 	}
+	
+	
 }
 #Polygyros (100000/25000 POPS) #now part of Greece
 822 = {
@@ -225,6 +227,7 @@
 		religion = orthodox
 		size = 33300
 	}
+	
 }
 #Kavala (160000/40000 POPS) #now part of Greece
 823 = {
@@ -347,6 +350,7 @@
 		religion = jewish
 		size = 300
 	}
+	
 }
 #Monastir Region (384000) #see Greece.txt for balance of region 
 #under the rule of Ottoman Empire in 1836
@@ -435,6 +439,7 @@
 		religion = sunni
 		size = 7000
 	}
+	
 }
 #Grevena (140000/35000 POPS) #now part of Greece
 820 = {
@@ -491,6 +496,7 @@
 		religion = sunni
 		size = 325
 	}
+	
 }
 #Edessa (128000/32000 POPS) #now part of Greece
 821 = {
@@ -571,6 +577,7 @@
 		religion = sunni
 		size = 4975
 	}
+	
 }
 #Epirus Region (724000) #see Albania.txt for balance of region 
 #under the rule of Ottoman Empire in 1836
@@ -695,6 +702,7 @@
 		religion = jewish
 		size = 600
 	}
+	
 }
 #Arta (220000/55000 POPS)
 825 = {
@@ -751,6 +759,7 @@
 		religion = orthodox
 		size = 425
 	}
+	
 }
 #Ionian Islands Region (188000)
 #under the rule of Britain/Ionian Islands in 1836
@@ -821,6 +830,7 @@
 		religion = jewish
 		size = 490
 	}
+	
 }
 #Zante (76000/19000 POPS)
 827 = {
@@ -853,6 +863,7 @@
 		religion = orthodox
 		size = 17425
 	}
+	
 }
 #Thrace Region (144000) #see Turkey.txt for balance of region 
 #under the rule of Ottoman Empire in 1836
@@ -935,6 +946,7 @@
 		religion = orthodox
 		size = 2550
 	}
+	
 }
 #Dedeagatch (72000/18000 POPS)
 830 = {
@@ -1015,6 +1027,7 @@
 		religion = orthodox
 		size = 3625
 	}
+	
 }
 #Thessaly Region (408000)  
 #under the rule of Ottoman Empire in 1836
@@ -1091,6 +1104,7 @@
 		religion = jewish
 		size = 350
 	}
+	
 }
 #Volos (224000/56000 POPS)
 832 = {
@@ -1159,6 +1173,7 @@
 		religion = orthodox
 		size = 800
 	}
+	
 }
 #Trikala (44000/11000 POPS)
 833 = {
@@ -1215,11 +1230,13 @@
 		religion = orthodox
 		size = 40250
 	}
+	
 }
 #Hellas Region (510000)  
 #under the rule of Greece in 1836
 #Athens (308000/77000 POPS)
 834 = {
+	
 	aristocrats = {
 		culture = greek
 		religion = orthodox
@@ -1260,6 +1277,7 @@
 		religion = orthodox
 		size = 40175
 	}
+	
 }
 #Amfissa (76000/19000 POPS)
 835 = {
@@ -1286,6 +1304,7 @@
 		religion = orthodox
 		size = 10050
 	}
+	
 }
 #Lamia (44000/11000 POPS)
 836 = {
@@ -1312,6 +1331,7 @@
 		religion = orthodox
 		size = 9200
 	}
+	
 }
 #Missolonghi (140000/35000 POPS)
 837 = {
@@ -1338,6 +1358,7 @@
 		religion = orthodox
 		size = 41000
 	}
+	
 }
 #Khalkis (68000/17000 POPS)
 838 = {
@@ -1364,6 +1385,7 @@
 		religion = orthodox
 		size = 9100
 	}
+	
 }
 #Peloponnese Region (220000)  
 #under the rule of Greece in 1836
@@ -1399,6 +1421,7 @@
 		religion = orthodox
 		size = 10070
 	}
+	
 }
 #Corinth (40000/10000 POPS)
 840 = {
@@ -1425,6 +1448,7 @@
 		religion = orthodox
 		size = 9100
 	}
+	
 }
 #Kalamai (68000/17000 POPS)
 841 = {
@@ -1451,6 +1475,7 @@
 		religion = orthodox
 		size = 9000
 	}
+	
 }
 #Patrai (40000/10000 POPS)
 842 = {
@@ -1496,6 +1521,7 @@
 		religion = orthodox
 		size = 41000
 	}
+	
 }
 #Aegean Islands Region (184000)  
 #under the rule of Greece in 1836
@@ -1611,6 +1637,7 @@
 		religion = orthodox
 		size = 12450
 	}
+	
 }
 #Mytilene (44000/11000 POPS)
 844 = {
@@ -1667,6 +1694,7 @@
 		religion = orthodox
 		size = 9125
 	}
+	
 }
 #Rhodes (32000/8000 POPS)
 846 = {
@@ -1805,6 +1833,7 @@
 		religion = orthodox
 		size = 1000
 	}
+	
 }
 #Iraklion (68000/17000 POPS)
 848 = {
@@ -1873,5 +1902,6 @@
 		religion = orthodox
 		size = 9475
 	}
+	
 
 }

@@ -36,6 +36,7 @@
 		religion = catholic
 		size = 2000
 	}
+	
 }
 #Inverness (328000/82000 POPS)
 267 = {
@@ -68,6 +69,7 @@
 		religion = protestant
 		size = 68090
 	}
+	
 }
 
 #Orkney & Shetland - former Tamanrasset
@@ -102,7 +104,7 @@
 		religion = protestant
 		size = 5860
 	}
-
+	
 }
 
 #Dundee (364000/91000 POPS)
@@ -136,6 +138,7 @@
 		religion = protestant
 		size = 78200
 	}
+	
 
 }
 #Strathclyde-Lothian Region : 1632000
@@ -230,6 +233,7 @@
 		religion = catholic
 		size = 1100
 	}
+	
 }
 #Stirling (364000/91000 POPS)
 270 = {
@@ -268,6 +272,7 @@
 		religion = catholic
 		size = 4000
 	}
+	
 }
 #Glasgow (620000/155000 POPS)
 271 = {
@@ -342,6 +347,7 @@
 		religion = catholic
 		size = 10000
 	}
+	
 }
 #Dumfries (168000/42000 POPS) 
 272 = {
@@ -374,6 +380,7 @@
 		religion = catholic
 		size = 5000
 	}
+	
 
 }
 # Wales Region : 970000
@@ -444,6 +451,7 @@
 		religion = protestant
 		size = 30000
 	}
+	
 }
 #Cardigan (168000/42000 POPS)
 274 = {
@@ -476,6 +484,7 @@
 		religion = protestant
 		size = 38625
 	}
+	
 }
 #Llandrindod (182000/45500 POPS)
 275 = {
@@ -520,6 +529,7 @@
 		religion = protestant
 		size = 40250
 	}
+	
 }
 #Holyhead (240000/60000 POPS)
 276 = {
@@ -564,7 +574,7 @@
 		religion = protestant
 		size = 52500
 	}
-
+	
 }
 
 #Lancashire Region : 1896000
@@ -683,6 +693,7 @@
 		religion = catholic
 		size = 7875
 	}
+	
 }
 #Manchester (744000/186000 POPS)
 278 = {
@@ -757,6 +768,7 @@
 		religion = catholic
 		size = 2075
 	}
+	
 }
 #Carlisle (216000/54000 POPS)
 279 = {
@@ -801,6 +813,7 @@
 		religion = catholic
 		size = 1250
 	}
+	
 
 }
 #Yorkshire-Northumbria Region : 2190000
@@ -852,6 +865,7 @@
 		religion = catholic
 		size = 4000
 	}
+	
 }
 #Hull (512000/128000 POPS)
 281 = {
@@ -897,6 +911,7 @@
 		religion = catholic
 		size = 5000
 	}
+	
 }
 #Leeds (468000/117000 POPS)
 282 = {
@@ -942,6 +957,7 @@
 		religion = catholic
 		size = 3000
 	}
+	
 }
 #Sheffield (658000/164500 POPS)
 283 = {
@@ -1008,6 +1024,7 @@
 		religion = catholic
 		size = 4000
 	}
+	
 
 }
 #West Midlands Region : 1760000
@@ -1090,6 +1107,7 @@
 		religion = catholic
 		size = 3000
 	}
+	
 }
 #Chester (368000/92000 POPS)
 285 = {
@@ -1134,6 +1152,7 @@
 		religion = catholic
 		size = 1100
 	}
+	
 }
 #Shrewsbury (316000/79000 POPS)
 286 = {
@@ -1166,6 +1185,7 @@
 		religion = protestant
 		size = 68875
 	}
+	
 }
 #Coventry (432000/108000 POPS)
 287 = {
@@ -1210,6 +1230,7 @@
 		religion = protestant
 		size = 95000
 	}
+	
 
 }
 #East Midlands Region : 1224000
@@ -1280,6 +1301,7 @@
 		religion = catholic
 		size = 5000
 	}
+	
 }
 #Leicester (404000/101000 POPS)
 289 = {
@@ -1312,6 +1334,7 @@
 		religion = protestant
 		size = 90375
 	}
+	
 }
 #Lincoln (336000/84000 POPS)
 290 = {
@@ -1344,6 +1367,7 @@
 		religion = protestant
 		size = 75500
 	}
+	
 
 }
 #East Anglia Region : 1260000
@@ -1390,6 +1414,7 @@
 		religion = protestant
 		size = 68500
 	}
+	
 }
 #Ipswich (676000/169000 POPS)
 292 = {
@@ -1422,6 +1447,7 @@
 		religion = protestant
 		size = 156500
 	}
+	
 }
 #Chelmsford (276000/69000 POPS)
 293 = {
@@ -1460,6 +1486,7 @@
 		religion = catholic
 		size = 2000
 	}
+	
 
 }
 #Oxfordshire/Buckinghamshire Region : 616000
@@ -1506,6 +1533,7 @@
 		religion = protestant
 		size = 66625
 	}
+	
 }
 #St. Albans (312000/78000 POPS)
 295 = {
@@ -1538,6 +1566,7 @@
 		religion = protestant
 		size = 71750
 	}
+	
 
 }
 #Cornwall-Dorset Region : 2032000
@@ -1608,6 +1637,7 @@
 		religion = catholic
 		size = 2000
 	}
+	
 }
 #Salisbury (408000/102000 POPS)
 297 = {
@@ -1646,6 +1676,7 @@
 		religion = protestant
 		size = 82375
 	}
+	
 }
 #Bath (408000/102000 POPS)
 298 = {
@@ -1683,6 +1714,7 @@
 		religion = protestant
 		size = 70625
 	}
+	
 }
 #Plymouth (812000/203000 POPS)
 299 = {
@@ -1721,7 +1753,7 @@
 		religion = catholic
 		size = 1100
 	}
-
+	
 
 }
 #Exeter (812000/203000 POPS)
@@ -1761,11 +1793,13 @@
 		religion = catholic
 		size = 1100
 	}
+	
 }
 
 # Metro London Region - 2052000
 #London (2052000/513000 POPS)
 300 = {
+	
 	aristocrats = {
 		culture = british
 		religion = protestant
@@ -1945,6 +1979,8 @@
 		religion = mahayana
 		size = 100
 	}
+	
+	
 
 }
 #Sussex-Kent Region : 1212000
@@ -1985,6 +2021,7 @@
 		religion = catholic
 		size = 1100
 	}
+	
 }
 #Brighton (404000/101000 POPS)
 302 = {
@@ -2023,6 +2060,7 @@
 		religion = protestant
 		size = 77500
 	}
+	
 }
 #Portsmouth
 3269 = {
@@ -2049,6 +2087,7 @@
 		religion = protestant
 		size = 35000
 	}
+	
 }
 
 #Southampton (332000/83000 POPS)
@@ -2094,7 +2133,7 @@
 		religion = protestant
 		size = 73000
 	}
-
+	
 }
 #Isle Of Man Region - 46000
 #Douglas (46000/11500 POPS)
@@ -2140,7 +2179,7 @@
 		religion = catholic
 		size = 300
 	}
-
+	
 }
 #Normandie Region
 #Channel Islands (72000/18000 POPS)
@@ -2192,4 +2231,5 @@
 		religion = catholic
 		size = 12000
 	}
+	
 }

@@ -1765,6 +1765,26 @@
 		militancy = 5
 	}
 }
+3311 = {
+	farmers = {
+		culture = native_american_minor
+		religion = catholic
+		size = 9350
+		militancy = 5
+	}
+	farmers = {
+		culture = nahua
+		religion = catholic
+		size = 20025
+		militancy = 5
+	}
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 1600
+		militancy = 5
+	}
+}
 #Tampico (80000/20000 POPS)
 2163 = {
 	aristocrats = {

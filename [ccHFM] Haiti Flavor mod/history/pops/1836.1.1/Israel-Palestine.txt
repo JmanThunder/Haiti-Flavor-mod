@@ -33,19 +33,19 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 25
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 1875
 	}
@@ -151,19 +151,19 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 825
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 3100
 	}
@@ -225,19 +225,19 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 25
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 125
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 850
 	}
@@ -293,19 +293,19 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 25
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 875
 	}
@@ -361,19 +361,19 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 25
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 250
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 1725
 	}

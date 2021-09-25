@@ -127,6 +127,7 @@
 		religion = jewish
 		size = 1250 
 	}
+	
 }
 #Hradec Kralove (441600/110400 POPS)
 626 = {
@@ -213,6 +214,7 @@
 		religion = jewish
 		size = 625  
 	}
+	
 }
 #Karlsbad (579200/144800 POPS)
 627 = {
@@ -293,6 +295,7 @@
 		religion = jewish
 		size = 925  
 	}
+	
 }
 #Aussig (317600/79400 POPS)
 628 = {
@@ -355,6 +358,7 @@
 		religion = jewish
 		size = 600 
 	}
+	
 }
 #Pilsen (490400/122600 POPS)
 629 = {
@@ -447,6 +451,7 @@
 		religion = jewish
 		size = 925  
 	}
+	
 }
 #Budejovice (405600/101400 POPS)
 630 = {
@@ -545,6 +550,7 @@
 		religion = jewish
 		size = 1425  
 	}
+	
 }
 #Moravia Region (1476000) 
 #under the rule of Austria in 1836  
@@ -663,6 +669,7 @@
 		religion = jewish
 		size = 1370   
 	}
+	
 }
 #Olomouc (372800/93200 POPS)
 632 = {
@@ -749,6 +756,7 @@
 		religion = jewish
 		size = 1225  
 	}
+	
 }
 #Silesia Region (220000) #see Poland.txt for balance of region
 #under the rule of Austria in 1836  
@@ -831,6 +839,7 @@
 		religion = catholic
 		size = 17610   
 	}
+	
 }
 #Teschen (116000/29000 POPS)
 689 = {
@@ -911,4 +920,5 @@
 		religion = catholic
 		size = 12650 
 	}
+	
 }

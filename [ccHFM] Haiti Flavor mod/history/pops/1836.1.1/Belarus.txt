@@ -40,7 +40,7 @@
 	}
 
 	farmers = {
-		culture = byelorussian
+		culture = polish
 		religion = orthodox
 		size = 30025
 	}
@@ -170,6 +170,7 @@
 		religion = jewish
 		size = 8575
 	}
+	
 }
 #Brest-Litovsk (324000/81000 POPS)
 937 = {
@@ -316,6 +317,7 @@
 		religion = jewish
 		size = 9500
 	}
+	
 }
 #Pinsk (276000/69000 POPS)
 940 = {
@@ -463,6 +465,7 @@
 		religion = jewish
 		size = 6125
 	}
+	
 }
 #Byelorussia Region (1364000)
 #under the rule of Russia in 1836
@@ -659,6 +662,7 @@
 		religion = jewish
 		size = 12225
 	}
+	
 }
 #Lida (192000/48000 POPS)
 938 = {
@@ -683,7 +687,7 @@
 	farmers = {
 		culture = lithuanian
 		religion = catholic
-		size = 15875
+		size = 10875
 	}
 
 	aristocrats = {
@@ -713,7 +717,7 @@
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 5250
+		size = 15250
 	}
 
 	clergymen = {
@@ -763,6 +767,7 @@
 		religion = jewish
 		size = 6125
 	}
+	
 }
 #Baranovichi (196000/49000 POPS)
 939 = {
@@ -867,6 +872,7 @@
 		religion = jewish
 		size = 4275
 	}
+	
 }
 #Slutsk (204000/51000 POPS)
 941 = {
@@ -947,6 +953,7 @@
 		religion = jewish
 		size = 6125
 	}
+	
 }
 #Mozyr (308000/77000 POPS)
 942 = {
@@ -1039,6 +1046,7 @@
 		religion = orthodox
 		size = 23325
 	}
+	
 }
 #Smolensk Region (392000) #see Russia.txt for balance of region 
 #under the rule of Russia in 1836
@@ -1163,6 +1171,7 @@
 		religion = jewish
 		size = 5625
 	}
+	
 }
 #Vitebsk Region (2028000)
 #under the rule of Russia in 1836
@@ -1287,6 +1296,7 @@
 		religion = jewish
 		size = 6350
 	}
+	
 }
 #Polotsk (628000/157000 POPS)
 946 = {
@@ -1415,6 +1425,7 @@
 		religion = catholic
 		size = 4625
 	}
+	
 }
 #Pastavy (348000/87000 POPS)
 947 = {
@@ -1439,7 +1450,7 @@
 	serfs = {
 		culture = lithuanian
 		religion = catholic
-		size = 55850
+		size = 15850
 	}
 
 	clergymen = {
@@ -1463,7 +1474,7 @@
 	farmers = {
 		culture = byelorussian
 		religion = orthodox
-		size = 10125
+		size = 20125
 	}
 
 	aristocrats = {
@@ -1493,7 +1504,7 @@
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 850
+		size = 23850
 	}
 
 	clergymen = {
@@ -1519,6 +1530,7 @@
 		religion = jewish
 		size = 8325
 	}
+	
 }
 #Mogilev (392000/98000 POPS)
 948 = {
@@ -1623,6 +1635,7 @@
 		religion = jewish
 		size = 6600
 	}
+	
 }
 #Gomel (388000/97000 POPS)
 949 = {
@@ -1703,5 +1716,5 @@
 		religion = jewish
 		size = 11225
 	}
-
+	
 }

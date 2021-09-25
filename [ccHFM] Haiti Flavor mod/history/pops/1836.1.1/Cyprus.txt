@@ -85,6 +85,7 @@
 		religion = orthodox
 		size = 1000
 	}
+	
 }
 #Limassol (44000/11000 POPS)
 856 = {
@@ -141,6 +142,7 @@
 		religion = orthodox
 		size = 8425
 	}
+	
 }
 #Famagusta (44000/11000 POPS)
 857 = {
@@ -197,5 +199,6 @@
 		religion = orthodox
 		size = 7425
 	}
+	
 
 }

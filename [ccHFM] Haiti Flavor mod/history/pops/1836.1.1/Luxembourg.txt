@@ -2,6 +2,7 @@
 #In personal union with Netherlands in 1836
 #Luxembourg (172000/43000 POPS)
 397 = {
+	
 	aristocrats = {
 		culture = north_german
 		religion = catholic
@@ -85,5 +86,6 @@
 		religion = catholic
 		size = 20375
 	}
+	
 
 }

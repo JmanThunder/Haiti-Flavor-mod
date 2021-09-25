@@ -2486,7 +2486,12 @@
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 41000
+		size = 65000
+	}
+	soldiers = {
+		culture = afro_antillean
+		religion = catholic
+		size = 200
 	}
 }
 #Sherbrooke (68000/17000 POPS)
@@ -2994,6 +2999,72 @@
 		culture = anglo_canadian
 		religion = protestant
 		size = 10
+	}
+
+}
+
+3301 = {
+	aristocrats = {
+		culture = native_american_minor
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 15
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 900
+	}
+
+}
+
+3302 = {
+	aristocrats = {
+		culture = native_american_minor
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 15
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 900
 	}
 
 }

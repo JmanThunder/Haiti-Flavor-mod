@@ -193,6 +193,7 @@
 		religion = catholic
 		size = 33000  
 	}
+	
 }
 #Trencin (342540/85635 POPS)
 634 = {
@@ -291,6 +292,7 @@
 		religion = catholic
 		size = 35 
 	}
+	
 }
 #Nitra (3279752/819938 POPS)
 635 = {
@@ -443,6 +445,7 @@
 		religion = catholic
 		size = 2750  
 	}
+	
 }
 #Banska Bystrica (340000/85000 POPS)
 636 = {
@@ -559,6 +562,7 @@
 		religion = catholic
 		size = 900 
 	}
+	
 }
 #Felvidek Region (860000) #see Hungary.txt and Ukraine.txt for balance of Region
 #under the rule of Austria in 1836  
@@ -755,6 +759,7 @@
 		religion = orthodox
 		size = 4450
 	}
+	
 }
 #Roznava (160400/40100 POPS)
 638 = {
@@ -841,4 +846,5 @@
 		religion = orthodox
 		size = 4000
 	}
+	
 }

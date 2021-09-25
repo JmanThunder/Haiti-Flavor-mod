@@ -169,6 +169,7 @@
 		religion = catholic
 		size = 5425  
 	}
+	
 }
 #Szatmare (444000/111000 POPS) #part of Romania today 
 651 = {
@@ -333,6 +334,7 @@
 		religion = jewish
 		size = 4150     
 	}
+	
 }
 #Banat-Bacska Region (1240000) #See Serbia.txt and Croatia.txt for balance of region 
 #under the rule of Austria in 1836  
@@ -535,6 +537,7 @@
 		religion = jewish
 		size = 2000     
 	}
+	
 }
 #Orsova (376000/94000 POPS) #part of Romania today
 653 = {
@@ -651,6 +654,7 @@
 		religion = catholic
 		size = 12900 
 	}
+	
 }
 #Transylvania Region (2060000) 
 #under the rule of Austria in 1836  
@@ -841,6 +845,7 @@
 		religion = jewish
 		size = 1175     
 	}
+	
 }
 #Gyulafehervar/Alba Iulia (316000/79000 POPS)  
 655 = {
@@ -999,6 +1004,7 @@
 		religion = jewish
 		size = 1175     
 	}
+	
 }
 #Deva (252000/63000 POPS)  
 656 = {
@@ -1139,6 +1145,7 @@
 		religion = jewish
 		size = 1175     
 	}
+	
 }
 #Nagyszeben/Sibiu (276000/69000 POPS)  
 657 = {
@@ -1291,6 +1298,7 @@
 		religion = jewish
 		size = 1175     
 	}
+	
 }
 #Brasso/Brasov (168000/42000 POPS)  
 659 = {
@@ -1437,6 +1445,7 @@
 		religion = jewish
 		size = 1175     
 	}
+	
 }
 #Udvarhely (228000/57000 POPS)  
 660 = {
@@ -1577,6 +1586,7 @@
 		religion = jewish
 		size = 1175     
 	}
+	
 }
 #Beszterce (300000/75000 POPS)  
 661 = {
@@ -1723,6 +1733,7 @@
 		religion = jewish
 		size = 10521    
 	}
+	
 }
 #Targu Mures (344000/86000 POPS)  
 2533 = {
@@ -1869,6 +1880,7 @@
 		religion = jewish
 		size = 1175     
 	}
+	
 }
 #Bukovina Region (204000) #See Ukraine.txt for balance of region 
 #under the rule of Austria in 1836 
@@ -1999,6 +2011,7 @@
 		religion = jewish
 		size = 1125     
 	}
+	
 }
 #Wallachia Region (1228000)   
 #under the rule of Wallachia in 1836 
@@ -2057,6 +2070,7 @@
 		religion = jewish
 		size = 3300
 	}
+	
 }
 #Tirgu Jiu (172000/43000 POPS)  
 665 = {
@@ -2101,6 +2115,7 @@
 		religion = orthodox
 		size = 4000
 	}
+	
 }
 #Craiova (196000/49000 POPS)  
 666 = {
@@ -2157,6 +2172,7 @@
 		religion = orthodox
 		size = 2500
 	}
+	
 }
 #Tirgoviste (188000/47000 POPS)  
 667 = {
@@ -2201,6 +2217,7 @@
 		religion = orthodox
 		size = 7000
 	}
+	
 }
 #Braila (272000/68000 POPS)  
 668 = {
@@ -2263,6 +2280,7 @@
 		religion = orthodox
 		size = 6000
 	}
+	
 }
 #Calarasi (140000/35000 POPS)  
 669 = {
@@ -2307,6 +2325,7 @@
 		religion = orthodox
 		size = 3000
 	}
+	
 }
 #Moldavia Region (1356000)   
 #under the rule of Moldavia in 1836 
@@ -2383,6 +2402,7 @@
 		religion = orthodox
 		size = 14750
 	}
+	
 }
 #Botosani (176000/44000 POPS)  
 671 = {
@@ -2421,6 +2441,7 @@
 		religion = orthodox
 		size = 4000
 	}
+	
 }
 #Bacau (440000/110000 POPS)  
 672 = {
@@ -2471,6 +2492,7 @@
 		religion = orthodox
 		size = 10000
 	}
+	
 }
 #Galati (272000/68000 POPS)  
 673 = {
@@ -2521,6 +2543,7 @@
 		religion = orthodox
 		size = 6000
 	}
+	
 }
 #Dobruja Region (168000) #see Bulgaria.txt for balance of Region  
 #under the rule of the Ottoman Empire in 1836 
@@ -2694,6 +2717,7 @@
 		religion = orthodox
 		size = 2000
 	}
+	
 }
 #Tulcea (40000/10000 POPS)  
 675 = {

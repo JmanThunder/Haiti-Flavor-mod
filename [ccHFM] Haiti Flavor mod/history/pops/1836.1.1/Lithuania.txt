@@ -31,7 +31,11 @@
 		religion = catholic
 		size = 2500
 	}
-
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 2500
+	}
 	soldiers = {
 		culture = lithuanian
 		religion = catholic
@@ -83,7 +87,7 @@
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 4325
+		size = 24325
 	}
 	
 	aristocrats = {
@@ -155,8 +159,9 @@
 	farmers = {
 		culture = volga_german
 		religion = protestant
-		size = 100
+		size = 1000
 	}
+	
 }
 #Kaunas (204000/51000 POPS)
 361 = {
@@ -267,6 +272,7 @@
 		religion = protestant
 		size = 100
 	}
+	
 }
 #Marjampole (240000/60000 POPS)
 362 = {
@@ -371,6 +377,7 @@
 		religion = protestant
 		size = 3675
 	}
+	
 }
 #Panevezys (204000/51000 POPS)
 363 = {
@@ -475,6 +482,7 @@
 		religion = orthodox
 		size = 1825
 	}
+	
 }
 #Siauliai (200000/50000 POPS)
 364 = {
@@ -555,6 +563,7 @@
 		religion = protestant
 		size = 100
 	}
+	
 }
 #Palanga (84000/21000 POPS)
 365 = {
@@ -635,6 +644,7 @@
 		religion = protestant
 		size = 850
 	}
+	
 
 }
 #East Prussia Region (172000) #see Poland.txt and Lithuania.txt for balance of region
@@ -712,4 +722,5 @@
 		religion = protestant
 		size = 1000
 	}
+	
 }

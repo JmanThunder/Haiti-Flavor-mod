@@ -1,6 +1,7 @@
 #Flanders Region (2558000)
 #Brussels (772000/193000 POPS)
 387 = {
+	
 	clergymen = {
 		culture = ashkenazi
 		religion = jewish
@@ -182,6 +183,7 @@
 		religion = catholic
 		size = 100525
 	}
+	
 }
 #Ghent (704000/176000 POPS)
 389 = {
@@ -238,6 +240,7 @@
 		religion = catholic
 		size = 50
 	}
+	
 }
 #Antwerp (354000/88500 POPS)
 390 = {
@@ -306,6 +309,7 @@
 		religion = catholic
 		size = 25
 	}
+	
 }
 #Hasselt (272000/68000 POPS)
 391 = {
@@ -338,7 +342,7 @@
 		religion = catholic
 		size = 62175
 	}
-
+	
 }
 #Wallonia Region (1432000)
 #Namur (388000/97000 POPS)
@@ -438,6 +442,7 @@
 		religion = protestant
 		size = 15925
 	}
+	
 }
 #Tournai (292000/73000 POPS)
 393 = {
@@ -531,6 +536,7 @@
 		religion = catholic
 		size = 6000
 	}
+	
 }
 #Charleroi (396000/99000 POPS)
 394 = {
@@ -593,6 +599,7 @@
 		religion = catholic
 		size = 64725
 	}
+	
 }
 #Liege (212000/53000 POPS)
 395 = {
@@ -643,6 +650,7 @@
 		religion = protestant
 		size = 1250
 	}
+	
 }
 #Spa - Eupen-Malmedy (144000/36000 POPS)
 396 = {
@@ -687,7 +695,7 @@
 		religion = catholic
 		size = 2175
 	}
-
+	
 }
 #Luxembourg Region (172000)
 #Arlon (172000/43000 POPS)
@@ -751,5 +759,5 @@
 		religion = protestant
 		size = 8500
 	}
-
+	
 }

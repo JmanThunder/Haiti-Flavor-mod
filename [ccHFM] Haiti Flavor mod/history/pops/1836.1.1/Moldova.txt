@@ -139,6 +139,7 @@
 		religion = catholic
 		size = 800 
 	}
+	
 }
 #Balti (320000/80000 POPS)  
 677 = {
@@ -207,4 +208,5 @@
 		religion = jewish
 		size = 7050   
 	}
+	
 }

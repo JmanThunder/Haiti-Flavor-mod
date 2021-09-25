@@ -51,37 +51,37 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 1000
 	}
 	
 	clergymen = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = catholic
 		size = 100
 	}
 	
 	artisans = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = catholic
 		size = 100
 	}
 	
 	farmers = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = catholic
 		size = 2000
 	}
@@ -139,55 +139,55 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 125
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 2625
 	}
 
 	aristocrats = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = catholic
 		size = 150
 	}
 	
 	bureaucrats = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = catholic
 		size = 100
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = catholic
 		size = 200
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = catholic
 		size = 950
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = catholic
 		size = 19100
 	}
 	
 	soldiers = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = catholic
 		size = 325
 	}
@@ -242,19 +242,19 @@
 
 	clergymen = {
 		culture = armenian
-		religion = orthodox
+		religion = coptic
 		size = 25
 	}
 
 	artisans = {
 		culture = armenian
-		religion = orthodox
+		religion = coptic
 		size = 100
 	}
 
 	farmers = {
 		culture = armenian
-		religion = orthodox
+		religion = coptic
 		size = 1325
 	}
 
@@ -303,19 +303,19 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 1875
 	}
@@ -365,43 +365,43 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 25
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 50
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 925
 	}
 
 	aristocrats = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = catholic
 		size = 75
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = catholic
 		size = 250
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = catholic
 		size = 2050
 	}

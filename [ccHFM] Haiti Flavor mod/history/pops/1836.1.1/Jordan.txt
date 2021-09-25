@@ -69,19 +69,19 @@
 	}
 	
 	clergymen = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 500
 	}
@@ -161,19 +161,19 @@
 	}
 	
 	clergymen = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = christian_arab
 		religion = orthodox
 		size = 500
 	}

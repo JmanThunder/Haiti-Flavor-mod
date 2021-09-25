@@ -66,6 +66,7 @@
 		religion = catholic
 		size = 7990
 	}
+	
 }
 #Rotterdam (567000/141750 POPS)
 376 = {
@@ -114,6 +115,7 @@
 		religion = catholic
 		size = 1034
 	}
+	
 }
 #Utrecht (152000/38000 POPS)
 377 = {
@@ -142,6 +144,7 @@
 		religion = protestant
 		size = 23053
 	}
+	
 }
 #Middelburg (170000/42500 POPS)
 378 = {
@@ -180,6 +183,7 @@
 		religion = catholic
 		size = 1034
 	}
+	
 }
 #Limburg-Gelderland Region - 979400
 #Eindhoven (230000/57500 POPS)
@@ -249,6 +253,7 @@
 		religion = catholic
 		size = 2820
 	}
+	
 }
 #Breda (173200/43300 POPS)
 380 = {
@@ -277,6 +282,7 @@
 		religion = catholic
 		size = 32947
 	}
+	
 }
 #Maastricht/Limburg (164200/41050 POPS)
 381 = {
@@ -387,6 +393,7 @@
 		religion = catholic
 		size = 18100
 	}
+	
 }
 #Arnhem (412000/103000 POPS)
 382 = {
@@ -440,6 +447,7 @@
 		religion = protestant
 		size = 3008
 	}
+	
 }
 #Friesland-Groningen Region : 713800
 #Groningen (186600/46650 POPS)
@@ -494,6 +502,7 @@
 		religion = protestant
 		size = 1034
 	}
+	
 }
 #Zwolle (238000/59500 POPS)
 384 = {
@@ -537,6 +546,7 @@
 		religion = protestant
 		size = 846
 	}
+	
 }
 #Leeuwarden (209200/52300 POPS)
 385 = {
@@ -598,4 +608,5 @@
 		religion = protestant
 		size = 1034
 	}
+	
 }

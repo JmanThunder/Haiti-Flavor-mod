@@ -58,6 +58,7 @@
 		religion = catholic
 		size = 40350
 	}
+	
 }
 #Oviedo (448000/112000 POPS)
 475 = {
@@ -111,6 +112,7 @@
 		size = 3900
 		militancy = 8
 	}
+	
 }
 #Vigo (328000/82000 POPS)
 476 = {
@@ -148,7 +150,7 @@
 		religion = catholic
 		size = 30500
 	}
-
+	
 }
 #Leon Region (888000)
 #Leon (280000/70000 POPS)
@@ -194,6 +196,7 @@
 		religion = catholic
 		size = 63600
 	}
+	
 }
 #Santander (178000/44500) POPS
 478 = {
@@ -247,6 +250,7 @@
 		size = 3900
 		militancy = 8
 	}
+	
 }
 #Burgos (236000/59000 POPS)
 479 = {
@@ -293,6 +297,7 @@
 		size = 975
 		militancy = 8
 	}
+	
 }
 #Valladolid (194000/48500 POPS)
 480 = {
@@ -325,6 +330,7 @@
 		religion = catholic
 		size = 40900
 	}
+	
 
 }
 #Castilla Vieja Region (724000)
@@ -371,6 +377,7 @@
 		religion = catholic
 		size = 62700
 	}
+	
 }
 #Soria (216000/54000 POPS)
 482 = {
@@ -403,6 +410,7 @@
 		religion = catholic
 		size = 48750
 	}
+	
 }
 #Salamanca (224000/56000 POPS)
 483 = {
@@ -435,6 +443,7 @@
 		religion = catholic
 		size = 49250
 	}
+	
 
 }
 #Extremadura Region (580000)
@@ -481,6 +490,7 @@
 		religion = catholic
 		size = 46650
 	}
+	
 }
 #Almendralejo (192000/48000 POPS)
 485 = {
@@ -513,6 +523,7 @@
 		religion = catholic
 		size = 43700
 	}
+	
 }
 #Caceres (172000/43000 POPS)
 486 = {
@@ -545,7 +556,7 @@
 		religion = catholic
 		size = 38725
 	}
-
+	
 }
 #Castilla Nueva Region (1504000)
 #Madrid (364000/91000 POPS)
@@ -633,6 +644,8 @@
 		religion = catholic
 		size = 20100
 	}
+	
+	
 }
 #Siguenza (204000/51000 POPS)
 488 = {
@@ -665,6 +678,7 @@
 		religion = catholic
 		size = 45800
 	}
+	
 }
 #Toledo (302000/75500 POPS)
 489 = {
@@ -703,6 +717,7 @@
 		religion = catholic
 		size = 62200
 	}
+	
 }
 #Cuenca (346000/86500 POPS)
 490 = {
@@ -735,6 +750,7 @@
 		religion = catholic
 		size = 78775
 	}
+	
 }
 #Ciudad Real (288000/74000 POPS)
 491 = {
@@ -767,6 +783,7 @@
 		religion = catholic
 		size = 65600
 	}
+	
 
 }
 #Vizcaya-Navarra Region (710000)
@@ -841,6 +858,7 @@
 		religion = catholic
 		size = 18850
 	}
+	
 }
 #Pamplona (244000/61000 POPS)
 493 = {
@@ -941,6 +959,7 @@
 		religion = catholic
 		size = 19975
 	}
+	
 }
 #Logrono (158000/39500 POPS)
 494 = {
@@ -973,6 +992,7 @@
 		religion = catholic
 		size = 35850
 	}
+	
 
 }
 #Aragon Region (764000)
@@ -1037,6 +1057,7 @@
 		religion = catholic
 		size = 1950
 	}
+	
 }
 #Huesca (224000/56000 POPS)
 496 = {
@@ -1099,6 +1120,7 @@
 		religion = catholic
 		size = 16025
 	}
+	
 }
 #Teruel (228000/57000 POPS)
 497 = {
@@ -1141,6 +1163,7 @@
 		militancy = 8
 		rebel_type = carlist_rebels
 	}
+	
 
 }
 #Catalonia Region (1340000)
@@ -1247,6 +1270,7 @@
 		religion = catholic
 		size = 16125
 	}
+	
 }
 #Gerona (228000/57000 POPS)
 499 = {
@@ -1311,6 +1335,7 @@
 		religion = catholic
 		size = 18600
 	}
+	
 }
 #Lerida (164000/41000 POPS)
 500 = {
@@ -1383,6 +1408,7 @@
 		religion = catholic
 		size = 11275
 	}
+	
 }
 #Tarragona (244000/61000 POPS)
 501 = {
@@ -1457,6 +1483,7 @@
 		religion = catholic
 		size = 17650
 	}
+	
 }
 #Balearics (240000/60000 POPS)
 502 = {
@@ -1519,6 +1546,7 @@
 		religion = catholic
 		size = 15900
 	}
+	
 
 }
 #Valencia Region (1016000)
@@ -1619,6 +1647,7 @@
 		religion = catholic
 		size = 39675
 	}
+	
 }
 #Castellon (212000/53000 POPS)
 504 = {
@@ -1681,6 +1710,7 @@
 		religion = catholic
 		size = 26275
 	}
+	
 }
 #Alicante (384000/96000 POPS)
 505 = {
@@ -1743,6 +1773,7 @@
 		religion = catholic
 		size = 38300
 	}
+	
 
 }
 #Murcia Region (504000/121000 POPS)
@@ -1789,6 +1820,7 @@
 		religion = catholic
 		size = 42375
 	}
+	
 }
 #Murcia (92000/23000 POPS)
 507 = {
@@ -1821,6 +1853,7 @@
 		religion = catholic
 		size = 21025
 	}
+	
 }
 #Albacete (20000/50000 POPS)
 508 = {
@@ -1853,6 +1886,7 @@
 		religion = catholic
 		size = 45600
 	}
+	
 
 }
 #Andalucia Region (1176000)
@@ -1911,6 +1945,7 @@
 		religion = catholic
 		size = 62200
 	}
+	
 }
 #Cordoba (324000/81000 POPS)
 510 = {
@@ -1943,6 +1978,7 @@
 		religion = catholic
 		size = 68500
 	}
+	
 }
 #Huelva (140000/35000 POPS)
 511 = {
@@ -1975,6 +2011,7 @@
 		religion = catholic
 		size = 31375
 	}
+	
 }
 #Cadiz (336000/84000 POPS)
 512 = {
@@ -2013,7 +2050,7 @@
 		religion = catholic
 		size = 64650
 	}
-
+	
 }
 #Alpujarras Region (1296000)
 #Granada (382000/95500 POPS)
@@ -2065,6 +2102,7 @@
 		religion = catholic
 		size = 72850
 	}
+	
 }
 #Malaga (402000/100500 POPS)
 514 = {
@@ -2103,6 +2141,7 @@
 		religion = catholic
 		size = 78400
 	}
+	
 }
 #Almeria (242000/60500 POPS)
 515 = {
@@ -2135,6 +2174,7 @@
 		religion = catholic
 		size = 52600
 	}
+	
 }
 #Jaen (270000/67500 POPS)
 516 = {
@@ -2167,7 +2207,7 @@
 		religion = catholic
 		size = 58200
 	}
-
+	
 }
 #see Morocco.txt for Ceuta-Melilla
 #Canary Islands Region (208000)
@@ -2214,7 +2254,7 @@
 		religion = catholic
 		size = 47025
 	}
-
+	
 }
 
 

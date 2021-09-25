@@ -24,6 +24,7 @@
 		religion = protestant
 		size = 1575
 	}
+	
 
 }
 #Jutland Region : 548000
@@ -76,6 +77,7 @@
 		religion = jewish
 		size = 226
 	}
+	
 }
 #Alborg (152000/38000 POPS)
 #5k farmers moved to 2557
@@ -109,6 +111,7 @@
 		religion = protestant
 		size = 14500
 	}
+	
 }
 #Ribe (148000/37000 POPS)
 #1k moved to 2557
@@ -143,6 +146,7 @@
 		religion = protestant
 		size = 23400 
 	}
+	
 
 }
 
@@ -173,6 +177,7 @@
 		religion = protestant
 		size = 23550
 	}
+	
 }
 	
 	
@@ -250,6 +255,7 @@
 		religion = protestant
 		size = 38850
 	}
+	
 }
 #Aabenra (100000/25000 POPS)
 371 = {
@@ -306,6 +312,7 @@
 		religion = protestant
 		size = 6550
 	}
+	
 
 }
 #Archipelago Region : 616000
@@ -382,6 +389,7 @@
 		religion = protestant
 		size = 1100
 	}
+	
 }
 #Odense (208000/52000 POPS)
 373 = {
@@ -414,6 +422,7 @@
 		religion = protestant
 		size = 46250
 	}
+	
 }
 #Bornholm (16000/4000 POPS)
 374 = {
@@ -440,5 +449,5 @@
 		religion = protestant
 		size = 3500
 	}
-
+	
 }

@@ -61,7 +61,71 @@
 		religion = catholic
 		size = 300
 	}
+	
 }
+3323 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 750
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 200
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 1450
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 225
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 20875
+	}
+
+	clergymen = {
+		culture = croat
+		religion = catholic
+		size = 225
+	}
+
+	artisans = {
+		culture = croat
+		religion = catholic
+		size = 900
+	}
+
+	soldiers = {
+		culture = croat
+		religion = catholic
+		size = 250
+	}
+
+	farmers = {
+		culture = croat
+		religion = catholic
+		size = 20625
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = catholic
+		size = 300
+	}
+	
+}
+
 #Croatia Region (870000)
 #under the rule of Austria in 1836
 #Zagreb (224000/56000 POPS)
@@ -203,6 +267,7 @@
 		religion = catholic
 		size = 6500
 	}
+	
 }
 #Sisak (116000/29000 POPS)
 772 = {
@@ -265,6 +330,69 @@
 		religion = orthodox
 		size = 10225
 	}
+	
+}
+3324 = {
+	aristocrats = {
+		culture = croat
+		religion = catholic
+		size = 350
+	}
+
+	clergymen = {
+		culture = croat
+		religion = catholic
+		size = 175
+	}
+
+	artisans = {
+		culture = croat
+		religion = catholic
+		size = 900
+	}
+
+	soldiers = {
+		culture = croat
+		religion = catholic
+		size = 175
+	}
+
+	farmers = {
+		culture = croat
+		religion = catholic
+		size = 16300
+	}
+	
+	farmers = {
+		culture = croat
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = serb
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = serb
+		religion = orthodox
+		size = 550
+	}
+
+	soldiers = {
+		culture = serb
+		religion = orthodox
+		size = 125
+	}
+
+	serfs = {
+		culture = serb
+		religion = orthodox
+		size = 10225
+	}
+	
 }
 #Karlovac (184000/46000 POPS)
 773 = {
@@ -321,6 +449,7 @@
 		religion = orthodox
 		size = 11125
 	}
+	
 }
 #Senj (96000/24000 POPS)
 774 = {
@@ -383,6 +512,7 @@
 		religion = orthodox
 		size = 10225
 	}
+	
 }
 #Varadzin (68000/17000 POPS)
 775 = {
@@ -421,6 +551,7 @@
 		religion = catholic
 		size = 5000
 	}
+	
 }
 #Bjelovar (52000/13000 POPS)
 776 = {
@@ -495,6 +626,7 @@
 		religion = catholic
 		size = 4650
 	}
+	
 }
 #Pozega (80000/20000 POPS)
 777 = {
@@ -539,6 +671,7 @@
 		religion = catholic
 		size = 8000
 	}
+	
 }
 #Fiume (52000/13000 POPS)
 778 = {
@@ -619,6 +752,7 @@
 		religion = catholic
 		size = 700
 	}
+	
 }
 #Baranya Region (180000) #see Hungary.txt for balance of Region
 #under the rule of Austria in 1836  
@@ -737,6 +871,7 @@
 		religion = catholic
 		size = 5300 
 	}
+	
 }
 #Dalmatia Region (320000) #see Montenegro.txt for balance of region 
 #under the rule of Austria in 1836
@@ -813,6 +948,7 @@
 		religion = catholic
 		size = 450
 	}
+	
 }
 #Zadar (128000/32000 POPS)
 781 = {
@@ -911,6 +1047,7 @@
 		religion = orthodox
 		size = 6550
 	}
+	
 }
 #Dubrovnik (52000/13000 POPS)
 782 = {
@@ -1003,6 +1140,7 @@
 		religion = orthodox
 		size = 1825
 	}
+	
 
 }
 #Banat-Bacska Region (104000) #See Serbia.txt and Romania.txt for balance of region 
@@ -1098,4 +1236,5 @@
 		religion = catholic
 		size = 1785 
 	}
+	
 }

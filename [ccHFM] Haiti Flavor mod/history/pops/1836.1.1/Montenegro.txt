@@ -55,6 +55,7 @@
 		religion = sunni
 		size = 1825
 	}
+	
 }
 #Niksic (52000/13000 POPS) 
 2569 = {
@@ -123,6 +124,7 @@
 		religion = sunni
 		size = 5825
 	}
+	
 }
 #under the rule of Montenegro in 1836  
 #Cetinje (104000/26000 POPS) 
@@ -180,6 +182,7 @@
 		religion = orthodox
 		size = 1000
 	}
+	
 }
 #Kosovo-Sanjak Region (52000)  #see Serbia.txt for balance of region 
 #under the rule of Ottoman Empire in 1836  
@@ -381,5 +384,7 @@
 		religion = catholic
 		size = 100
 	}
+	
+	
 
 }

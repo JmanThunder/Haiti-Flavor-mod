@@ -1,6 +1,7 @@
 #Duoro e Minho Region (1660000)
 #Oporto (768000/192000 POPS)
 518 = {
+	
 	aristocrats = {
 		culture = portuguese
 		religion = catholic
@@ -42,6 +43,8 @@
 		religion = catholic
 		size = 150200
 	}
+	
+	
 }
 #Vila Real (324000/81000) POPS
 519 = {
@@ -74,6 +77,7 @@
 		religion = catholic
 		size = 69275
 	}
+	
 }
 #Covilha (568000/142000 POPS)
 520 = {
@@ -106,6 +110,7 @@
 		religion = catholic
 		size = 86500
 	}
+	
 
 }
 #Beira-Estremadura Region (1060000)
@@ -152,6 +157,7 @@
 		religion = catholic
 		size = 68500
 	}
+	
 }
 #Coimbra (460000/115000 POPS)
 522 = {
@@ -190,6 +196,7 @@
 		religion = catholic
 		size = 99800
 	}
+	
 }
 #Abrantes (140000/35000 POPS)
 523 = {
@@ -222,6 +229,7 @@
 		religion = catholic
 		size = 41550
 	}
+	
 }
 #Setubal (112000/28000 POPS)
 524 = {
@@ -254,6 +262,7 @@
 		religion = catholic
 		size = 42800
 	}
+	
 
 }
 #Alentejo-Algarve Region (372000)
@@ -300,6 +309,7 @@
 		religion = catholic
 		size = 44250
 	}
+	
 }
 #Beja (96000/24000 POPS)
 526 = {
@@ -332,6 +342,7 @@
 		religion = catholic
 		size = 42250
 	}
+	
 }
 #Faro (120000/30000 POPS)
 527 = {
@@ -364,6 +375,7 @@
 		religion = catholic
 		size = 41025
 	}
+	
 
 }
 #Azores & Madeira Region (308000)
@@ -410,6 +422,7 @@
 		religion = catholic
 		size = 45975
 	}
+	
 }
 #Madeira (104000/26000 POPS)
 2135 = {
@@ -442,5 +455,6 @@
 		religion = catholic
 		size = 23825
 	}
+	
 
 }

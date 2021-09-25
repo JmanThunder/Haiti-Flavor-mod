@@ -1,0 +1,261 @@
+;;;;;;;;;;;;;x
+mulatto;Mulâtres;;;;;;;;;;;;;;;;;;;;;;;;x
+french_canadian;Français-Candien;;;;;;;;;;;;;;;;;;;;;;;;x
+afro_antillean;Afro-Français;;;;;;;;;;;;;;;;;;;;;;;;x
+afro_caribeno;Afro-Latino;;;;;;;;;;;;;;;;;;;;;;;;x
+afro_caribbean;Afro-Caribbean;;;;;;;;;;;;;;;;;;;;;;;;x
+EVTNAME45107;Haiti Fails to Honour its Debts;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVTDESC45107;Haitian legacy of debt began shortly after gaining independence from France in 1804. In 1825, France, with warships at the ready, demanded Haiti compensate France for its loss of slaves and its slave colony. In exchange for French recognition of Haiti as a sovereign republic, France demanded payment of 150 million francs. In addition to the payment, France required that Haiti discount its exported goods to them by 50%. In $YEAR$, France agreed to reduce the debt to 90 million francs (500,000Â¤) to be paid over a period of 30 years to compensate former plantation owners who had lost their property. Haiti, however, still refuses to pay what is owed to us and will not do so unless we use force.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVT45107OPTA;We will take what is owed to us.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVT45107OPTB;To safeguard French assets, the Haitian government must be controlled.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVT45107OPTC;Clearly, the Haitians are not fit to rule themselves.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVT45107OPTD;They are not worth our time.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVTNAME45106;Haiti's Debts to France;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVTDESC45106;Haitian legacy of debt began shortly after gaining independence from France in 1804. In 1825, France, with warships at the ready, demanded Haiti compensate France for its loss of slaves and its slave colony. In exchange for French recognition of Haiti as a sovereign republic, France demanded payment of 150 million francs. In addition to the payment, France required that Haiti discount its exported goods to them by 50%. In $YEAR$, France agreed to reduce the debt to 90 million francs to be paid over a period of 30 years to compensate former plantation owners who had lost their property. This is the best deal we can get, and refusing to honour our debt will likely result in French intervention.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+fra_reps_title;Demand Haitian Reparations;;;;;;;;;;;;;;;;;;;;;;;;x
+EVT45106OPTA;We must honour our agreements.§R(Pay or owe 500,000¤)§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVT45106OPTB;We owe nothing to the French.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+fra_reps_desc;Haiti has long agreed to paying the french government reparations for their Revolution. It is once again time to demand money from them.;;;;;;;;;;;;;;;;;;;;;;;;x
+end_french_title;End French Reparations;;;;;;;;;;;;;;;;;;;;;;;;x
+end_french_desc;For far to long Haiti has sacrficed it self to the French, now it is over that we have beaten them on the fields of Battle we can enforce that we shall not pay them.;;;;;;;;;;;;;;;;;;;;;;;;x
+end_usa_blockade_title;End US Blockage on US;;;;;;;;;;;;;;;;;;;;;;;;x
+end_usa_blockade_desc;For our entire existance the US has blockaded us for being a slave state it is time for that to stop.;;;;;;;;;;;;;;;;;;;;;;;;x
+toussaints_legacy_title;For the Legcay of Toussaint we must reform the Nation;;;;;;;;;;;;;;;;;;;;;;;;x
+toussaints_legacy_desc;Toussaint Louverture would be dissapointed at the state of Haiti week shall reform the nation to fit his vision of Haiti, Vive la Haiti.;;;;;;;;;;;;;;;;;;;;;;;;x
+toussaints_legacy_2_title;The Toussaint Reforms are complete;;;;;;;;;;;;;;;;;;;;;;;;x
+toussaints_legacy_2_desc;Toussaint Louverture would be now that the reforms are complete we must put them into effect to see Haiti become the light of the new world.;;;;;;;;;;;;;;;;;;;;;;;;x
+equal_rule_title;Unite the Mulattoes and Black Haitians;;;;;;;;;;;;;;;;;;;;;;;;x
+equal_rule_desc;For as long as we existed Haiti have been divided on race now that we have the oportunity it is time to unite the people under a Haitian culture.;;;;;;;;;;;;;;;;;;;;;;;;x
+pan_africanism_HAI_title;Accept are Black Brothers;;;;;;;;;;;;;;;;;;;;;;;;x
+pan_africanism_HAI_desc;Black people across the world have been oppressed by the Europeans since we are the only strong Black state we must liberate them.;;;;;;;;;;;;;;;;;;;;;;;;x
+HAI_ULA_claim_title;Enforce Claims on Louisiana;;;;;;;;;;;;;;;;;;;;;;;;x
+HAI_ULA_claim_desc;Since the days of Toussaint's capture our nation have unofically claimed the Louisiana Territory but now that Haiti is strong we can enforce our claims.;;;;;;;;;;;;;;;;;;;;;;;;x
+HAI_ULA_claim2_title;Enforce Claims on Louisiana;;;;;;;;;;;;;;;;;;;;;;;;x
+HAI_ULA_claim2_desc;Since the days of Toussaint's capture our nation have unofically claimed the Louisiana Territory but now that Haiti is strong we can enforce our claims.;;;;;;;;;;;;;;;;;;;;;;;;x
+claim_glp_mtq_title;Claim Guadeloupe and Martinique;;;;;;;;;;;;;;;;;;;;;;;;x
+claim_glp_mtq_desc;The peoples of Martinique and Guadeloupe are quite similar in culture to the Haitian people thus it is time to unite with them.;;;;;;;;;;;;;;;;;;;;;;;;x
+wealth_distribution_title;Wealth Distribution;;;;;;;;;;;x
+wealth_distribution_desc;Now that we have the wealth, we can give it to the People yay.;;;;;;;;;;;x
+que_exiles_title;Atract exiles from the Candians;;;;;;;;;;;x
+que_exiles_desc;There are revolts in we can take the opportunity to accept many exiles.;;;;;;;;;;;x
+GLP;Guadeloupe;;;;;;;;;;;;;;;;;;;;;;;;x
+GLP_ADJ;Guadeloupéen;;;;;;;;;;;;;;;;;;;;;;;;x
+GLP_conservative;Parti Conservateur des Antilles;;;;;;;;;;;;;x
+GLP_liberal;Forces Démocratiques Antillais;;;;;;;;;;;;;x
+GLP_socialist;Mouvement de Décolonisation et d'Émancipation Sociale;;;;;;;;;;;;;x
+GLP_communist;Parti Révolutionnaire Antillais;;;;;;;;;;;;;x
+GLP_reactionary;Union des Propriétaires Fonciers;;;;;;;;;;;;;x
+GLP_anarcho_liberal;Front Libre des Antilles;;;;;;;;;;;;;x
+GLP_fascist;Garde civile des Antilles;;;;;;;;;;;;;x
+GLP_democracy;Guadeloupe;;;;;;;;;;;;;;;;;;;;x
+GLP_presidential_dictatorship;Guadeloupe;;;;;;;;;;;;;;;;;;;;x
+GLP_bourgeois_dictatorship;Guadeloupe;;;;;;;;;;;;;;;;;;;;x
+GLP_proletarian_dictatorship;République Socialiste du Guadeloupe;;;;;;;;;;;;;;;;;;;;x
+GLP_fascist_dictatorship;Guadeloupe;;;;;;;;;;;;;;;;;;;;x
+GLP_absolute_monarchy;Royaume de Guadeloupe;;;;;;;;;;;;;x
+GLP_prussian_constitutionalism;Royaume de Guadeloupe;;;;;;;;;;;;;x
+MTQ;Martinique;;;;;;;;;;;;;;;;;;;;;;;;x
+MTQ_ADJ;Martiniqués;;;;;;;;;;;;;;;;;;;;;;;;x
+MTQ_democracy;Martinique;;;;;;;;;;;;;;;;;;;;x
+MTQ_presidential_dictatorship;Martinique;;;;;;;;;;;;;;;;;;;;x
+MTQ_bourgeois_dictatorship;Martinique;;;;;;;;;;;;;;;;;;;;x
+MTQ_proletarian_dictatorship;République Socialiste du Martinique;;;;;;;;;;;;;;;;;;;;x
+MTQ_fascist_dictatorship;Martinique;;;;;;;;;;;;;;;;;;;;x
+MTQ_absolute_monarchy;Royaume de Martinique;;;;;;;;;;;;;x
+MTQ_prussian_constitutionalism;Royaume de Martinique;;;;;;;;;;;;;x
+reps_haiti;Haitian Reparations;;;;;;;;;;;;;x
+USA_blockade;US Blockade;;;;;;;;;;;;;x
+HAI_mass_reforms;Haitian Mass Reforms;;;;;;;;;;;;;x
+toussaints_legacy;Toussaint's Legcay;;;;;;;;;;;;;x
+equal_rule;Equal Rule;;;;;;;;;;;;;x
+scorched_earth;Scorched Earth;;;;;;;;;;;;;x
+death_war;Last Stand;;;;;;;;;;;;;x
+full_siege_me_down_title;Haiti Shall not fall;;;;;;;;;;;;;x
+full_siege_me_down_desc;Haiti will not be enslaved once again;;;;;;;;;;;;;x
+diplo_end_blockade_title;Diplomatically end US blockade;;;;;;;;;;;;;x
+diplo_end_blockade_decs;We must peacfully end the the US Blockade on us;;;;;;;;;;;;;x
+PROV3297;Môle St-Nicolas;;;;;;;;;;;;;x
+PROV3298;Hinche;;;;;;;;;;;;;x
+PROV3299;Les Cayes;;;;;;;;;;;;;x
+PROV3300;German Coast;;;;;;;;;;;;;x
+PROV3301;Milk River;;;;;;;;;;;;;x
+PROV3302;Staynor Hall;;;;;;;;;;;;;x
+PROV3303;Pacatuba;;;;;;;;;;;;;x
+PROV3304;Buen Fin;;;;;;;;;;;;;x
+PROV3305;Sammana;;;;;;;;;;;;;x
+HAI_2213;Haiti;;;;;;;;;;;;;x
+HAI_2214;Santo Domingo;;;;;;;;;;;;;x
+PROV3306;Yartsevo;;;;;;;;;;;;;x
+PROV3307;Starodub;;;;;;;;;;;;;x
+PROV3308;Berezan;;;;;;;;;;;;;x
+PROV3309;Rastenburg;;;;;;;;;;;;;x
+PROV3310;Fraustadt;;;;;;;;;;;;;x
+PROV3311;Xalapa;;;;;;;;;;;;;x
+PROV3312;Sebring;;;;;;;;;;;;;x
+PROV3313;Santiago De Los Caballeros;;;;;;;;;;;;;x
+christian_arab;Christian Arab;;;;;;;;;;;;;x
+copt;Copt;;;;;;;;;;;;;x
+afro_american_settlement_title;Settle African Americans in Haiti;;;;;;;;;;;;;x
+afro_american_settlement_decs;Since the indepence of the United States African Americans have been wronged at every turn and continued to be enslaves thus we must invite them to the great nation of Haiti;;;;;;;;;;;;;x
+found_libreville_title;Found Libreville;;;;;;;;;;;x
+found_libreville_desc;Haiti now has the potential we can now found our own city in Africa to oppose European Colonialism.;;;;;;;;;;;x
+FGU;Guyane;;;;;;;;;;;;;x
+FGU_ADJ;Guyanais;;;;;;;;;;;;;x
+FGU_colonial_company;Guyane Française;;;;;;;;;;;;;x
+FGU_conservative;Parti Conservateur du Cayenne;;;;;;;;;;;;;x
+FGU_liberal;Forces Démocratiques de Guyane;;;;;;;;;;;;;x
+FGU_socialist;Mouvement de Décolonisation et d'Émancipation Sociale;;;;;;;;;;;;;x
+FGU_communist;Walwari;;;;;;;;;;;;;x
+FGU_reactionary;Union des Propriétaires Fonciers;;;;;;;;;;;;;x
+FGU_anarcho_liberal;Front Libre Guyanais;;;;;;;;;;;;;x
+FGU_fascist;Garde civile de Cayenne;;;;;;;;;;;;;x
+FGU_democracy;Guyane;;;;;;;;;;;;;;;;;;;;x
+FGU_presidential_dictatorship;Guyane;;;;;;;;;;;;;;;;;;;;x
+FGU_bourgeois_dictatorship;Guyane;;;;;;;;;;;;;;;;;;;;x
+FGU_proletarian_dictatorship;République Socialiste du Guyane;;;;;;;;;;;;;;;;;;;;x
+FGU_fascist_dictatorship;Guyane;;;;;;;;;;;;;;;;;;;;x
+FGU_absolute_monarchy;Royaume de Guyane;;;;;;;;;;;;;x
+FGU_prussian_constitutionalism;Royaume de Guyane;;;;;;;;;;;;;x
+KHM;Khemit;;;;;;;;;;;;;;;;;;;;x
+KHM_ADJ;Khemetic;;;;;;;;;;;;;;;;;;;;x
+KHM_democracy;Khemit;;;;;;;;;;;;;;;;;;;;x
+KHM_theocracy;Coptic Metropolitanate;;;;;;;;;;;;;;;;;;;;x
+KHM_presidential_dictatorship;Coptic Republic of Khemit;;;;;;;;;;;;;;;;;;;;x
+KHM_bourgeois_dictatorship;Coptic Republic of Khemit;;;;;;;;;;;;;;;;;;;;x
+KHM_proletarian_dictatorship;Socialist Republic of Khemit;;;;;;;;;;;;;;;;;;;;x
+KHM_fascist_dictatorship;Coptic Republic of Khemit;;;;;;;;;;;;;;;;;;;;x
+KHM_absolute_monarchy;Khemit;;;;;;;;;;;;;x
+KHM_prussian_constitutionalism;Khemit;;;;;;;;;;;;;x
+PLR;Commonwealth of Three Nations;;;;;;;;;;;;;;;;;;;;;;x
+PLR_ADJ;P.L.R.;;;;;;;;;;;;;;;;;;;;;;x
+PLR_absolute_monarchy;Commonwealth of Three Nations;;;;;;;;;;;;;;;;;;;;;;x
+PLR_prussian_constitutionalism;Commonwealth of Three Nations;;;;;;;;;;;;;;;;;;;;;;x
+PLR_hms_government;Commonwealth of Three Nations;;;;;;;;;;;;;;;;;;;;;;x
+PLR_democracy;Commonwealth of Three Nations;;;;;;;;;;;;;;;;;;;;;;x
+PLR_fascist_dictatorship;Commonwealth of Corporatist Nations;;;;;;;;;;;;;;;;;;;;;;x
+PLR_proletarian_dictatorship;P.L.R. Commune;;;;;;;;;;;;;;;;;;;;;;x
+AFS;Afsharid Empire;;;;;;;;;;;;;;;;;;;;;;x
+AFS_ADJ;Afshar Iranian;;;;;;;;;;;;;;;;;;;;;;x
+AFS_absolute_monarchy;Afsharid Empire;;;;;;;;;;;;;;;;;;;;;;x
+AFS_prussian_constitutionalism;Afsharid Empire;;;;;;;;;;;;;;;;;;;;;;x
+AFS_hms_government;Afsharid Iran;;;;;;;;;;;;;;;;;;;;;;x
+AFS_democracy;Afsharid Republic;;;;;;;;;;;;;;;;;;;;;;x
+AFS_fascist_dictatorship;Afshar State;;;;;;;;;;;;;;;;;;;;;;x
+AFS_proletarian_dictatorship;Commune of Afshar Iran;;;;;;;;;;;;;;;;;;;;;;x
+FEA;French Equatorial Africa;;;;;;;;;;;;;;;;;;;;;;;;x
+FEA_ADJ;French;;;;;;;;;;;;;;;;;;;;;;;;x
+FWA;French West Africa;;;;;;;;;;;;;;;;;;;;;;;;x
+FWA_ADJ;French;;;;;;;;;;;;;;;;;;;;;;;;x
+KNI;The Knights Hospitaller;;;;;;;;;;;;;;;;;;;;;;;;x
+KNI_ADJ;Hospitaller;;;;;;;;;;;;;;;;;;;;;;;;x
+KNI;The Knights Hospitaller;;;;;;;;;;;;;;;;;;;;;;;;x
+KNI_ADJ;Hospitaller;;;;;;;;;;;;;;;;;;;;;;;;x
+KHT_ADJ;Haïtian;;;;;;;;;;;;x
+KHT;Royaume d'Haïti;;;;;;;;;;;;x
+JER_ADJ;Outremer;;;;;;;;;;;;x
+JER;The Kingdom of Jerusalem;;;;;;;;;;;;x
+LTN_ADJ;Latin;;;;;;;;;;;;x
+LTN;Latin Empire;;;;;;;;;;;;x
+MXM_liberal;Partido Monarchista Liberal;;;;;;;;;;;;;x
+MXM_socialist;Partido Revolucionario de los y las Trabajadores;;;;;;;;;;;;;x
+MXM_communist;Partido Communista de Mexico;;;;;;;;;;;;;x
+MXM_anarcho_liberal;Partido Hacendados de Mexico;;;;;;;;;;;;;x
+MXM_fascist;Union Nacional Sinarquista;;;;;;;;;;;;;x
+MXM;The Mexican Empire;;;;;;;;;;;;;x
+MXM_ADJ;Mexican;;;;;;;;;;;;;x
+MXM_democracy;United States of Mexico;;;;;;;;;;;;;;;;;;;;x
+MXM_presidential_dictatorship;Mexico;;;;;;;;;;;;;;;;;;;;x
+MXM_bourgeois_dictatorship;Hacienda Republic of Mexico;;;;;;;;;;;;;;;;;;;;x
+MXM_proletarian_dictatorship;People's Republic of Mexico;;;;;;;;;;;;;;;;;;;;x
+MXM_fascist_dictatorship;The Mexican State;;;;;;;;;;;;;;;;;;;;x
+MXM_absolute_monarchy;The Mexican Empire;;;;;;;;;;;;;x
+MXM_prussian_constitutionalism;The Mexican Empire;;;;;;;;;;;;;x
+MXM_dominion;Dominion of French Mexico;;;;;;;;;;;;;x
+SOV;The Soviet Union;;;;;;;;;;;;;;;;;;x;;;;
+SOV_absolute_monarchy;The Eurasian Empire;;;;;;;;;;;;;;;;;;x;;;;
+SOV_prussian_constitutionalism;The Eurasian Empire;;;;;;;;;;;;;;;;;;x;;;;
+SOV_hms_government;The Eurasian Empire;;;;;;;;;;;;;;;;;;x;;;;
+SOV_fascist_dictatorship;The Russian Empire;;;;;;;;;;;;;;;;;;x;;;;
+SOV_proletarian_dictatorship;The Union of Soviet Socialist Republics;;;;;;;;;;;;;;;;;;x;;;;
+SOV_democracy;The Soviet Federation;;;;;;;;;;;;;;;;;;x;;;;
+SOV_totalitarian_state;The Soviet Republic;;;;;;;;;;;;;;;;;;x;;;;
+SOV_ADJ;Soviet;;;;;;;;;;;;;;;;;;x;;;;
+SOV_absolute_monarchy_ADJ;Eurasian;;;;;;;;;;;;;;;;;;x;;;;
+SOV_prussian_constitutionalism_ADJ;Eurasian;;;;;;;;;;;;;;;;;;x;;;;
+SOV_hms_government_ADJ;Eurasian;;;;;;;;;;;;;;;;;;x;;;;
+SOV_fascist_dictatorship_ADJ;Russian;;;;;;;;;;;;;;;;;;x;;;;
+SVD_ADJ;Safavids;;;;;;;;;;;;x
+SVD;Safavid Empire;;;;;;;;;;;;x
+GOD_ADJ;Holy;;;;;;;;;;;;x
+GOD;The Kingdom of God;;;;;;;;;;;;x
+SMN;Seminole;x;;;;;;;;;;;;;;;;
+SMN_ADJ;Seminole;x;;;;;;;;;;;;;;;;
+PROV3325;Jacmel;;;;;;;;;;;;x
+PROV3326;La Gonave;;;;;;;;;;;;x
+PROV3327;Gonaives;;;;;;;;;;;;x
+PROV3328;Port-de-Paix;;;;;;;;;;;;x
+PROV3329;La Tortue;;;;;;;;;;;;x
+PROV3330;Barahona;;;;;;;;;;;;x
+PROV3331;Higuey;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;;;;;;;;;;;;x
+sugar;Sugar;;;;;;;;;x
+sugar_plantation;Sugar Plantation;;;;;;;;;x
+rum_distillery;Rum Distillery;;;;;;;;;x
+artisan_rum;Moonshiner;;;;;;;;;x
+spices;Spices;;;;;;;;;x
+spice_plantation;Spice Plantation;;;;;;;;;x
+#;;;;;;;;;;;;;;;;;;;;;;;;;x
+synthetic_rubber_factory;Synthetic Rubber Factory;;;;;;;;;x
+sugar_beet_refinery;Sugar Beet Refinery;;;;;;;;;x
+#;;;;;;;;;;;;;;;;;;;;;;;;;x
+copper;Copper;;;;;;;;;x
+copper_RGO_SIZE;Copper Mine Size;;;;;;;;;x
+lead;Lead;;;;;;;;;x
+lead_RGO_SIZE;Lead Mine Size;;;;;;;;;x
+bronze;Bronze;;;;;;;;;x
+copper_mine;Copper Mine;;;;;;;;;x
+lead_mine;Lead Mine;;;;;;;;;x
+bronze_factory;Bronze Foundry;;;;;;;;;x
+artisan_bronzeworker;Bronzeworker;;;;;;;;;x
+bronze_artillery_factory;Bronze Artillery Factory;;;;;;;;;x
+artisan_bronze_artillery;Artisan Bronze Artillery;;;;;;;;;x
+#;;;;;;;;;;;;;;;;;;;;;;;;;x
+cocoa;Cocoa;;;;;;;;;x
+fur;Furs;;;;;;;;;x
+sea_oil;Whales & Seals;;;;;;;;;x
+#;;;;;;;;;;;;;;;;;;;;;;;;;x
+cocoa_plantation;Cocoa Plantation;;;;;;;;;x
+fur_trapper;Furrier;;;;;;;;;x
+whaler_sealer;Tryworker;;;;;;;;;x
+#;;;;;;;;;;;;;;;;;;;;;;;;;x
+whaler_sealer_fuel;Industrial Trywork;;;;;;;;;x
+artisan_whaler_sealer_fuel;Tryworker;;;;;;;;;x
+wool_fabric_factory;Woolen Fabric Factory;;;;;;;;;x
+#;;;;;;;;;;;;;;;;;;;;;;;;;x
+sea_fuel_refinery;Industrial Trywork;;;;;;;;;x
+fur_luxury_clothes_factory;Luxury Clothes Factory (Fur);;;;;;;;;x
+luxury_clothes_factory;Luxury Clothes Factory (Silk);;;;;;;;;x
+fursil_luxury_clothes_factory;Luxury Clothes Factory (Fur & Silk);;;;;;;;;x
+fur_trapper;Fur Trapper;;;;;;;;;x
+artisan_fur_luxury_clothes;Luxury Clothier (Fur);;;;;;;;;x
+artisan_fursil_luxury_clothes;Luxury Clothier (Fur & Silk);;;;;;;;;x
+#;;;;;;;;;;;;;;;;;;;;;;;;;x
+bronze_artillery_production;Bronze Artillery Production;;;;;;;;;;;;;x,
+bronze_artillery_production_desc;We have advanced our methods of producing artillery. These must be communicated to our factories,so modern artillery may be mass-produced for our armies.;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;;;;;;;;;;;;x
+harpoon_cannon_muzzle;Muzzle-Loaded Harpoon Cannons;;;;;;;;;;;;;x,
+harpoon_cannon_muzzle_desc; ;;;;;;;;;;;;;x,
+harpoon_cannon_breech;Breech-Loaded Harpoon Cannons;;;;;;;;;;;;;x,
+harpoon_cannon_breech_desc; ;;;;;;;;;;;;;x,
+harpoon_rifle;Harpoon Rifles;;;;;;;;;;;;;x,
+harpoon_rifle_desc; ;;;;;;;;;;;;;x,
+factory_ships;Factory Ships;;;;;;;;;;;;;x,
+factory_ships_desc; ;;;;;;;;;;;;;x,
+offshore_tryworks;Offshore Tryworks;;;;;;;;;;;;;x,
+offshore_tryworks_desc; ;;;;;;;;;;;;;x,
+steel_leghold_traps;Steel Leghold Traps;;;;;;;;;;;;;x,
+steel_leghold_traps_desc; ;;;;;;;;;;;;;x,
+kerosene;Kerosene ;;;;;;;;;;;;;x,
+kerosene_desc; ;;;;;;;;;;;;;x,
+#;;;;;;;;;;;;;;;;;;;;;;;;;x
+port_au_prince;Montane Grassland;;;;;;;;;;;;;

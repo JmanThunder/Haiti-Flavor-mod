@@ -74,6 +74,7 @@
 		size = 20000
 	}
 	
+	
 }
 #Carniola Region (460000)  
 #under the rule of Austria in 1836  
@@ -127,6 +128,7 @@
 		size = 20000
 	}
 	
+	
 }
 #Postojna (180000/45000 POPS) 
 769 = {
@@ -177,5 +179,6 @@
 		religion = catholic
 		size = 1975
 	}
+	
 
 }

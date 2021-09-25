@@ -139,6 +139,7 @@
 		religion = jewish
 		size = 2000
 	}
+	
 }
 #Bihac (100000/25000 POPS)
 784 = {
@@ -219,6 +220,7 @@
 		religion = catholic
 		size = 2650
 	}
+	
 }
 #Banja Luka (116000/29000 POPS)
 785 = {
@@ -299,6 +301,7 @@
 		religion = catholic
 		size = 3675
 	}
+	
 }
 #Tuzla (168000/42000 POPS)
 786 = {
@@ -391,6 +394,7 @@
 		religion = jewish
 		size = 175
 	}
+	
 }
 #Foca (92000/23000 POPS)
 787 = {
@@ -447,6 +451,7 @@
 		religion = orthodox
 		size = 15300
 	}
+	
 }
 #Mostar (104000/26000 POPS)
 788 = {
@@ -527,6 +532,7 @@
 		religion = orthodox
 		size = 12750
 	}
+	
 }
 #Livno (136000/34000 POPS)
 789 = {
@@ -607,5 +613,5 @@
 		religion = orthodox
 		size = 10300
 	}
-
+	
 }

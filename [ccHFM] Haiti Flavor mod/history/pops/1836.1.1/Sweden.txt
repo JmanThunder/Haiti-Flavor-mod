@@ -42,6 +42,7 @@
 		religion = protestant
 		size = 22125
 	}
+	
 }
 #Sundsvall (80000/20000 POPS)
 318 = {
@@ -74,6 +75,7 @@
 		religion = protestant
 		size = 19100
 	}
+	
 }
 #Ostersund (44000/11000 POPS)
 319 = {
@@ -106,6 +108,7 @@
 		religion = protestant
 		size = 1100
 	}
+	
 }
 #Umea (56000/14000 POPS)
 320 = {
@@ -138,6 +141,7 @@
 		religion = protestant
 		size = 1100
 	}
+	
 }
 #Lulea (44000/11000 POPS)
 321 = {
@@ -246,6 +250,7 @@
 		religion = protestant
 		size = 25250
 	}
+	
 }
 #Falun (144000/36000 POPS)
 323 = {
@@ -278,6 +283,7 @@
 		religion = protestant
 		size = 32750
 	}
+	
 }
 #Uppsala (88000/22000 POPS)
 324 = {
@@ -310,6 +316,7 @@
 		religion = protestant
 		size = 19525
 	}
+	
 }
 #Norrkoping (221000/55250 POPS)
 325 = {
@@ -342,6 +349,7 @@
 		religion = protestant
 		size = 50750
 	}
+	
 }
 #Vasteras (212000/53000 POPS)
 326 = {
@@ -374,6 +382,7 @@
 		religion = protestant
 		size = 48750
 	}
+	
 }
 #Orebro (127000/31750 POPS)
 327 = {
@@ -406,6 +415,7 @@
 		religion = protestant
 		size = 28975
 	}
+	
 }
 #Karlstad (190000/47500 POPS)
 328 = {
@@ -438,7 +448,7 @@
 		religion = protestant
 		size = 43300
 	}
-
+	
 }
 #Gotaland Region : 1457000
 #Goteborg (168000/42000 POPS)
@@ -484,6 +494,7 @@
 		religion = protestant
 		size = 33750
 	}
+	
 }
 #Boras (220000/55000 POPS)
 330 = {
@@ -516,6 +527,7 @@
 		religion = protestant
 		size = 50750
 	}
+	
 }
 #Visby (40000/10000 POPS)
 331 = {
@@ -580,6 +592,7 @@
 		religion = protestant
 		size = 41475
 	}
+	
 }
 #Vaxjo (276000/69000 POPS)
 333 = {
@@ -612,6 +625,7 @@
 		religion = protestant
 		size = 63625
 	}
+	
 }
 #Malmo (312000/77000 POPS)
 334 = {
@@ -650,6 +664,7 @@
 		religion = protestant
 		size = 69125
 	}
+	
 }
 #Karlskrona (259000/64750 POPS)
 335 = {
@@ -682,6 +697,7 @@
 		religion = protestant
 		size = 60625
 	}
+	
 
 }
 #Jan Mayen, now St Barths 
