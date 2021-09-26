@@ -1953,6 +1953,12 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\terrain_kassel.tga"
 		norefcount = yes
 	}
+
+	spriteType = {
+    	name = "GFX_terrainimg_port_au_prince"
+    	texturefile = "gfx\\interface\\terrain_port_au_prince.tga"
+		norefcount = yes
+	}
 	
 	spriteType = {
 		name = "GFX_terrainimg_new_world_montane_tundra"

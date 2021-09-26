@@ -13,7 +13,7 @@ prestige = 5
 
 # Political reforms
 slavery = no_slavery
-upper_house_composition = party_appointed
+upper_house_composition = state_equal_weight
 vote_franschise = none_voting
 public_meetings = no_meeting
 press_rights = state_press
@@ -44,12 +44,12 @@ set_country_flag = catholic_country
 set_country_flag = new_world_nation
 set_country_flag = slave_revolution
 
-ruling_party = HAI_reactionary
+ruling_party = HAI_conservative
 upper_house = {
 	fascist = 0
-	liberal = 0
-	conservative = 0
-	reactionary = 100
+	liberal = 40
+	conservative = 40
+	reactionary = 20
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
