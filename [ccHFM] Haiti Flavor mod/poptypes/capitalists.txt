@@ -32,14 +32,16 @@ everyday_needs = {
 	paper = 20
 	luxury_clothes = 20
 	luxury_furniture = 20
-	wine = 20
-	tobacco = 20 
-	coffee = 20
+	wine = 10
+	tobacco = 10 
+	coffee = 10
 	tea = 10
 	radio = 4
 	telephones = 5
 	automobiles = 1
 	steamer_convoy = 1.5
+	sugar = 20
+	cocoa = 10
 }
 
 #Total cash needed: 3883 - Vanilla value: 3863

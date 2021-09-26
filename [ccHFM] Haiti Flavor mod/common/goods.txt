@@ -227,4 +227,12 @@ consumer_goods = {
 		available_from_start = no
 		color = { 129 63 6 }
 	}
+	sugar = {
+		cost = 1.35
+		color = { 253 199 110 }
+	}
+	cocoa = {
+		cost = 3
+		color = { 253 199 110 }
+	}
 }

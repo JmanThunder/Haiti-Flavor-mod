@@ -47,7 +47,7 @@ everyday_needs = {
 	liquor = 4			#17.6
 	regular_clothes = 5 #29
 	furniture = 4		#19.6
-	paper = 5			#17
+	paper = 4			#17
 	glass = 1			#2.9
 	tobacco = 3			#3.3
 	tea = 5				#13
@@ -56,13 +56,14 @@ everyday_needs = {
 	small_arms = 0.4 	#14.8
 	radio = 0.5			#8
 	telephones = 0.5	#8
+	sugar = 1
 }
 
 #Total cash needed: 437.4 - Vanilla value: 383.4
 luxury_needs = {
 	canned_food = 0.75
 	fruit = 1
-	wool = 3
+	wool = 2.5
 	opium = 1
 	luxury_clothes = 1
 	luxury_furniture = 1
@@ -73,6 +74,7 @@ luxury_needs = {
 	steamer_convoy = 0.5
 	radio = 1
 	fuel = 0.2
+	cocoa = 0.5
 }
 
 country_migration_target = {

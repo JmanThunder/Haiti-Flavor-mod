@@ -7,6 +7,21 @@
 		religion = catholic
 		size = 825
 	}
+	capitalists = {
+		culture = mulatto
+		religion = catholic
+		size = 5
+	}
+	clerks = {
+		culture = mulatto
+		religion = catholic
+		size = 50
+	}
+	craftsmen = {
+		culture = afro_antillean
+		religion = catholic
+		size = 500
+	}
 	bureaucrats = {
 		culture = mulatto
 		religion = catholic

@@ -724,3 +724,44 @@ railroad = {
 	spawn_railway_track = yes
 }
 
+sugar_beet_refinery = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		machine_parts = 50
+		bronze = 50
+		cement = 50
+	}
+	time = 365
+	visibility = yes
+	onmap = no
+
+	production_type = sugar_beet_refinery 
+	pop_build_factory = yes
+}
+rum_distillery = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 80
+		iron = 100
+		bronze = 100
+		cement = 200
+	}
+	time = 365
+	visibility = yes
+	onmap = no
+	
+	default_enabled = yes	
+	production_type = rum_distillery
+	pop_build_factory = yes
+}

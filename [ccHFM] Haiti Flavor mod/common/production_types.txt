@@ -1469,3 +1469,64 @@ artisan_fabric_wool = {
 	
 	workforce = 10000
 }
+#haiti rgos#
+sugar_beet_refinery = {       
+	template = cheap_factory_template	#24
+	input_goods = { 
+		fruit = 44
+		}
+	output_goods = sugar
+	value = 75
+	bonus = {
+		trigger = { trade_goods_in_state = fruit }
+		value = 0.2
+	}
+}
+
+cocoa_plantation = {
+	template = RGO_template_farmers
+	output_goods = cocoa 
+	value = 2
+	farm = yes
+}
+sugar_plantation = {
+	template = RGO_template_farmers
+	output_goods = sugar 
+	value = 3.6
+	farm = yes
+}
+
+rum_distillery = {
+	template = cheap_factory_template
+	input_goods = {        
+		sugar = 12 #16.2
+		glass = 13 #37.7 = 53.9
+	}
+	output_goods = liquor 
+	value = 17
+	bonus = {
+		trigger = { has_building = glass_factory }
+		value = 0.15
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = sugar }
+		value = 0.5
+	}
+}
+artisan_rum = {     
+	input_goods = {        
+		sugar = 7 #9.45
+		glass = 8 #23.2 = 35.65
+	}
+	output_goods = liquor 
+	value = 10
+	
+	owner = {
+		poptype = artisans  
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
