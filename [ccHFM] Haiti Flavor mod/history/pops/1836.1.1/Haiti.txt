@@ -5,120 +5,120 @@
 	aristocrats = {
 		culture = mulatto
 		religion = catholic
-		size = 618.75
+		size = 288.75
 	}
 	capitalists = {
 		culture = mulatto
 		religion = catholic
-		size = 3.75
+		size = 1.75
 	}
 	clerks = {
 		culture = mulatto
 		religion = catholic
-		size = 37.5
+		size = 17.5
 	}
 	craftsmen = {
 		culture = afro_antillean
 		religion = catholic
-		size = 375
+		size = 175
 	}
 	bureaucrats = {
 		culture = mulatto
 		religion = catholic
-		size = 3000
+		size = 1400
 	}
 	officers = {
 		culture = mulatto
 		religion = catholic
-		size = 1125
+		size = 525
 	}
 
 	clergymen = {
 		culture = mulatto
 		religion = catholic
-		size = 1312.5
+		size = 612.5
 	}
 
 	artisans = {
 		culture = mulatto
 		religion = catholic
-		size = 10537.5
+		size = 4917.5
 	}
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 3037.5
+		size = 1417.5
 	}
 	artisans = {
 		culture = cajun
 		religion = catholic
-		size = 3037.5
+		size = 1417.5
 	}
 	clerks = {
 		culture = mulatto
 		religion = catholic
-		size = 187.5
+		size = 87.5
 	}
 	craftsmen = {
 		culture = afro_antillean
 		religion = catholic
-		size = 1875
+		size = 875
 	}
 	soldiers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 1500
+		size = 700
 	}
 	soldiers = {
 		culture = polish
 		religion = catholic
-		size = 3750
+		size = 1750
 	}
 	farmers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 103725
+		size = 48405
 	}
 }
 3325 = {
 	artisans = {
 		culture = mulatto
 		religion = catholic
-		size = 618.75
+		size = 288.75
 	}
 	farmers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 28725
+		size = 13405
 	}
 }
 3326 = {
 	artisans = {
 		culture = mulatto
 		religion = catholic
-		size = 61.5
+		size = 28.7
 	}
 	farmers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 5122.5
+		size = 2390.5
 	}
 }
 3327 = {
 	artisans = {
 		culture = mulatto
 		religion = catholic
-		size = 618.75
+		size = 288.75
 	}
 	farmers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 28725
+		size = 13405
 	}
 	farmers = {
 		culture = afro_american
 		religion = catholic
-		size = 2872.5
+		size = 1340.5
 	}
 }
 
@@ -126,24 +126,24 @@
 	artisans = {
 		culture = mulatto
 		religion = catholic
-		size = 618.75
+		size = 288.75
 	}
 	farmers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 28725
+		size = 13405
 	}
 }
 3329 = {
 	artisans = {
 		culture = mulatto
 		religion = catholic
-		size = 61.5
+		size = 28.7
 	}
 	farmers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 5122.5
+		size = 2390.5
 	}
 }
 #Cap Haitien (204000/51000 POPS)
@@ -151,157 +151,156 @@
 	aristocrats = {
 		culture = mulatto
 		religion = catholic
-		size = 412.5
+		size = 192.5
 	}
 	bureaucrats = {
 		culture = mulatto
 		religion = catholic
-		size = 1500
+		size = 700
 	}
 	clergymen = {
 		culture = mulatto
 		religion = catholic
-		size = 562.5
+		size = 262.5
 	}
 
 	artisans = {
 		culture = mulatto
 		religion = catholic
-		size = 9412.5
+		size = 4392.5
 	}
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 3037.5
+		size = 1417.5
 	}
 	soldiers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 3000
+		size = 1400
 	}
 
 	farmers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 65118.75
+		size = 30388.749999999996
 	}
 
 }
-
 3297 = {
 	farmers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 5118.75
+		size = 2388.75
 	}
 	bureaucrats = {
 		culture = mulatto
 		religion = catholic
-		size = 1500
+		size = 700
 	}
 }
 3298 = {
 	aristocrats = {
 		culture = caribeno
 		religion = catholic
-		size = 412.5
+		size = 192.5
 	}
-	
+
 	clergymen = {
 		culture = caribeno
 		religion = catholic
-		size = 75
+		size = 35
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = catholic
-		size = 300
+		size = 140
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = catholic
-		size = 37.5
+		size = 17.5
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = catholic
-		size = 7631.25
+		size = 3561.25
 	}
 
 	clergymen = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 37.5
+		size = 17.5
 	}
 
 	artisans = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 225
+		size = 105
 	}
 
 	soldiers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 56.25
+		size = 26.25
 	}
 
 	farmers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 14681.25
+		size = 6851.25
 	}
 	farmers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 7181.25
+		size = 3351.25
 	}
 	bureaucrats = {
 		culture = mulatto
 		religion = catholic
-		size = 1500
+		size = 700
 	}
 }
 3299 = {
 	aristocrats = {
 		culture = mulatto
 		religion = catholic
-		size = 412.5
+		size = 192.5
 	}
 
 	clergymen = {
 		culture = mulatto
 		religion = catholic
-		size = 562.5
+		size = 262.5
 	}
 
 	artisans = {
 		culture = mulatto
 		religion = catholic
-		size = 941.25
+		size = 439.25
 	}
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 303.75
+		size = 141.75
 	}
 	soldiers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 3000
+		size = 1400
 	}
 
 	farmers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 20118.75
+		size = 9388.75
 	}
 	bureaucrats = {
 		culture = mulatto
 		religion = catholic
-		size = 1500
+		size = 700
 	}
 }

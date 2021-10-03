@@ -3334,3 +3334,85 @@ country-workshop.hanseatic-challenger = {
 
     war_exhaustion = -0.01
 }
+###Haiti Flavor Mod###
+code_rural = {
+	icon = 18
+	pop_militancy_modifier = 0.05
+	farm_rgo_eff = -0.05
+}
+subsistence_farming = {
+	icon = 17
+	poor_life_needs = -0.5
+	farm_rgo_eff = -0.25
+	goods_demand = -0.6
+}
+american_blockade = {
+	icon = 8
+	import_cost = 1.25
+	loan_interest = 1.5
+	diplomatic_points_modifier = -0.3
+}
+haitian_debt = {
+	icon = 7
+	rich_income_modifier = 2.5
+	pop_militancy_modifier = -0.01
+}
+hai_rev_vets = {
+	icon = 17
+	mobilisation_size = 0.25
+	org_regain = 0.25
+	land_organisation = 0.25
+	pop_militancy_modifier = 0.01
+}
+jean_boyer_reforms = {
+	tax_efficiency = -0.1
+	icon = 1
+}
+socialist_economy = {
+	min_social_spending = 0.5
+	education_efficiency_modifier = 0.25
+	global_immigrant_attract = 0.75
+	suppression_points_modifier = 0.2
+	non_accepted_pop_militancy_modifier = -0.02
+	political_reform_desire = -0.1
+	leadership_modifier = -0.1
+	rich_income_modifier = -0.1
+	poor_income_modifier = 1.75
+	icon = 1
+}
+capitalist_economy = {
+	education_efficiency_modifier = 0.05
+	global_immigrant_attract = 0.25
+	suppression_points_modifier = 0.75
+	non_accepted_pop_militancy_modifier = -0.01
+	political_reform_desire = 0.1
+	leadership_modifier = 0.5
+	rich_income_modifier = 7.5
+	poor_income_modifier = 0.5
+	rgo_output = 0.5
+	icon = 1
+}
+standing_army = {
+	icon = 17
+	org_regain = 0.25
+	land_organisation = 0.25
+	land_unit_start_experience = 0.25
+	land_attrition = -0.25
+	mobilisation_size = -0.25
+	mobilisation_economy_impact = -0.05
+}
+mob_army = {
+	icon = 17
+	land_unit_start_experience = -0.15
+	land_attrition = -0.5
+	mobilisation_size = 0.35
+	mobilisation_economy_impact = 0.35
+}
+oligrachy = {
+	icon = 12
+	rich_income_modifier = 2.5
+	poor_income_modifier = -0.2
+	pop_militancy_modifier = 0.03
+	research_points_modifier = -0.1
+	tax_efficiency = -0.05
+}

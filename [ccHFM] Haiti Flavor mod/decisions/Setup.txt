@@ -3057,4 +3057,69 @@ political_decisions = {
 			}
 		}
 	}
+	HAI_setup = {
+		picture = constantinople
+		potential = {
+			tag = HAI
+			always = no
+		}
+		
+		allow = {
+			tag = HAI
+		}
+
+		effect = {
+			set_country_flag = pres_boyer
+			any_owned = { add_province_modifier = { name = baby_boom duration = 3650 } }
+			treasury = 250000
+			leadership = 100
+        	ammunition = 100
+        	small_arms = 100
+        	artillery = 25
+        	canned_food = 100
+        	grain = 200
+        	wine = 100
+        	luxury_clothes = 25
+        	machine_parts = 500
+        	clipper_convoy = 50
+        	wool = 50
+			add_country_modifier = {
+				name = american_blockade
+				duration = -1
+			}
+			add_country_modifier = {
+				name = hai_rev_vets
+				duration = 2190
+			}
+			add_country_modifier = {
+				name = oligrachy
+				duration = -1
+			}
+			any_owned = {
+				limit = {
+					is_core = HAI
+				}
+				add_province_modifier = {
+					name = code_rural
+					duration = -1
+				}
+				add_province_modifier = {
+					name = subsistence_farming
+					duration = -1
+				}
+			}
+			FRA = {
+				add_country_modifier = {
+					name = haitian_debt
+					duration = 912
+				}
+			}
+			any_pop = {
+				limit = { 
+					has_pop_culture = mulatto  
+				}
+				literacy = 0.75 
+			} 
+		}
+	}
 }

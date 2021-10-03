@@ -1,0 +1,765 @@
+#Concordat With The Vatican
+country_event = {
+
+	id = 45100
+
+	trigger = {
+		tag = HAI
+		PAP = {
+			relation = 200
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1861
+		}
+		
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1862
+		}
+	}
+
+	title = "EVTNAME45100"
+	desc = "EVTDESC45100"
+	picture = "pope"
+
+	option = {
+		name = "EVTOPTA45100" 
+		any_owned = {
+			add_province_modifier = {
+				name = reading
+				duration = -1
+			}
+		}
+		PAP = {
+			sugar = 500
+		}
+		prestige = 5
+		relation = { who = PAP value = 50 }
+		any_pop = { limit = { is_state_religion = yes } scaled_militancy = { factor = -3 issue = moralism } }
+	}
+}
+
+# Emperor Faustan Soulique
+country_event = {
+
+	id = 45101
+
+	title = "EVTNAME45101"
+	desc = "EVTDESC45101"
+	picture = "monarchy"
+
+	trigger = {
+		tag = HAI
+		year = 1847
+		government = democracy
+		NOT = { year = 1859 }
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "EVTOPTA45101"
+		government = absolute_monarchy
+		ruling_party_ideology = reactionary
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = state_controlled
+		political_reform = underground_parties
+		prestige = 5
+		country_event = 800050
+	}
+	option = {
+		name = "The Republic must Stand"
+		prestige = -25
+	}
+}
+
+# La Trinitaria
+country_event = {
+
+	id = 45102
+
+	title = "EVTNAME45102"
+	desc = "EVTDESC45102"
+	picture = "la_trinitaria"
+
+	trigger = {
+		tag = HAI
+		year = 1838
+		owns = 2214
+		owns = 2216
+		NOT = { exists = DOM }
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 6
+	}				
+			
+	option = {
+		name = "EVT45102OPTA"
+		any_pop = {
+			limit = {
+				location = { is_core = DOM }
+				has_pop_culture = caribeno
+				}
+			militancy = 5
+			consciousness = 5
+		}
+		any_owned = {
+			limit = { is_core = DOM }
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 2190
+			}
+		}
+	}
+}
+
+
+country_event = {
+
+	id = 45103
+
+	title = "2nd of Massacre of Santo-Domingo"
+	desc = "In 1805 60,000-75,000 Domincans were killed by Dessailines and Christophe, but many now argue that we should do it again."
+	picture = "dominican_revolution"
+
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = DOM_revolt
+		tag = HAI
+		owns = 2214
+		owns = 2216
+	}
+	
+	mean_time_to_happen = { months = 1 }
+		
+			
+	option = {
+		name = "Kill as many as possible!!!"
+		badboy = 15
+		prestige = -50
+		any_pop = {
+			limit  = {
+				OR = {
+					has_pop_culture = afro_caribeno
+					has_pop_culture = caribeno
+				}
+			}
+			reduce_pop = 0.05
+		}
+		any_pop = {
+			limit  = {
+				OR = {
+					has_pop_culture = polish
+				}
+			}
+			reduce_pop = 7.5
+		}
+	}
+	option = {
+		name = "Spare them this time."
+		prestige = 5
+		badboy = -15
+	}
+}
+
+country_event = {
+
+	id = 45104
+
+	title = "Revolts of 1843 against Boyer"
+	desc = "The Haitian Revolution had a succes but French debt and division has plagued the young nation, now it is civil war."
+	picture = "dominican_revolution"
+
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = { has_country_flag = treaty_of_cap_haitian }
+		tag = HAI
+		owns = 2214
+		owns = 2216
+		exists = yes
+		2214 = { is_core = HAI }
+		2216 = { is_core = HAI }
+		year = 1843
+		any_owned_province = { is_core = DOM average_militancy = 6 }
+		NOT = { year = 1870 }
+	}
+	
+	mean_time_to_happen = { months = 2 }
+
+	immediate = {
+		#any_pop = {
+		#	limit = {
+		#		pop_type = farmers
+		#		NOT = { militancy = 3 }
+		#	}
+		#	pop_type = soldiers
+		#}
+		any_owned = {
+			limit = {
+				is_core = HAI 
+				NOT = {
+					is_core = DOM
+				}
+			}
+			add_core = DMG
+		}
+		add_country_modifier = { name = rally_tribesmen duration = 3650 }
+		add_country_modifier = { name = corrupt_army duration = 3650 }
+		clr_country_flag = pres_boyer
+		set_country_flag = DOM_revolt
+		remove_accepted_culture = caribeno
+		remove_accepted_culture = afro_caribeno	
+		any_owned = {
+			limit = { 
+				is_core = HAI
+				NOT = {
+					is_core = DOM
+				}
+			}
+			add_core = KHT
+		}
+		2215 = { secede_province = KHT }
+		3327 = { secede_province = KHT }
+		3328 = { secede_province = KHT }
+		3329 = { secede_province = KHT }
+		3297 = { secede_province = KHT }
+		KHT = {
+			government = absolute_monarchy
+			ruling_party_ideology = reactionary
+			political_reform = none_voting
+			political_reform = party_appointed
+			political_reform = no_meeting
+			political_reform = state_press
+			political_reform = state_controlled
+			political_reform = underground_parties
+			country_event = 800050
+			add_country_modifier = { name = corrupt_army duration = 3650 }
+			add_country_modifier = { name = rally_tribesmen duration = 3650 }
+			capital_scope = {
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = cavalry value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+			}
+		}
+		FRA = {
+        	diplomatic_influence = { who = DMG value = 400 }
+        }
+		DMG = {
+			government = colonial_company
+			political_reform = none_voting
+			political_reform = party_appointed
+			political_reform = no_meeting
+			political_reform = state_press
+			political_reform = state_controlled
+			political_reform = underground_parties
+			add_country_modifier = { name = rally_tribesmen duration = 3650 }
+			add_country_modifier = { name = corrupt_army duration = 3650 }
+			capital_scope = {
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = cavalry value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+			}
+		}
+		3299 = { secede_province = DMG }
+		any_owned = {
+			limit = { is_core = DOM }
+			any_pop = { militancy = -9 consciousness = -9 }
+			remove_province_modifier = nationalist_agitation
+			secede_province = DOM
+		}
+		USA = {
+        	diplomatic_influence = { who = DOM value = 400 }
+        }
+		DOM = {
+			money = 250000
+			leadership = 100
+			ammunition = 100
+			small_arms = 100
+			artillery = 20
+			canned_food = 100
+			wine = 100
+			luxury_clothes = 30
+			machine_parts = 500
+			clipper_convoy = 50
+			wool = 50
+			define_general = {
+				name = "Pedro Santana"
+				personality = unit_personality
+				background = implacablexnationalist
+			}
+			any_pop = {
+				limit  = {
+					OR = {
+						has_pop_culture = afro_caribeno
+						has_pop_culture = caribeno
+					}
+					pop_type = soldiers
+				}
+				reduce_pop = 2.0
+			}
+			add_country_modifier = { name = unrecognized_country duration = 3650 }
+			add_country_modifier = { name = rally_tribesmen duration = 3650 }
+			capital_scope = {
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = cavalry value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+			}
+		}
+		relation = { who = DOM value = -400 }
+		relation = { who = KHT value = -400 }
+		relation = { who = DMG value = -400 }
+		war = {
+			target = DOM
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = status_quo }
+		}
+		war = {
+			target = KHT
+			attacker_goal = { casus_belli = civil_war }
+			defender_goal = { casus_belli = civil_war }
+		}
+		war = {
+			target = DMG
+			attacker_goal = { casus_belli = civil_war }
+			defender_goal = { casus_belli = civil_war }
+		}
+	}
+		
+	option = {
+		name = "EVT45104OPTA"
+		ammunition = 100
+		small_arms = 100
+		artillery = 20
+		canned_food = 100
+		wine = 100
+		luxury_clothes = 30
+		machine_parts = 500
+		clipper_convoy = 50
+		wool = 50
+		ai_chance = { factor = 100 }
+	}
+
+	option = {
+		name = "EVT45104OPTB"
+		change_tag_no_core_switch = DOM
+		ai_chance = { factor = 0 }
+	}
+	option = {
+		name = "Kingdom of Haiti"
+		change_tag_no_core_switch = KHT
+		ai_chance = { factor = 0 }
+	}
+	option = {
+		name = "Colony of Saint-Domingue"
+		change_tag_no_core_switch = DMG
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+
+	id = 45105
+
+	title = "EVTNAME45105"
+	desc = "EVTDESC45105"
+	picture = "annexation_santo_domingo"
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT45105OPTA"
+		FROM = {
+			random = {
+				chance = 60
+				badboy = 5
+				any_owned = {
+					any_pop = {
+						scaled_militancy = { factor = 1 ideology = conservative }
+						scaled_militancy = { factor = 3 ideology = liberal }
+						scaled_militancy = { factor = 3 ideology = socialist }
+						scaled_militancy = { factor = 2 issue = pacifism }
+						scaled_consciousness = { factor = 4 issue = pacifism }
+					}
+				}
+				any_country = { limit = { is_greater_power = yes } relation = { who = USA value = -100 } }
+			}
+			treasury = -100000
+		}
+		
+		DOM = { civilized = no }
+		DOM = { annex_to = FROM }
+		DOM = { civilized = yes }
+		
+		ai_chance = {
+			factor = 0.3
+			modifier = { factor = 100 vassal_of = FROM }
+			modifier = { factor = 1.2 NOT = { literacy = 0.1 } }
+		}
+	}
+
+	option = {
+		name = "EVT45105OPTB"
+		FROM = { diplomatic_influence = { who = THIS value = -100} }
+		relation = { who = FROM value = -50 }
+		ai_chance = {
+			factor = 0.7
+			modifier = { factor = 0 vassal_of = FROM }
+			modifier = { factor = 1.5 literacy = 0.3 }
+		}
+	}
+}
+country_event = {
+
+    id = 45106
+
+    title = "EVTNAME45106"
+    desc = "EVTDESC45106"
+    picture = "haiti_debts"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVT45106OPTA"
+        prestige = -10
+        FRA = { 
+        	treasury = 100000
+        	any_pop = {
+        		limit = {
+        			has_pop_culture = afro_antillean
+        		}
+        		reduce_pop = 1.05
+        	}
+        	add_country_modifier = {
+				name = haitian_debt
+				duration = 2190
+			}
+        }
+        HAI = { 
+        	treasury = -75000
+   			set_country_flag = agreed_to_pay_debt
+        	random_owned = {
+        	    limit = {
+        	        owner = {
+        	            NOT = { money = 100000 }
+        	            check_variable = { which = owed_cash_money value = 9 }
+        	        }
+        	    }
+        	    owner = { change_variable = { which = owed_cash_money value = 500 } }
+        	}
+        	random_owned = {
+        	    limit = {
+        	        owner = {
+        	            NOT = { money = 100000 }
+        	            NOT = { check_variable = { which = owed_cash_money value = 1 } }
+        	        }
+        	    }
+        	    owner = { set_variable = { which = owed_cash_money value = 500 } }
+        	}
+        }
+        ai_chance = {
+            factor = 90
+        }
+    }
+
+    option = {
+        name = "EVT45106OPTB"
+        prestige = 10
+        FRA = { country_event = 45107 }
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+country_event = {
+
+    id = 45107
+
+    title = "EVTNAME45107"
+    desc = "EVTDESC45107"
+    picture = "haiti_debts"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVT45107OPTA"
+        casus_belli = {
+            target = FROM
+            type = war_reparations
+            months = 12
+        }
+        war = {
+            target = FROM
+            attacker_goal = { casus_belli = war_reparations }
+        }
+        ai_chance = {
+            factor = 90
+        }
+    }
+
+    option = {
+        name = "EVT45107OPTB"
+        badboy = 8
+        relation = { who = USA value = -200 }
+        add_casus_belli = {
+            target = USA
+            type = cut_down_to_size
+            months = 48
+        }
+        casus_belli = {
+            target = FROM
+            type = war_reparations
+            months = 80
+        }
+        casus_belli = {
+            target = FROM
+            type = make_puppet
+            months = 120
+        }
+        war = {
+            target = FROM
+            attacker_goal = { casus_belli = war_reparations }
+        }
+        ai_chance = {
+            factor = 5
+        }
+    }
+    option = {
+        name = "EVT45107OPTC"
+        badboy = 10
+        relation = { who = USA value = -300 }
+        add_casus_belli = {
+            target = USA
+            type = cut_down_to_size
+            months = 48
+        }
+        casus_belli = {
+            target = FROM
+            type = conquest
+            months = 12
+        }
+        war = {
+            target = FROM
+            attacker_goal = { casus_belli = conquest }
+        }
+        ai_chance = {
+            factor = 4
+        }
+    }
+    option = {
+        name = "EVT45107OPTD"
+        badboy = -2
+        prestige = -20
+        relation = { who = HAI value = 200 }
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+country_event = {
+
+	id = 45109
+
+	title = "Rural Code"
+	desc = "With the continued reforms set forth by Boyer we shall end the semi-feudal Rural Code to replace with a new system."
+	picture = "monarchy"
+
+	trigger = {
+		tag = HAI
+		has_country_flag = end_rural_law
+		NOT = {
+			has_country_modifier = jean_boyer_reforms
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "Capitalist economy"
+		any_owned = {
+			remove_province_modifier = code_rural
+			remove_province_modifier = subsistence_farming
+			add_country_modifier = {
+				name = capitalist_economy
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "Socialist economy!"
+		any_owned = {
+			remove_province_modifier = code_rural
+			remove_province_modifier = subsistence_farming
+			add_country_modifier = {
+				name = socialist_economy
+				duration = -1
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 45109
+
+	title = "The Purge of the Oligarchs"
+	desc = "Due to the monarchy in the north and the rural code in the south, Haiti has developed an Oligarchy which must be removed"
+	picture = "monarchy"
+
+	trigger = {
+		tag = HAI
+		has_country_flag = end_oligrachs
+		NOT = {
+			has_country_modifier = jean_boyer_reforms
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "OFF WITH THEIR HEADS!!!"
+		remove_country_modifier = oligrachy
+	}
+}
+country_event = {
+
+	id = 45110
+
+	title = "Army Reform"
+	desc = "With constant threats from abroad we must reform our army to keep with France and other nations."
+	picture = "Military_reform"
+
+	trigger = {
+		tag = HAI
+		has_country_flag = army_reform
+		NOT = {
+			has_country_modifier = jean_boyer_reforms
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "Professional Army"
+		add_country_modifier = {
+			name = standing_army
+			duration = -1
+		}
+	}
+	option = {
+		name = "Conscription Army"
+		add_country_modifier = {
+			name = mob_army
+			duration = -1
+		}
+	}
+}
+country_event = {
+
+	id = 45111
+
+	trigger = {
+		tag = HAI
+		has_country_flag = army_reform
+		has_country_flag = end_oligrachs
+		has_country_flag = end_rural_law
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "All Reform Enacted"
+	desc = "All of the reforms of Boyer have been completed."
+	picture = "Military_reform"
+
+	option = {
+		name = "Hurray, for Haiti" 
+		prestige = 5
+	}
+}
+country_event = {
+
+	id = 45112
+
+	trigger = {
+		tag = HAI
+		year = 1842
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+	}
+
+	title = "Cap-Haitian Earthquake of 1842"
+	desc = "A horrible earthquake has hit the Northern regions killing many, but many more nobles are getting uppity with the Republic."
+	picture = "great_neapolitan_earthquake"
+
+	option = {
+		name = "Oh, no" 
+		2215 = {
+			any_pop = { 
+				militancy = 4
+				consciousness = 6 
+				reduce_pop = 0.99
+			}
+		}
+	}
+}

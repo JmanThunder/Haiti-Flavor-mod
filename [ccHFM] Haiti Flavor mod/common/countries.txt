@@ -5,6 +5,12 @@ REB 	= 	"countries/rebels.txt"
 
 ### NEW NATIONS MOD ###
 
+### Haiti Flavor Mod###
+DMG 	= "countries/Saint-Domingue.txt"
+KHT		= "countries/Kingdom of Haiti.txt" 
+GLP		= "countries/Guadeloupe.txt"
+
+
 ###France Mod###
 NZF		="countries/French New Zealand.txt"
 FAS		="countries/French Australia.txt"

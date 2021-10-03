@@ -1,0 +1,370 @@
+song = {
+	name = "adayatthecourt.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "buckinghampalace.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "countryside.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "deathofprincealbert.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "europeanno1850.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "forgodandqueen.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "handelthis.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "inventions.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "johanswaltz.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "newworldanthem.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "poverty.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "queensscherzo.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "russia1917.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "theroyalmarch.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "wehaveindependence.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "winter.mp3"
+	chance = { factor = 1 }
+}
+
+###Viky 1 songs###
+song = {
+	name = "LeCorsaire.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "SymphonieFantastique.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "S4EMajorScherzoAM.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "CarmenPrelude.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "Gopak.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "SQno62.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "Tannhauser.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "TheProphetCoronationMarch.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "MarcheSolennelle.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "S4AMajorItalianSaltarelloPresto.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "IVespriSicilianiSinfonia.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "Sadko.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "Rusalka.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "MaidofOrleansEntracte.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "OvertureLifeForTheTsar.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "TritschTratschPolka.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "RadetzkyMarch.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "HandsAcrossTheSea.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "LookingUpwardMarsVenus.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "TheRoyalWelchFusiliers.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "KingCotton.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "UnterDonnerUndBlitz.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "IndigoMarsch.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "NapoleonMarsch.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "LaForzaDelDestinoSinfonia.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "RuleBrittaniaOverture.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "ImperialMarch.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "VienneseMusicalClock.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "GrandMarchFromAida.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "HomageMarch.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "HakkapeliittainMarssi.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "PorilaistenMarssi.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "MarciaCarolusRex.mp3"
+	chance = { factor = 1 }
+}
+
+###USA and CSA songs###
+song = {
+	name = "ohimagoodolrebel.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			NOT = { OR = { tag = USA tag = CSA } }
+		}
+	}
+}
+song = {
+	name = "marchingthroughgeorgia.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			NOT = { OR = { tag = USA tag = CSA } }
+		}
+	}
+}
+song = {
+	name = "jonnycomesmarchinghome.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			NOT = { OR = { tag = USA tag = CSA } }
+		}
+	}
+}
+song = {
+	name = "battlehymnoftherepublic.mp3"
+	chance = {
+		modifier = {
+			factor = 0
+			NOT = { OR = { tag = USA tag = CSA } }
+		}
+	}
+}
+#############
+#Haiti Songs#
+#############
+song = {
+	name = "Proud Haiti.mp3"
+	chance = {
+		factor = 1
+		modifier = {
+        	factor = 1
+        	tag = HAI
+    	}
+    	modifier = {
+    		factor = 0
+    		NOT = { tag = HAI }
+    	}
+	}
+}
+song = {
+	name = "Haiti Cherie French.mp3"
+	chance = {
+		factor = 1
+		modifier = {
+        	factor = 1
+        	tag = HAI
+    	}
+    	modifier = {
+    		factor = 0
+    		NOT = { tag = HAI }
+    	}
+	}
+}
+song = {
+	name = "Haiti Cherie French.mp3"
+	chance = {
+		factor = 1
+		modifier = {
+        	factor = 1
+        	tag = HAI
+    	}
+    	modifier = {
+    		factor = 0
+    		NOT = { tag = HAI }
+    	}
+	}
+}
+song = {
+	name = "Haitian Fight Song.mp3"
+	chance = {
+		factor = 1
+		modifier = {
+        	factor = 1
+        	tag = HAI
+    	}
+    	modifier = {
+    		factor = 0
+    		NOT = { tag = HAI }
+    	}
+	}
+}
+song = {
+	name = "Haitian Revolution.mp3"
+	chance = {
+		factor = 1
+		modifier = {
+        	factor = 1
+        	tag = HAI
+    	}
+    	modifier = {
+    		factor = 0
+    		NOT = { tag = HAI }
+    	}
+	}
+}
+song = {
+	name = "El Libertador.mp3"
+	chance = {
+		factor = 1
+		modifier = {
+        	factor = 1
+        	OR = {
+        		tag = CLM
+        		tag = VNZ
+        		tag = ECU
+        		tag = HAI
+        	}
+    	}
+    	modifier = {
+    		factor = 0
+    		NOT = { tag = HAI }
+    	}
+	}
+}
+song = {
+	name = "The Haitian La Marseillaise.mp3"
+	chance = {
+		factor = 1
+		modifier = {
+        	factor = 1
+        	tag = HAI
+    	}
+    	modifier = {
+    		factor = 0
+    		NOT = { tag = HAI }
+    	}
+	}
+}
+song = {
+	name = "Crete_a_pierrot.mp3"
+	chance = {
+		factor = 1
+		modifier = {
+        	factor = 1
+        	tag = HAI
+    	}
+    	modifier = {
+    		factor = 0
+    		NOT = { tag = HAI }
+    	}
+	}
+}
+song = {
+	name = "HAI anthem.mp3"
+	chance = {
+		factor = 1
+		modifier = {
+        	factor = 1
+        	tag = HAI
+    	}
+    	modifier = {
+    		factor = 0
+    		NOT = { tag = HAI }
+    	}
+	}
+}
