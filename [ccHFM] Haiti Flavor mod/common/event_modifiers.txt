@@ -3342,9 +3342,9 @@ code_rural = {
 }
 subsistence_farming = {
 	icon = 17
-	poor_life_needs = -0.5
+	poor_life_needs = -0.1
 	farm_rgo_eff = -0.25
-	goods_demand = -0.6
+	goods_demand = -0.05
 }
 american_blockade = {
 	icon = 8
