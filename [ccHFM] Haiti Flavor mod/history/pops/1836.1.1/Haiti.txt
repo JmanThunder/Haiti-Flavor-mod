@@ -8,9 +8,9 @@
 		size = 288.75
 	}
 	capitalists = {
-		culture = mulatto
+		culture = north_german
 		religion = catholic
-		size = 1.75
+		size = 50
 	}
 	clerks = {
 		culture = mulatto
@@ -42,7 +42,7 @@
 	artisans = {
 		culture = mulatto
 		religion = catholic
-		size = 4917.5
+		size = 49170.5
 	}
 	artisans = {
 		culture = french_canadian
@@ -64,20 +64,25 @@
 		religion = catholic
 		size = 875
 	}
+	#soldiers = {
+	#	culture = afro_antillean
+	#	religion = catholic
+	#	size = 700
+	#}
 	soldiers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 700
+		size = 25700
 	}
 	soldiers = {
 		culture = polish
 		religion = catholic
-		size = 1750
+		size = 5750
 	}
 	farmers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 48405
+		size = 78405
 	}
 }
 3325 = {
@@ -179,7 +184,11 @@
 		religion = catholic
 		size = 1400
 	}
-
+	soldiers = {
+		culture = afro_antillean
+		religion = catholic
+		size = 25000
+	}
 	farmers = {
 		culture = afro_antillean
 		religion = catholic

@@ -63,3 +63,48 @@ army = {
 	}
 }
 
+navy = {
+	name = "Haitian Navy"
+	location = 2213
+
+	ship = {
+		name= "1st Clipper Transport"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "2nd Clipper Transport"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "1st Steam Transport"
+		type = steam_transport
+	}
+	
+	ship = {
+		name= "2nd Steam Transport"
+		type = steam_transport
+	}
+	
+	ship = {
+		name= "Haiti"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Oge"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Petion"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Toussaint"
+		type = frigate
+	}
+
+}

@@ -493,7 +493,7 @@ political_decisions = {
 		picture = become_wallonia
 		potential = {
 			government = french_bourbon
-			NOT = { tag = FRA tag = BOR }
+			NOT = { OR = { tag = FRA tag = BOR tag = HAI } }
 			NOT = { has_country_flag = french_bourbon_fixed }
 		}
 		

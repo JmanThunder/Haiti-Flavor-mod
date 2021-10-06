@@ -63,6 +63,16 @@ country_event = {
 		set_global_flag = january_uprising_happened
 		set_country_flag = through_january_uprising
 		release = CPL
+		release = LIT
+		any_owned = {
+			limit ={
+				is_core = BYE
+			}
+			secede_province = LIT
+		}
+		945 = { secede_province = RUS}
+		944 = { secede_province = RUS}
+		949 = { secede_province = RUS}
 		any_owned = {
 			limit = {
 				OR = {
@@ -79,6 +89,7 @@ country_event = {
 		CPL = { all_core = { add_core = RUS } }
 		any_owned = { limit = { is_core = LIT } add_province_modifier = { name = nationalist_agitation duration = 365 } }
 		CPL = {
+			create_vassal = LIT
 			government = presidential_dictatorship
 			ruling_party_ideology = conservative
 			political_reform = none_voting
@@ -122,13 +133,48 @@ country_event = {
 				reduce_pop = 0.9
 			}
 		}
-		
+		CPL = {
+			add_country_modifier = { name = rally_tribesmen duration = 3650 }
+			capital_scope = {
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = cavalry value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+			}
+		}
+		LIT = {
+			add_country_modifier = { name = rally_tribesmen duration = 3650 }
+			capital_scope = {
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = cavalry value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+			}
+		}
 		war = {
 			target = CPL
 			attacker_goal = { casus_belli = conquest_any }
 			defender_goal = { casus_belli = status_quo }
 		}
-		
+
+		war = {
+			target = LIT
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = status_quo }
+		}
+
 		any_owned = {
 			limit = {
 				OR = {

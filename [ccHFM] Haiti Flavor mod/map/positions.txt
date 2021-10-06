@@ -92406,11 +92406,6 @@
             y = 1262.039286
         }
 
-        naval_base = {
-            x = 0
-            y = 0
-        }
-
     }
 
     building_rotation = {

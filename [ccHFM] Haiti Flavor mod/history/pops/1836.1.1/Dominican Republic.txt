@@ -1,70 +1,74 @@
-aristocrats = {
+#Hispanola Region (124000) #see Haiti.txt for balance of region
+#Ruled by Haiti 1836
+#Santo Domingo (68000/17000 POPS) #now part of Dominican Republic
+2214 = {
+	aristocrats = {
 		culture = caribeno
 		religion = catholic
-		size = 85.39999999999999.99999999999997
+		size = 525
 	}
-
+	
 	bureaucrats = {
 		culture = caribeno
 		religion = catholic
-		size = 2.8.75
+		size = 18.75
 	}
-
+	
 	clergymen = {
 		culture = caribeno
 		religion = catholic
-		size = 12.25
+		size = 75
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = catholic
-		size = 42.699999999999996.49999999999998
+		size = 262.5
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = catholic
-		size = 9.1.25
+		size = 56.25
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = catholic
-		size = 5190.849999999999.249999999998
+		size = 31781.25
 	}
 	bureaucrats = {
 		culture = afro_antillean
 		religion = catholic
-		size = 489.99999999999994
+		size = 3000
 	}
 	clergymen = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 5.949999999999999.5
+		size = 37.5
 	}
 
 	artisans = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 61.24999999999999
+		size = 375
 	}
 
 	soldiers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 5.949999999999999.5
+		size = 37.5
 	}
 
 	farmers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 3105.2.5
+		size = 19012.5
 	}
 	soldiers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 489.99999999999994
+		size = 3000
 	}
 }
 #La Vega (56000/15000 POPS) #now part of Dominican Republic
@@ -72,300 +76,300 @@ aristocrats = {
 	aristocrats = {
 		culture = caribeno
 		religion = catholic
-		size = 67.19999999999999.5
+		size = 412.5
 	}
-
+	
 	clergymen = {
 		culture = caribeno
 		religion = catholic
-		size = 12.25
+		size = 75
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = catholic
-		size = 49
+		size = 300
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = catholic
-		size = 5.949999999999999.5
+		size = 37.5
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = catholic
-		size = 3696.35.25
+		size = 22631.25
 	}
 
 	clergymen = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 5.949999999999999.5
+		size = 37.5
 	}
 
 	artisans = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 36.75
+		size = 225
 	}
 
 	soldiers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 9.1.25
+		size = 56.25
 	}
 	bureaucrats = {
 		culture = afro_antillean
 		religion = catholic
-		size = 489.99999999999994
+		size = 3000
 	}
 	farmers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 2397.85.25
+		size = 14681.25
 	}
 	soldiers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 489.99999999999994
+		size = 3000
 	}
 }
 3305 = {
 	aristocrats = {
 		culture = caribeno
 		religion = catholic
-		size = 67.19999999999999.5
+		size = 412.5
 	}
-
+	
 	clergymen = {
 		culture = caribeno
 		religion = catholic
-		size = 12.25
+		size = 75
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = catholic
-		size = 49
+		size = 300
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = catholic
-		size = 5.949999999999999.5
+		size = 37.5
 	}
 	farmers = {
 		culture = afro_american
 		religion = protestant
-		size = 735
+		size = 4500
 	}
 	farmers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 489.99999999999994
+		size = 3000
 	}
 	bureaucrats = {
 		culture = afro_antillean
 		religion = catholic
-		size = 489.99999999999994
+		size = 3000
 	}
 	soldiers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 49
+		size = 300
 	}
 }
 3313 = {
 	aristocrats = {
 		culture = caribeno
 		religion = catholic
-		size = 67.19999999999999.5
+		size = 412.5
 	}
-
+	
 	clergymen = {
 		culture = caribeno
 		religion = catholic
-		size = 12.25
+		size = 75
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = catholic
-		size = 49
+		size = 300
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = catholic
-		size = 5.949999999999999.5
+		size = 37.5
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = catholic
-		size = 1246.35.25
+		size = 7631.25
 	}
 
 	clergymen = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 5.949999999999999.5
+		size = 37.5
 	}
 
 	artisans = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 36.75
+		size = 225
 	}
 
 	soldiers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 9.1.25
+		size = 56.25
 	}
 	bureaucrats = {
 		culture = afro_antillean
 		religion = catholic
-		size = 489.99999999999994
+		size = 3000
 	}
 	farmers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 1172.85.25
+		size = 7181.25
 	}
 	soldiers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 489.99999999999994
+		size = 3000
 	}
 }
 3330 = {
 	aristocrats = {
 		culture = caribeno
 		religion = catholic
-		size = 6.6499999999999995.25
+		size = 41.25
 	}
-
+	
 	clergymen = {
 		culture = caribeno
 		religion = catholic
-		size = 1.0499999999999998.5
+		size = 7.5
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = catholic
-		size = 4.8999999999999995
+		size = 30
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = catholic
-		size = 5.949999999999999.5
+		size = 37.5
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = catholic
-		size = 369.25.95
+		size = 2262.75
 	}
 
 	clergymen = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 5.949999999999999.5
+		size = 37.5
 	}
 
 	artisans = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 3.5.5
+		size = 22.5
 	}
 
 	soldiers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 9.1.25
+		size = 56.25
 	}
 	bureaucrats = {
 		culture = afro_antillean
 		religion = catholic
-		size = 49
+		size = 300
 	}
 	farmers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 239.39999999999998.9499999999999
+		size = 1467.75
 	}
 	soldiers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 49
+		size = 300
 	}
 }
 3331 = {
 	aristocrats = {
 		culture = caribeno
 		religion = catholic
-		size = 6.6499999999999995.25
+		size = 41.25
 	}
-
+	
 	clergymen = {
 		culture = caribeno
 		religion = catholic
-		size = 1.0499999999999998.5
+		size = 7.5
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = catholic
-		size = 4.8999999999999995
+		size = 30
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = catholic
-		size = 5.949999999999999.5
+		size = 37.5
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = catholic
-		size = 369.25.95
+		size = 2262.75
 	}
 
 	clergymen = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 5.949999999999999.5
+		size = 37.5
 	}
 
 	artisans = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 3.5.5
+		size = 22.5
 	}
 
 	soldiers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 9.1.25
+		size = 56.25
 	}
 	bureaucrats = {
 		culture = afro_antillean
 		religion = catholic
-		size = 49
+		size = 300
 	}
 	farmers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 239.39999999999998.9499999999999
+		size = 1467.75
 	}
 	soldiers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 49
+		size = 300
 	}
 }

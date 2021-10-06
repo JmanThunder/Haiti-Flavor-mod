@@ -4,7 +4,7 @@ culture = afro_antillean
 culture = polish
 religion = catholic
 government = presidential_dictatorship
-plurality = 25.0
+plurality = 50
 nationalvalue = nv_equality
 literacy = 0.03
 non_state_culture_literacy = 0.05
@@ -82,7 +82,7 @@ modern_winemaking = yes
 consciousness = 2
 nonstate_consciousness = 0
 
-oob = "HAI_oob.txt"
+oob = "HAI2_oob.txt"
 1861.1.1 = {
 	oob = "/1861/HAI_oob.txt"
 	plurality = 50

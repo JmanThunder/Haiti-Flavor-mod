@@ -58,7 +58,7 @@ country_event = {
 
 	trigger = {
 		tag = HAI
-		year = 1847
+		year = 1849
 		government = democracy
 		NOT = { year = 1859 }
 	}
@@ -66,7 +66,7 @@ country_event = {
 	fire_only_once = yes
 
 	mean_time_to_happen = {
-		months = 6
+		months = 3
 	}
 
 	option = {
@@ -85,6 +85,23 @@ country_event = {
 	option = {
 		name = "The Republic must Stand"
 		prestige = -25
+		any_country = {
+    		limit = {
+    		    OR = {
+    		        AND = {
+    		            tag = HAI
+    		            has_global_flag = easter_eggs_enabled
+    		            FRA = { NOT = { government = french_bourbon } }
+    		        }
+    		    }
+    		}
+    		any_country = {
+    		    limit = {
+    		        tag = THIS
+    		    }
+    		    country_event = 45113
+    		}
+		}
 	}
 }
 
@@ -758,7 +775,99 @@ country_event = {
 			any_pop = { 
 				militancy = 4
 				consciousness = 6 
-				reduce_pop = 0.99
+				reduce_pop = 0.95
+			}
+		}
+	}
+}
+country_event = {
+	id = 45113
+	title = "Orleanist Haiti?"
+	desc = "Now that Solonique has been defeated should we Crown a Prince of Orleans King of the Haitians."
+	picture = "orleans"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "Who, When, Where, How and WHY?"
+	}
+	option = {
+		name = "Viv l'Way?"
+		primary_culture = french_canadian
+		government = french_bourbon
+		social_reform = good_minimum_wage
+		social_reform = eight_hours
+		social_reform = good_safety
+		social_reform = good_subsidies
+		social_reform = good_pensions
+		social_reform = good_health_care
+		social_reform = good_schools
+		social_reform = rehabilitation
+		social_reform = good_schools
+		social_reform = good_health_care
+		political_reform = universal_voting
+		political_reform = population_equal_weight
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = all_trade_unions
+		political_reform = no_slavery
+		political_reform = proportional_representation
+		political_reform = all_voting_pops
+		political_reform = open_borders
+		add_country_modifier = {
+			name = foreign_eco_invest
+			duration = 9125
+		}
+	}
+}
+country_event = {
+	id = 45114
+	title = "Anti-Monarchist Coup"
+	desc = "The Haitian Monarchy has not been the most stable government but now liberals are attemping to restore the Republic"
+	picture = "Prosper"
+	fire_only_once = yes
+	trigger = {
+		year = 1859
+		any_country = {
+		    limit = {
+		        OR = {
+		        	AND = {
+		        		tag = HAI 
+		        	}
+		        	government = french_bourbon
+		        	government = absolute_monarchy
+		        	government = prussian_constitutionalism
+		        	government = hms_government
+		        }
+		        OR = {
+		        	tag = KHT
+		        }
+		    }
+		}
+	}
+	option = {
+		name = "Vive la Republique"
+		ruling_party_ideology = liberal
+		political_reform = universal_voting
+		political_reform = population_equal_weight
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = all_trade_unions
+		political_reform = no_slavery
+		political_reform = proportional_representation
+		political_reform = all_voting_pops
+		political_reform = open_borders
+	}
+	option = {
+		name = "Crush the Rebels"
+		militancy = 5
+		consciousness = 5
+		any_owned = {
+			limit = {
+				is_core = THIS
+			}
+			add_province_modifier = {
+				name = liberal_agitation
+				duration = 3650
 			}
 		}
 	}

@@ -43,7 +43,16 @@ luxury_needs = {
 
 country_migration_target = {
 	factor = 1
-	
+	modifier = {
+        factor = 100
+        NOT = {
+            any_owned_province = {
+                any_core = {
+                    has_recent_imigration = 15
+                }
+            }
+        }
+    }
 	modifier = {
 		factor = 0
 		border_policy = quota_immigration
@@ -190,6 +199,7 @@ country_migration_target = {
 			government = hms_government
 			government = dominion
 			government = colonial_company
+			government = french_bourbon
 		}
 	}
 	
@@ -211,6 +221,7 @@ country_migration_target = {
 			government = hms_government
 			government = dominion
 			government = colonial_company
+			government = french_bourbon
 		}
 	}
 	

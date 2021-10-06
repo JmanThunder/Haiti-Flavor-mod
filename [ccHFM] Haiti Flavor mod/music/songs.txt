@@ -66,135 +66,135 @@ song = {
 ###Viky 1 songs###
 song = {
 	name = "LeCorsaire.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "SymphonieFantastique.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "S4EMajorScherzoAM.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "CarmenPrelude.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "Gopak.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "SQno62.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "Tannhauser.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "TheProphetCoronationMarch.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "MarcheSolennelle.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "S4AMajorItalianSaltarelloPresto.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "IVespriSicilianiSinfonia.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "Sadko.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "Rusalka.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "MaidofOrleansEntracte.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "OvertureLifeForTheTsar.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "TritschTratschPolka.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "RadetzkyMarch.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "HandsAcrossTheSea.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "LookingUpwardMarsVenus.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "TheRoyalWelchFusiliers.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "KingCotton.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "UnterDonnerUndBlitz.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "IndigoMarsch.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "NapoleonMarsch.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "LaForzaDelDestinoSinfonia.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "RuleBrittaniaOverture.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "ImperialMarch.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "VienneseMusicalClock.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "GrandMarchFromAida.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "HomageMarch.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "HakkapeliittainMarssi.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "PorilaistenMarssi.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 song = {
 	name = "MarciaCarolusRex.mp3"
-	chance = { factor = 1 }
+	chance = { factor = 25 }
 }
 
 ###USA and CSA songs###
@@ -242,8 +242,30 @@ song = {
 	chance = {
 		factor = 1
 		modifier = {
-        	factor = 1
-        	tag = HAI
+        	factor = 75
+        	OR = {
+        		tag = HAI
+        		tag = DMG
+        		tag = KHT
+        	}
+    	}
+    	modifier = {
+    		factor = 0
+    		NOT = { tag = HAI }
+    	}
+	}
+}
+song = {
+	name = "Haiti Cherie.mp3"
+	chance = {
+		factor = 1
+		modifier = {
+        	factor = 75
+        	OR = {
+        		tag = HAI
+        		tag = DMG
+        		tag = KHT
+        	}
     	}
     	modifier = {
     		factor = 0
@@ -256,22 +278,12 @@ song = {
 	chance = {
 		factor = 1
 		modifier = {
-        	factor = 1
-        	tag = HAI
-    	}
-    	modifier = {
-    		factor = 0
-    		NOT = { tag = HAI }
-    	}
-	}
-}
-song = {
-	name = "Haiti Cherie French.mp3"
-	chance = {
-		factor = 1
-		modifier = {
-        	factor = 1
-        	tag = HAI
+        	factor = 75
+        	OR = {
+        		tag = HAI
+        		tag = DMG
+        		tag = KHT
+        	}
     	}
     	modifier = {
     		factor = 0
@@ -284,8 +296,12 @@ song = {
 	chance = {
 		factor = 1
 		modifier = {
-        	factor = 1
-        	tag = HAI
+        	factor = 75
+        	OR = {
+        		tag = HAI
+        		tag = DMG
+        		tag = KHT
+        	}
     	}
     	modifier = {
     		factor = 0
@@ -298,8 +314,12 @@ song = {
 	chance = {
 		factor = 1
 		modifier = {
-        	factor = 1
-        	tag = HAI
+        	factor = 75
+        	OR = {
+        		tag = HAI
+        		tag = DMG
+        		tag = KHT
+        	}
     	}
     	modifier = {
     		factor = 0
@@ -312,7 +332,7 @@ song = {
 	chance = {
 		factor = 1
 		modifier = {
-        	factor = 1
+        	factor = 75
         	OR = {
         		tag = CLM
         		tag = VNZ
@@ -331,8 +351,12 @@ song = {
 	chance = {
 		factor = 1
 		modifier = {
-        	factor = 1
-        	tag = HAI
+        	factor = 75
+        	OR = {
+        		tag = HAI
+        		tag = DMG
+        		tag = KHT
+        	}
     	}
     	modifier = {
     		factor = 0
@@ -345,8 +369,12 @@ song = {
 	chance = {
 		factor = 1
 		modifier = {
-        	factor = 1
-        	tag = HAI
+        	factor = 75
+        	OR = {
+        		tag = HAI
+        		tag = DMG
+        		tag = KHT
+        	}
     	}
     	modifier = {
     		factor = 0
@@ -359,8 +387,12 @@ song = {
 	chance = {
 		factor = 1
 		modifier = {
-        	factor = 1
-        	tag = HAI
+        	factor = 75
+        	OR = {
+        		tag = HAI
+        		tag = DMG
+        		tag = KHT
+        	}
     	}
     	modifier = {
     		factor = 0

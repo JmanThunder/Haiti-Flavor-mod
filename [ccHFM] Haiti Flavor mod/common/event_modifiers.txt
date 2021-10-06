@@ -3362,6 +3362,7 @@ hai_rev_vets = {
 	mobilisation_size = 0.25
 	org_regain = 0.25
 	land_organisation = 0.25
+	supply_consumption = -0.9
 	pop_militancy_modifier = 0.01
 }
 jean_boyer_reforms = {
@@ -3415,4 +3416,35 @@ oligrachy = {
 	pop_militancy_modifier = 0.03
 	research_points_modifier = -0.1
 	tax_efficiency = -0.05
+}
+foreign_eco_invest = {
+	cb_generation_speed_modifier = -0.05
+    diplomatic_points_modifier = -1
+    influence_modifier = -2
+    prestige = -0.02
+    research_points_modifier = 0.2
+    navy_tech_research_bonus = 0.05
+    army_tech_research_bonus = 0.05
+    commerce_tech_research_bonus = 0.05
+    industry_tech_research_bonus = 0.05
+    culture_tech_research_bonus = 0.05
+    rgo_throughput = 0.1
+    factory_throughput = 0.05
+    tax_efficiency = 0.05
+    war_exhaustion = -0.1
+    education_efficiency_modifier = 0.2
+    global_population_growth = 0.003
+    rgo_throughput = 0.15
+    icon = 11
+}
+haitian_plantations = {
+	icon = 11
+	rich_income_modifier = 5
+	middle_income_modifier = 3
+	poor_income_modifier = -0.5
+	poor_vote = -1
+	rgo_output = 0.5
+	rgo_throughput = 0.5
+	population_growth = 0.005
+	core_pop_militancy_modifier = 0.01
 }
