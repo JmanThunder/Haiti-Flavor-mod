@@ -3070,7 +3070,7 @@ political_decisions = {
 
 		effect = {
 			set_country_flag = pres_boyer
-			any_owned = { add_province_modifier = { name = baby_boom duration = 3650 } }
+			any_owned = { add_province_modifier = { name = baby_boom duration = 365 } }
 			treasury = 250000
 			leadership = 100
         	ammunition = 100
