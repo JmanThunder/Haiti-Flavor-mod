@@ -146,6 +146,27 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = 96002
+	title = "EVTNAME96002"
+	desc = "EVTDESC96002"
+
+	trigger = {
+		ai = yes
+		war = no
+		has_country_flag = calling_all_allies
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVT96002OPTA"
+		clr_country_flag = calling_all_allies
+	}
+}
+
 #Candidate for "on_action"
 country_event = {
 	id = 96003
@@ -638,6 +659,28 @@ country_event = {
 					state_scope = {
 						NOT = { any_owned_province = { is_capital = yes } }
 					}
+				}
+				remove_core = THIS
+			}
+			country_event = 96012
+		}
+
+		#release Indonesia, if possible
+		any_country = {
+			limit = {
+				tag = INO
+				exists = no
+				THIS = {
+					owns = 1413
+					owns = 1403
+				}
+				NOT = { exists = BOH }
+				NOT = { exists = SLV }
+			}
+			all_core = {
+				limit = {
+					is_core = THIS
+					state_scope = { NOT = { any_owned_province = { is_capital = yes } } }
 				}
 				remove_core = THIS
 			}

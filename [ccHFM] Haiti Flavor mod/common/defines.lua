@@ -51,7 +51,7 @@ country = {
 	ECONOMIC_REFORM_UH_FACTOR = -0.40,
 	MILITARY_REFORM_UH_FACTOR = -0.40,
 	WRONG_REFORM_RADICAL_IMPACT = 15,
-	TECH_YEAR_SPAN = 150,
+	TECH_YEAR_SPAN = 100,
 	TECH_FACTOR_VASSAL = 0.5, -- cost reduction factor if overlord has research the tech
 	MAX_SUPPRESSION = 100,
 	PRESTIGE_HIT_ON_BREAK_COUNTRY = -0.20, -- percentage reduction when country gets taken by rebels
@@ -124,7 +124,7 @@ economy = {
 	TRADE_CAP_LOW_LIMIT_LAND = 0.1, 				-- the lowest % the slider can go for land units
 	TRADE_CAP_LOW_LIMIT_NAVAL = 0.2, 			-- the lowest % the slider can go for naval units
 	TRADE_CAP_LOW_LIMIT_CONSTRUCTIONS = 0.15, 		-- the lowest % the slider can go for constructions
-	FACTORY_PURCHASE_MIN_FACTOR = 0.50,			-- the lowest % of its daily needs a factory will purchase
+	FACTORY_PURCHASE_MIN_FACTOR = 1,			-- the lowest % of its daily needs a factory will purchase
 	FACTORY_PURCHASE_DRAWDOWN_FACTOR = 0.01		-- the % a factory will reduce its input purchases each day if it did not sell all its goods (also used for scaling up production if all goods are sold)
 },
 
@@ -135,7 +135,7 @@ military = {
 	BASE_COMBAT_WIDTH = 30,
 	POP_MIN_SIZE_FOR_REGIMENT = 1000,
 	POP_SIZE_PER_REGIMENT = 3000,
-	SOLDIER_TO_POP_DAMAGE = 0.2,
+	SOLDIER_TO_POP_DAMAGE = 0.34,
 	LAND_SPEED_MODIFIER = 1,
 	NAVAL_SPEED_MODIFIER = 2,
 	EXP_GAIN_DIV = 0.05,
@@ -145,7 +145,7 @@ military = {
 	POP_MIN_SIZE_FOR_REGIMENT_COLONY_MULTIPLIER = 4,
 	POP_MIN_SIZE_FOR_REGIMENT_NONCORE_MULTIPLIER = 3, -- VALUE * POP_MIN_SIZE_FOR_REGIMENT is min for noncores
 	GAS_ATTACK_MODIFIER = 3,
-	COMBATLOSS_WAR_EXHAUSTION = 3, -- base war exhaustion in combat
+	COMBATLOSS_WAR_EXHAUSTION = 6, -- base war exhaustion in combat
 	LEADER_MAX_RANDOM_PRESTIGE = 0.05, -- max percent of prestige, when randomizing stats for leaders.
 	LEADER_AGE_DEATH_FACTOR = 4, -- higher value means leaders live longer
 	LEADER_PRESTIGE_TO_MORALE_FACTOR = 0.9, -- f.ex. 100% of prestige = +10% morale
@@ -672,7 +672,7 @@ pops = {
 	
 	POP_TO_LEADERSHIP = 0.0001, -- how much leadership every 1000 officers gives each day.
 	ARTISAN_MIN_PRODUCTIVITY = 5, -- Minimum efficiency of an artisan
-	SLAVE_GROWTH_DIVISOR = 10, -- Slaves have N times lower growth
+	SLAVE_GROWTH_DIVISOR = -2.5, -- Slaves have N times lower growth
 	
 	MIL_HIT_FROM_CONQUEST = 4, -- how much militancy grows in a province if taken without being core.
 	LUXURY_CON_CHANGE = 0.001, -- con boost from over-buying luxury goods

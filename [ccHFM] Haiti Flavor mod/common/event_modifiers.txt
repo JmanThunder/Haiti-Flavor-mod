@@ -1588,7 +1588,7 @@ gold_rush = {
 }
 
 witwatersrand_gold_rush = {
-	global_immigrant_attract = 0.5
+	immigrant_attract = 8
 	#assimilation_rate = 1
 	prestige = 0.01
 	icon = 11
@@ -3303,6 +3303,88 @@ foreign_weapons_imported = {
 	icon = 9
 }
 
+# CCH
+cch.recent-call-to-arms = {
+    icon = 15
+}
+
+###More Stuff HFM###
+
+
+monaco_sacked_modifer = {
+	local_artisan_output = -0.5
+	local_artisan_input = -0.5
+	local_factory_output = -1
+	local_factory_input = -1
+	local_RGO_output = -0.5
+	immigrant_attract = -0.50
+	immigrant_push = 0.25
+	local_ruling_party_support = -0.1
+	population_growth = -0.2
+	icon = 18
+}
+
+underground_railroad_NAF = {
+	global_population_growth = 0.005
+	icon = 17
+}
+
+NAF_ethnic_tensions = {
+	assimilation_rate = -0.1
+	local_RGO_output = -0.1
+	pop_militancy_modifier = 0.01
+	pop_consciousness_modifier = 0.01
+	icon = 20
+}
+
+NAF_Tuskegee_Uni = {
+	research_points_modifier = 0.01
+	education_efficiency_modifier = 0.03
+	icon = 3
+}
+
+NAF_revolt_flag = {
+	icon = 18
+}
+
+NAF_uprising = {
+	pop_militancy_modifier = -0.05
+	mobilisation_size = 0.75
+	prestige = -0.02
+	war_exhaustion = -0.2
+	tax_efficiency = 0.25
+	tariff_efficiency_modifier = 0.25
+	icon = 18
+}
+
+
+#######################
+# Jman's Gov and EVT  #
+#######################
+merchant_marine = {
+    import_cost = 0.50
+    supply_consumption = -0.05
+    icon = 15
+}
+nat_guard = {
+	supply_consumption = -0.05
+    icon = 15
+}
+craftsmen_fix_cooldown = {
+    icon = 12
+}
+bureaucrats_fix_cooldown = {
+	icon = 12
+}
+fort_constructions = {
+	tax_efficiency = -0.10
+	icon = 10
+}
+###Latin Monetary Union###
+latin_monetary_union = {
+    tax_efficiency = 0.05
+    icon = 9
+}
 ## CCH
 
 cch.recent-call-to-arms = {

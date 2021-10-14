@@ -226,7 +226,7 @@ country_event = {
 			}
 			relation = { who = THIS value = 200 }
 		}
-		2126 = { change_province_name = "Réunion" }
+		2126 = { change_province_name = "Reunion" }
 	}
 }
 
@@ -577,6 +577,11 @@ country_event = {
 				472 = { is_core = THIS NOT = { owned_by = THIS } } #Savoie
 				exists = ITA
 				truce_with = ITA
+			}
+			AND = {
+				472 = { is_core = THIS NOT = { owned_by = THIS } } #Savoie
+				exists = ITS
+				truce_with = ITS
 			}
 		}
 		NOT = {

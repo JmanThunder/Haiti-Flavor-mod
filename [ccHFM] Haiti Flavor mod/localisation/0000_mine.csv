@@ -4,10 +4,15 @@ gendarmerie;Gendarmerie;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 gendarmerie_desc;A gendarmerie is a military force with law enforcement duties among the civilian population.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 proclaim_republic_title;§EFound the Republic§!;;;;;;;;;;;;;x,,
 proclaim_republic_desc;We have become the masters of our political destiny, the power of the monarchy has been ceded to the parliament and chancellor, and by extension to ourselves. Now we have within our grasp the ability to finish the job peacefully, and to make We The People the formal basis of our sovereignty!;;;;;;;;;;;;;x
-TUR_presidential_dictatorship;The Sublime Porte;Turquie;Türkei;;Turquía;;;;;;;;;x,,,
-TUR_presidential_dictatorship_adj;Ottoman;Turc;Türkisch;;turca;;;;;;;;;x,,,
-TUR_democracy;The Sublime Porte;Turquie;Türkei;;Turquía;;;;;;;;;x,,,
-TUR_democracy_ADJ;Ottoman;Turc;Türkisch;;turca;;;;;;;;;x,,,
+TUR_presidential_dictatorship;Turkey;Turquie;Türkei;;Turquía;;;;;;;;;x,,,
+TUR_presidential_dictatorship_ADJ;Turkish;Turc;Türkisch;;turca;;;;;;;;;x,,,
+TUR_democracy;Turkey;Turquie;Türkei;;Turquía;;;;;;;;;x,,,
+TUR_democracy_ADJ;Turkish;Turc;Türkisch;;turca;;;;;;;;;x,,,
+TUR_bourgeois_dictatorshipTurkey;;;;;;;;;;;;;x
+TUR_bourgeois_dictatorship_ADJ;Turkish;;;;;;;;;;;;;x
+TUR_fascist_dictatorship;Supreme Turkish State;;;;;;;;;;;;;x
+TUR_proletarian_dictatorship;Turkish Socialist Republic;;;;;;;;;;;;;x
+TUR_proletarian_dictatorship_ADJ;Turkish;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 all_of_mexico_title;All of Mexico!;;;;;;;;;;;;;x,,,
 all_of_mexico_desc;It is not enough to have empty lands, all Mexicans are Americans! §YNOTE: Not an option once the civil war starts.§!;;;;;;;;;;;;;x,,
 cultural_expansion_title;Expand the Federation!;;;;;;;;;;;;;x,,,
@@ -56,7 +61,7 @@ claim_mongolia_desc;Long have the Mongolian lands to the north been considered p
 become_democratic_china_title;Restore the Republic!;;;;;;;;;;;;;x,,
 become_democratic_china_desc;Long has the military controlled the government, but now they are reluctantly willing to surrender up the majority of their power to the civiliian administration. This is a new dawn for a free and prosperous China!;;;;;;;;;;;;;x,,
 begin_land_transfer;Begin Land Transfer;;;;;;;;;;;;;x,,
-hide_the_decisions_title;§PHide Extra Decisions§W;;;;;;;;;;;;;x,,
+hide_the_decisions_title;§PHide Extra Decisions§!;;;;;;;;;;;;;x,,
 hide_the_decisions_desc;Remove decisions clutter by hiding the extra decisions modded in by Townes. NOTE: Hides key decisions like advancing research reforms, transfer decisions, or powerful alt-history options.;;;;;;;;;;;;;x,,
 show_the_decisions_title;§PShow Extra Decisions§!;;;;;;;;;;;;;x,,
 show_the_decisions_desc;Show the extra decisions modded in by Townes. NOTE: Currently hidden key decisions like advancing research reforms, transfer decisions, or powerful alt-history options.;;;;;;;;;;;;;x,,
@@ -69,7 +74,7 @@ end_land_transfer_desc;Take this decions to prevent transfer CBs being justified
 end_land_transfer_unciv_title;§YDisallow Land Transfer§!;;;;;;;;;;;;;x,,
 end_land_transfer_unciv_desc;Take this decions to prevent transfer CBs being justified on our nation (and to prevent us justifying them on other nations).§Y RP FROM CONQUEST DEBUFF IS CURRENTLY ACTIVE§R Cannot use whilst either is at war.§!;;;;;;;;;;;;;x,,
 socialist_uh;Socialists want to see the enactment of further political and social reforms.;;;;;;;;;;;;;x,,
-liberal_uh;Liberals want to enact further political reforms, but will also support social reform under conditions of intermediate militancy.;;;;;;;;;;;;;x,,
+liberal_uh;Liberals want to enact some political reforms, but will also support greater political reform and social reform under conditions of high militancy.;;;;;;;;;;;;;x,,
 EVTNAME777791;Concede to Lower Tarrifs;;;;;;;;;;;;;x,,
 EVTDESC777791;As the loser of the war we have been forced to lower our tarrifs for 5 years.;;;;;;;;;;;;;x,,
 EVT777791OPTA;Lower the tarrifs;;;;;;;;;;;;;x,,
@@ -107,7 +112,7 @@ EVTDESC777795;Living conditions are greatly increasing and infant mortality plum
 EVTOPTA777795;Bring on the new Era!;;;;;;;;;;;;;x,,
 eic_become_india_title;To the Indian Union;;;;;;;;;;;;;x,,
 eic_become_india_desc;Now that we accept the people of India, perhaps it is time to become one Union with them. Together we rise, free from overseas rule!;;;;;;;;;;;;;x,,
-HND_democracy;The India;;;;;;;;;;;;;x,,
+HND_democracy;India;;;;;;;;;;;;;x,,
 indian_democratic_reforms_title;Reform the Constitution of India;;;;;;;;;;;;;x,,
 indian_democratic_reforms_desc;Free at last, we must seek to strengthen our democracy. It is vital to developing our national consciousness.;;;;;;;;;;;;;x,,
 HND_claim_tibet_title;Claim Tibet;;;;;;;;;;;;;x,,
@@ -132,7 +137,7 @@ to_funded_title;§EAdvance Research Funding§!;;;;;;;;;;;;;x,,
 to_funded_desc;Advances in our nations education and research allow the government to increase funding for research projects, and put more political focus into R&D.;;;;;;;;;;;;;x,,
 to_priority_funded_title;§EAdvance Research Funding§!;;;;;;;;;;;;;x,,
 to_priority_funded_desc;Advances in our nations education and research allow the government to increase funding for research projects, and put more political focus into R&D.;;;;;;;;;;;;;x,,
-encourage_pop_growth;Encourage Births;;;;;;;;;;;;;x,,
+secret_police;Secret Police;;;;;;;;;;;;;x,,
 encourage_assimilation;Encourage Assimilation;;;;;;;;;;;;;x,,
 EUR;The United States of Europe;;;;;;;;;;;;;x,,
 EUR_democracy;The United States of Europe;;;;;;;;;;;;x
@@ -257,7 +262,7 @@ trinket_subsidies_desc;Basic jobseekers allowances are provided by a government 
 low_subsidies;Generous Subsidies;;;;;;;;;;;;x
 low_subsidies_desc;Standard jobseekers allowances are provided by a government agency.;;;;;;;;;;;;x
 acceptable_subsidies;Standard UBI;;;;;;;;;;;;x
-acceptable_subsidies_desc;The government provides a small monthly income to all citizens, regardless of their situation. This income is guarantteed and paid from the government budget. §YThis reform will be rescinded if a non socialist/communist government is in power!§!;;;;;;;;;;;;x
+acceptable_subsidies_desc;The government provides a small monthly income to all citizens, regardless of their economic situation. This income is guarantteed and paid from the government budget. §YThis reform will be rescinded if a non socialist/communist government is in power!§!;;;;;;;;;;;;x
 good_subsidies;Advanced UBI;;;;;;;;;;;;x
 good_subsidies_desc;A large sum of money is provided to each citizen monthly. This is an unconditional payment and funded by the government budget. §YThis reform will be rescinded if a non socialist/communist government is in power!§!;;;;;;;;;;;;x
 EVTNAME7777907;Change in Welfare Policy;;;;;;;;;;;;x

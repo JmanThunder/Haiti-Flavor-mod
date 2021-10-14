@@ -65,12 +65,11 @@ acquire_all_cores
 acquire_core_state
 restore_austrian_empire
 colonial_reconquest_cb
+restore_america
 claim_holy_land
 restore_british_raj
-restore_america
 unification_casus_belli
 civil_war
-cch.restore-america-annex
 unification_annex_casus_belli
 annex_core_country
 unification_add_to_sphere
@@ -90,7 +89,9 @@ liberate_country
 free_peoples
 free_allied_cores
 free_balkans
+monroe2     
 monroe_doctrine
+USS_monroe
 oriental_crisis
 unification_release_puppet_cb
 release_puppet
@@ -408,10 +409,7 @@ acquire_core_state = {
 
 	can_use = {
 		OR = {
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
+			AND = { THIS = { num_of_ports = 1 } num_of_ports = 1 }
 			neighbour = THIS
 			war_with = THIS
 			any_neighbor_country = { substate_of = THIS }
@@ -441,10 +439,10 @@ acquire_core_state = {
 		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
 			THIS = { ai = no }
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
+			AND = { 
+				THIS = { num_of_ports = 1 } 
+				any_owned_province = { port = yes }
+			}
 			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
 		}
 	}
@@ -527,10 +525,10 @@ acquire_all_cores = {
 		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
 			THIS = { ai = no }
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
+			AND = { 
+				THIS = { num_of_ports = 1 } 
+				any_owned_province = { port = yes }
+			}
 			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
 		}
 	}
@@ -747,287 +745,89 @@ colonial_reconquest_cb = {
 }
 
 restore_america = {
-    sprite_index = 21
-    is_triggered_only = yes
-    months = 12
+	sprite_index = 21
+	is_triggered_only = yes
+	months = 12
+	
+	construction_speed = 0.8
 
-    construction_speed = 0.8
+	badboy_factor = 0
+	prestige_factor = 0
+	peace_cost_factor = 0.7
+	penalty_factor = 1
+	always = yes
 
-    badboy_factor = 0
-    prestige_factor = 0
-    peace_cost_factor = 0.7
-    penalty_factor = 1
-    always = yes
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 48
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
 
-    break_truce_prestige_factor = 5
-    break_truce_infamy_factor = 2
-    break_truce_militancy_factor = 2
-    truce_months = 48
+	can_use = {
+		war_policy = jingoism
+		NOT = { is_our_vassal = THIS }
+		THIS = {
+			OR = {
+				primary_culture = yankee
+				primary_culture = dixie
+				primary_culture = texan
+			}
+			NOT = { tag = USA }
+		}
+		OR = {
+			THIS = { has_global_flag = second_american_civil_war }
+			USA = { exists = no }
+		}
+		OR = {
+			THIS = { ai = no }
+			THIS = {
+				OR = {
+					war_policy = pro_military
+					war_policy = jingoism
+				}
+			}
+			war_with = THIS
+		}
+		is_vassal = no
+		neighbour = THIS
+		any_owned_province = {
+			OR = {
+				is_core = USA
+				is_core = CSA
+				is_core = FSA
+			}
+		}
+		NOT = { in_sphere = THIS }
+		OR = {
+			war_with = THIS
+			THIS = { NOT = { has_country_modifier = punitive_effects } }
+		}
+	}
+	
+	allowed_states = {
+		any_owned_province = {
+			OR = {
+				is_core = USA
+				is_core = CSA
+				is_core = FSA
+			}
+		}
+	}
 
-    good_relation_prestige_factor = 1
-    good_relation_infamy_factor = 1
-    good_relation_militancy_factor = 1
-
-    can_use = {
-        NOT = { truce_with = THIS }
-        is_vassal = no
-
-        THIS = {
-            is_culture_group = american_cultures
-            NOT = { tag = USA }
-        }
-
-        OR = {
-            has_global_flag = second_american_civil_war
-            USA = { exists = no }
-        }
-
-        OR = {
-            NOT = { has_global_flag = country-workshop.FSA-enabled }
-            AND = {
-                THIS = {
-                    check_variable = {
-                        which = country-workshop.american-restoration-CBs
-                        value = 1
-                    }
-                }
-            }
-            THIS = { mass_politics = 1 }
-        }
-
-        OR = {
-            THIS = { ai = no }
-            war_with = THIS
-            THIS = {
-                OR = {
-                    war_policy = pro_military
-                    war_policy = jingoism
-                }
-            }
-        }
-
-        number_of_states = 2
-        OR = {
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
-            neighbour = THIS
-            war_with = THIS
-            any_neighbor_country = { OR = { vassal_of = THIS in_sphere = THIS } }
-        }
-        any_owned_province = {
-            OR = {
-                is_core = USA
-                is_core = CSA
-                is_core = FSA
-            }
-            # defer to acquire_core_state otherwise
-            NOT = { is_core = THIS }
-        }
-
-        NOT = { in_sphere = THIS }
-        NOT = { has_country_modifier = neutrality }
-        OR = {
-            war_with = THIS
-            THIS = { NOT = { has_country_modifier = neutrality } }
-        }
-        OR = {
-            war_with = THIS
-            THIS = { NOT = { has_country_modifier = no_more_war } }
-        }
-        OR = {
-            war_with = THIS
-            THIS = { NOT = { has_country_modifier = punitive_effects } }
-        }
-    }
-
-    allowed_states = {
-        any_owned_province = {
-            OR = {
-                is_core = USA
-                is_core = CSA
-                is_core = FSA
-            }
-            # defer to acquire_core_state otherwise
-            NOT = { is_core = THIS }
-        }
-        OR = {
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
-            any_owned_province = { any_neighbor_province = { owned_by = THIS } }
-        }
-
-        #AI will not grab cores of allies/spherelings
-        OR = {
-            THIS = { ai = no }
-            NOT = {
-                any_owned_province = {
-                    any_core = {
-                        exists = yes
-                        OR = {
-                            alliance_with = THIS
-                            in_sphere = THIS
-                            vassal_of = THIS
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    po_demand_state = yes
-
-    war_name = WAR_RESTORE_AMERICA_NAME
-
-    on_add = {
-        move_issue_percentage = {
-            from = jingoism
-            to = pro_military
-            value = 0.25
-        }
-
-        random_owned = {
-            limit = {
-                has_global_flag = country-workshop.FSA-enabled
-                mass_politics = 0
-            }
-
-            owner = {
-                change_variable = {
-                    which = country-workshop.american-restoration-CBs
-                    value = -1
-                }
-            }
-        }
-    }
-}
-
-cch.restore-america-annex = {
-    sprite_index = 5
-    is_triggered_only = yes
-    months = 12
-
-    construction_speed = 0.8
-
-    badboy_factor = 0
-    prestige_factor = 0
-    peace_cost_factor = 0.7
-    penalty_factor = 1
-    always = yes
-
-    break_truce_prestige_factor = 5
-    break_truce_infamy_factor = 2
-    break_truce_militancy_factor = 2
-    truce_months = 48
-
-    good_relation_prestige_factor = 1
-    good_relation_infamy_factor = 1
-    good_relation_militancy_factor = 1
-
-    can_use = {
-        NOT = { truce_with = THIS }
-        is_vassal = no
-
-        THIS = {
-            is_culture_group = american_cultures
-            NOT = { tag = USA }
-        }
-
-        OR = {
-            has_global_flag = second_american_civil_war
-            USA = { exists = no }
-        }
-
-        OR = {
-            NOT = { has_global_flag = country-workshop.FSA-enabled }
-            AND = {
-                THIS = {
-                    check_variable = {
-                        which = country-workshop.american-restoration-CBs
-                        value = 1
-                    }
-                }
-            }
-            THIS = { mass_politics = 1 }
-        }
-
-        OR = {
-            THIS = { ai = no }
-            war_with = THIS
-            THIS = {
-                OR = {
-                    war_policy = pro_military
-                    war_policy = jingoism
-                }
-            }
-        }
-
-        NOT = { number_of_states = 2 }
-        OR = {
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
-            neighbour = THIS
-            war_with = THIS
-            any_neighbor_country = { OR = { vassal_of = THIS in_sphere = THIS } }
-        }
-        any_owned_province = {
-            OR = {
-                is_core = USA
-                is_core = CSA
-                is_core = FSA
-            }
-        }
-        # defer to annex_core_country otherwise
-        any_owned_province = {
-            NOT = { is_core = THIS }
-        }
-
-        NOT = { in_sphere = THIS }
-        NOT = { has_country_modifier = neutrality }
-        OR = {
-            war_with = THIS
-            THIS = { NOT = { has_country_modifier = neutrality } }
-        }
-        OR = {
-            war_with = THIS
-            THIS = { NOT = { has_country_modifier = no_more_war } }
-        }
-        OR = {
-            war_with = THIS
-            THIS = { NOT = { has_country_modifier = punitive_effects } }
-        }
-    }
-
-    po_annex = yes
-
-    war_name = cch.restore-america-annex.name
-
-    on_add = {
-        move_issue_percentage = {
-            from = jingoism
-            to = pro_military
-            value = 0.25
-        }
-
-        random_owned = {
-            limit = {
-                has_global_flag = country-workshop.FSA-enabled
-                mass_politics = 0
-            }
-
-            owner = {
-                change_variable = {
-                    which = country-workshop.american-restoration-CBs
-                    value = -1
-                }
-            }
-        }
-    }
+	po_demand_state = yes
+	
+	war_name = WAR_RESTORE_AMERICA_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
 }
 
 claim_holy_land = {
@@ -1215,10 +1015,10 @@ unification_casus_belli = {
 		NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
 			THIS = { ai = no }
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
+			AND = { 
+				THIS = { num_of_ports = 1 } 
+				any_owned_province = { port = yes }
+			}
 			AND = {
 				THIS = { ai = yes }
 				RHI = { exists = yes }
@@ -1433,10 +1233,7 @@ add_to_sphere = {
 
 	can_use = {
 		OR = {
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
+			AND = { THIS = { num_of_ports = 1 } num_of_ports = 1 }
 			neighbour = THIS
 			war_with = THIS
 			any_neighbor_country = { OR = { vassal_of = THIS substate_of = THIS in_sphere = THIS } }
@@ -1883,10 +1680,7 @@ free_peoples = {
 
 	can_use = {
 		OR = {
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
+			AND = { THIS = { num_of_ports = 1 } num_of_ports = 1 }
 			neighbour = THIS
 			war_with = THIS
 			any_neighbor_country = { OR = { vassal_of = THIS substate_of = THIS in_sphere = THIS } }
@@ -2245,10 +2039,7 @@ liberate_country = {
 	
 	can_use = {
 		OR = {
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
+			AND = { THIS = { num_of_ports = 1 } num_of_ports = 1 }
 			neighbour = THIS
 			war_with = THIS
 			any_neighbor_country = { OR = { vassal_of = THIS substate_of = THIS in_sphere = THIS } }
@@ -2560,7 +2351,7 @@ free_allied_cores = {
 	construction_speed = 0.75
 
 	badboy_factor = 1.0
-	prestige_factor = 0
+	prestige_factor = 2
 	peace_cost_factor = 0.8
 	penalty_factor = 1
 
@@ -2791,6 +2582,79 @@ free_balkans = {
 	}
 }
 
+monroe2 = {
+	sprite_index = 19
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	constructing_cb = no
+
+	badboy_factor = 0
+	prestige_factor = 1
+	peace_cost_factor = 15
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 48
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	always = yes
+
+	can_use = {
+		THIS = {
+			tag = USA
+			government = democracy
+			is_greater_power = yes
+			has_country_flag = shield_NW 
+		}
+		is_vassal = no
+		OR = {
+			capital_scope = { continent = europe }
+			capital_scope = { continent = africa }
+			capital_scope = { continent = west_africa }
+			capital_scope = { continent = east_africa }
+			capital_scope = { continent = south_west_africa }
+			capital_scope = { continent = central_africa }
+			capital_scope = { continent = asia }
+			capital_scope = { continent = oceania }
+			capital_scope = { continent = australia_new_zealand }
+			capital_scope = { continent = polynesia }
+		}
+		any_owned_province = {
+			OR = {
+				continent = south_america
+				continent = north_america
+			}
+		}
+		OR = {
+			war_with = THIS
+			THIS = { NOT = { has_country_modifier = no_more_war } }
+		}
+		NOT = { has_country_flag = dismantle_declared }
+	}
+
+	po_remove_prestige = yes
+	
+	on_po_accepted = {
+		country_event =	111979
+	}
+
+	war_name = WAR_MONROE_DOCTRINE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}		   
+
 monroe_doctrine = {
 	sprite_index = 19
 	is_triggered_only = yes
@@ -2945,6 +2809,131 @@ monroe_doctrine = {
 	}
 }
 
+USS_monroe = {
+	sprite_index = 19
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	constructing_cb = no
+	
+	always = yes
+	
+
+	badboy_factor = 0.5
+	prestige_factor = 2
+	peace_cost_factor = 0.5
+	penalty_factor = 0.5
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 48
+	always = yes
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		THIS = {
+			tag = USS
+			is_greater_power = yes
+			has_country_flag = USS_miranda
+		}
+		is_vassal = no
+		OR = {
+			is_culture_group = american_cultures
+			is_culture_group = neo_european_cultures
+			capital_scope = { continent = europe }
+			capital_scope = { continent = africa }
+			capital_scope = { continent = west_africa }
+			capital_scope = { continent = east_africa }
+			capital_scope = { continent = south_west_africa }
+			capital_scope = { continent = asia }
+			capital_scope = { continent = oceania }
+			capital_scope = { continent = australia_new_zealand }
+			capital_scope = { continent = polynesia }
+		}
+		any_owned_province = {
+			OR = {
+				continent = south_america
+				continent = north_america
+			}
+			any_core = {
+				OR = {
+					primary_culture = mexican
+					primary_culture = central_american
+					primary_culture = north_andean
+					primary_culture = south_andean
+					primary_culture = platinean
+					primary_culture = brazilian
+					primary_culture = caribeno
+					primary_culture = afro_caribeno
+					primary_culture = afro_brazilian
+				}
+			}
+			NOT = {
+				is_core = USS
+			}
+		}
+		OR = {
+			war_with = THIS
+			THIS = { NOT = { has_country_modifier = no_more_war } }
+		}
+		OR = {
+			NOT = { has_country_flag = dismantle_declared }
+			THIS = { NOT = { has_country_flag = in_great_war } }
+			THIS = { ai = no }
+		}
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal is scope
+	allowed_countries = {
+		NOT = { tag = FROM }
+		any_owned_province = {
+			is_core = FROM
+			NOT = { is_core = USS }
+		}
+		FROM = {
+			OR = {
+				primary_culture = mexican
+				primary_culture = central_american 
+				primary_culture = north_andean
+				primary_culture = south_andean
+				primary_culture = platinean
+				primary_culture = brazilian
+				primary_culture = caribeno
+				primary_culture = afro_caribeno
+				primary_culture = afro_brazilian
+			}
+		}
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal's state
+	
+	war_name = WAR_LIBERATE_NAME
+	
+	allowed_states = {
+		any_owned_province = {
+			is_core = FROM
+			OR = {
+				continent = north_america
+				continent = south_america
+			}
+		}
+	}
+	on_po_accepted = {
+		country_event =	2651	# Territorial Loss event
+	}
+	all_allowed_states = yes
+	po_transfer_provinces = yes
+	po_release_puppet = yes
+}
+
 oriental_crisis = {
 	sprite_index = 26
 	is_triggered_only = yes
@@ -3047,10 +3036,7 @@ release_puppet = {
 
 	can_use = {
 		OR = {
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
+			AND = { THIS = { num_of_ports = 1 } num_of_ports = 1 }
 			neighbour = THIS
 			war_with = THIS
 			any_neighbor_country = { OR = { vassal_of = THIS substate_of = THIS in_sphere = THIS } }
@@ -3259,10 +3245,7 @@ cut_down_to_size = {
 	can_use = {
 		NOT = { is_our_vassal = THIS }
 		OR = {
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
+			AND = { THIS = { num_of_ports = 1 } num_of_ports = 1 }
 			neighbour = THIS
 			war_with = THIS
 			any_neighbor_country = { OR = { vassal_of = THIS substate_of = THIS in_sphere = THIS } }
@@ -3327,7 +3310,7 @@ cut_down_to_size = {
 				THIS = {
 					civilized = yes
 					NOT = { is_culture_group = east_asian }
-                    any_owned_province = { port = yes }
+					num_of_ports = 1
 				}
 			}
 			owner = { add_country_modifier = { name = negotiating_unequal_treaty duration = 30 } }
@@ -3703,7 +3686,7 @@ place_in_the_sun = {
 		THIS = {
 			NOT = { has_country_modifier = neutrality }
 			OR = {
-                any_owned_province = { port = yes }
+				num_of_ports = 1
 				any_owned_province = { any_neighbor_province = { NOT = { owned_by = THIS } is_colonial = yes } }
 			}
 		}
@@ -3795,10 +3778,10 @@ acquire_state = {
 	can_use = {
 		is_vassal = no
 		OR = {
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
+			AND = { 
+				THIS = { num_of_ports = 1 } 
+				num_of_ports = 1
+			}
 			neighbour = THIS
 			AND = { war_with = THIS ai = no }
 		}
@@ -4155,10 +4138,10 @@ sahel_jihad_cb = {
 
 	can_use = {
 		OR = {
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
+			AND = { 
+				THIS = { num_of_ports = 1 } 
+				num_of_ports = 1
+			}
 			AND = { war_with = THIS ai = no }
 			neighbour = THIS
 		}
@@ -4240,10 +4223,10 @@ demand_concession_casus_belli = {
 	can_use = {
 		NOT = { is_our_vassal = THIS }
 		OR = {
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
+			AND = { 
+				THIS = { num_of_ports = 1 } 
+				num_of_ports = 1
+			}
 			AND = { war_with = THIS ai = no }
 			neighbour = THIS
 			AND = { any_neighbor_country = { vassal_of = THIS } THIS = { tag = ENG } }
@@ -4327,7 +4310,7 @@ demand_concession_casus_belli = {
 				any_owned_province = { port = yes }
 			}
 			AND = {
-				THIS = { capital_scope = { continent = asia } ai = no naval_logistics = 1 any_owned_province = { port = yes } }
+				THIS = { capital_scope = { continent = asia } ai = no naval_logistics = 1 num_of_ports = 1 }
 				NOT = { any_owned_province = { any_neighbor_province = { owned_by = THIS } } }
 				any_owned_province = { port = yes }
 			}
@@ -4417,10 +4400,10 @@ demand_concession_NI_casus_belli = {
 
 	can_use = {
 		OR = {
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
+			AND = { 
+				THIS = { num_of_ports = 1 } 
+				num_of_ports = 1
+			}
 			neighbour = THIS
 			AND = { war_with = THIS ai = no }
 		}
@@ -4487,7 +4470,7 @@ demand_concession_NI_casus_belli = {
 				any_owned_province = { port = yes }
 			}
 			AND = {
-				THIS = { capital_scope = { continent = asia } ai = no naval_logistics = 1 any_owned_province = { port = yes } }
+				THIS = { capital_scope = { continent = asia } ai = no naval_logistics = 1 num_of_ports = 1 }
 				NOT = { any_owned_province = { any_neighbor_province = { owned_by = THIS } } }
 				any_owned_province = { port = yes }
 			}
@@ -4577,10 +4560,10 @@ demand_concession_BC_casus_belli = {
 
 	can_use = {
 		OR = {
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
+			AND = { 
+				THIS = { num_of_ports = 1 } 
+				num_of_ports = 1
+			}
 			neighbour = THIS
 			AND = { war_with = THIS ai = no }
 		}
@@ -4637,7 +4620,7 @@ demand_concession_BC_casus_belli = {
 				any_owned_province = { port = yes }
 			}
 			AND = {
-				THIS = { capital_scope = { continent = asia } ai = no naval_logistics = 1 any_owned_province = { port = yes } }
+				THIS = { capital_scope = { continent = asia } ai = no naval_logistics = 1 num_of_ports = 1 }
 				NOT = { any_owned_province = { any_neighbor_province = { owned_by = THIS } } }
 				any_owned_province = { port = yes }
 			}
@@ -4781,10 +4764,10 @@ conquest = {
 	can_use = {
 		NOT = { is_our_vassal = THIS }
 		OR = {
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
+			AND = { 
+				THIS = { num_of_ports = 1 } 
+				num_of_ports = 1
+			}
 			neighbour = THIS
 			AND = { war_with = THIS ai = no }
 		}
@@ -5000,10 +4983,10 @@ annex_africa = {
 	can_use = {
 		NOT = { has_country_flag = congo_master }
 		OR = {
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
+			AND = { 
+				THIS = { num_of_ports = 1 } 
+				num_of_ports = 1
+			}
 			neighbour = THIS
 			AND = { war_with = THIS ai = no }
 		}
@@ -5104,10 +5087,10 @@ annex_africa_full = {
 	can_use = {
 		NOT = { has_country_flag = congo_master }
 		OR = {
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
+			AND = { 
+				THIS = { num_of_ports = 1 } 
+				num_of_ports = 1
+			}
 			neighbour = THIS
 			AND = { war_with = THIS ai = no }
 		}
@@ -5253,7 +5236,7 @@ establish_protectorate_casus_belli = {
 				any_owned_province = { port = yes }
 			}
 			AND = {
-				THIS = { capital_scope = { continent = asia } ai = no naval_logistics = 1 any_owned_province = { port = yes } }
+				THIS = { capital_scope = { continent = asia } ai = no naval_logistics = 1 num_of_ports = 1 }
 				NOT = { any_owned_province = { any_neighbor_province = { owned_by = THIS } } }
 				any_owned_province = { port = yes }
 			}
@@ -5412,7 +5395,7 @@ establish_protectorate_NI_casus_belli = {
 				any_owned_province = { port = yes }
 			}
 			AND = {
-				THIS = { capital_scope = { continent = asia } ai = no naval_logistics = 1 any_owned_province = { port = yes } }
+				THIS = { capital_scope = { continent = asia } ai = no naval_logistics = 1 num_of_ports = 1 }
 				NOT = { any_owned_province = { any_neighbor_province = { owned_by = THIS } } }
 				any_owned_province = { port = yes }
 			}
@@ -5537,7 +5520,7 @@ establish_protectorate_BC_casus_belli = {
 				any_owned_province = { port = yes }
 			}
 			AND = {
-				THIS = { capital_scope = { continent = asia } ai = no naval_logistics = 1 any_owned_province = { port = yes } }
+				THIS = { capital_scope = { continent = asia } ai = no naval_logistics = 1 num_of_ports = 1 }
 				NOT = { any_owned_province = { any_neighbor_province = { owned_by = THIS } } }
 				any_owned_province = { port = yes }
 			}
@@ -5817,10 +5800,7 @@ make_puppet = {
 			total_pops = 5000000
 		}
 		OR = {
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
+			AND = { THIS = { num_of_ports = 1 } num_of_ports = 1 }
 			neighbour = THIS
 			war_with = THIS
 			any_neighbor_country = { OR = { vassal_of = THIS substate_of = THIS in_sphere = THIS } }
@@ -6491,10 +6471,10 @@ acquire_substate_region = {
 		any_substate = {
 			OR = {
 				neighbour = THIS
-                AND = {
-                    THIS = { any_owned_province = { port = yes } }
-                    any_owned_province = { port = yes }
-                }
+				AND = { 
+					THIS = { num_of_ports = 1 } 
+					any_owned_province = { port = yes }
+				}
 			}
 			number_of_states = 1
 		}
@@ -6503,10 +6483,10 @@ acquire_substate_region = {
 	allowed_substate_regions = {
 		owner = { NOT = { in_sphere = THIS } }
 		OR = {
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
+			AND = { 
+				THIS = { num_of_ports = 1 } 
+				any_owned_province = { port = yes }
+			}
 			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
 		}
 	}
@@ -6557,12 +6537,12 @@ acquire_substate_core_region = {
 			any_owned_province = { is_core = THIS }
 			#NOT = { any_owned_province = { is_capital = yes } }
 			OR = {
-                THIS = { ai = no }
-                AND = {
-                    THIS = { any_owned_province = { port = yes } }
-                    any_owned_province = { port = yes }
-                }
-                any_owned_province = { any_neighbor_province = { owned_by = THIS } }
+				THIS = { ai = no }
+				AND = { 
+					THIS = { num_of_ports = 1 } 
+					any_owned_province = { port = yes }
+				}
+				any_owned_province = { any_neighbor_province = { owned_by = THIS } }
 			}
 			NOT = { in_sphere = THIS }
 			number_of_states = 1
@@ -6574,10 +6554,10 @@ acquire_substate_core_region = {
 		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
 			THIS = { ai = no }
-            AND = {
-                THIS = { any_owned_province = { port = yes } }
-                any_owned_province = { port = yes }
-            }
+			AND = { 
+				THIS = { num_of_ports = 1 } 
+				any_owned_province = { port = yes }
+			}
 			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
 		}
 		owner = { NOT = { in_sphere = THIS } }
@@ -6742,7 +6722,7 @@ call_allies_cb = {
 
 	po_remove_prestige = yes
 	
-	war_name = cch.call_allies_cb.name
+	war_name = CALL_TO_ARMS_NAME
 	
 	on_add = {
 	}
@@ -6806,7 +6786,7 @@ acquire_any_state = {
 				THIS = {
 					civilized = yes
 					NOT = { is_culture_group = east_asian }
-					any_owned_province = { port = yes }
+					num_of_ports = 1
 				}
 			}
 			owner = { country_event = 1316089 }
@@ -6898,7 +6878,7 @@ treaty_port_casus_belli = {
 	can_use = {
 		NOT = { is_our_vassal = THIS }
 		THIS = {
-			any_owned_province = { port = yes }
+			num_of_ports = 1
 			civilized = yes
 			NOT = { has_country_modifier = neutrality }
 		}
@@ -6983,7 +6963,7 @@ treaty_port_casus_belli = {
 				THIS = {
 					civilized = yes
 					NOT = { is_culture_group = east_asian }
-					any_owned_province = { port = yes }
+					num_of_ports = 1
 				}
 			}
 		owner = { add_country_modifier = { name = negotiating_unequal_treaty duration = -1 } }
@@ -7286,7 +7266,7 @@ war_reparations = {
 	months = 12
 	construction_speed = 0.8
 
-	badboy_factor = 0.0
+	badboy_factor = 0.25
 	prestige_factor = 0.5
 	peace_cost_factor = 20
 	penalty_factor = 1

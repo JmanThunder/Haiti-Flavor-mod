@@ -3057,6 +3057,24 @@ political_decisions = {
 			}
 		}
 	}
+	
+	option_spectator = {
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = country_looking_through_options
+			NOT = { year = 1837 }
+			NOT = { has_country_flag = spectator }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			set_country_flag = spectator
+		}
+	}
+}
 	HAI_setup = {
 		picture = constantinople
 		potential = {
