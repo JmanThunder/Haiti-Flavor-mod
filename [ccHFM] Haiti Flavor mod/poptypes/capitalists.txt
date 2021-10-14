@@ -164,6 +164,16 @@ country_migration_target = {
 
 migration_target = {
     factor = 0.01
+    modifier = {
+        factor = 100
+        NOT = {
+            any_owned_province = {
+                any_core = {
+                    has_recent_imigration = 15
+                }
+            }
+        }
+    }
 
     modifier = {
         factor = 1.2
